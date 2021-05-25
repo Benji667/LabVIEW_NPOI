@@ -40,7 +40,7 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
-		<Item Name="initializeDefaultFont.vi" Type="VI" URL="../initializeDefaultFont.vi">
+		<Item Name="initializeDefaultStyle.vi" Type="VI" URL="../initializeDefaultStyle.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%&gt;!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$"!=!!?!!!=$&amp;.U?7RF=SZM&gt;GRJ9AV5;82M:3ZM&gt;G.M98.T!!!*6'FU&lt;'5A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-%"Q!"Y!!"Q-5X2Z&lt;'6T,GRW&lt;'FC$62J&gt;'RF,GRW9WRB=X-!!!B5;82M:3"J&lt;A!!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!*)!!!!!!1!)!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>

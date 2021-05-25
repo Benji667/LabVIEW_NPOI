@@ -29,7 +29,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="Override VIs" Type="Folder">
-		<Item Name="initializeDefaultFont.vi" Type="VI" URL="../initializeDefaultFont.vi">
+		<Item Name="initializeDefaultStyle.vi" Type="VI" URL="../initializeDefaultStyle.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%F!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$2!=!!?!!!?$&amp;.U?7RF=SZM&gt;GRJ9A^):7&amp;E;7ZH,GRW9WRB=X-!!!N):7&amp;E;7ZH)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$2!=!!?!!!?$&amp;.U?7RF=SZM&gt;GRJ9A^):7&amp;E;7ZH,GRW9WRB=X-!!!J):7&amp;E;7ZH)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!EA!!!!!"!!A!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>

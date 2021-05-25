@@ -7,12 +7,13 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
+	<Item Name="Headings" Type="Folder">
+		<Item Name="Heading.lvclass" Type="LVClass" URL="../Heading/Heading.lvclass"/>
+		<Item Name="Heading 1.lvclass" Type="LVClass" URL="../Heading 1/Heading 1.lvclass"/>
+		<Item Name="Heading 2.lvclass" Type="LVClass" URL="../Heading 2/Heading 2.lvclass"/>
+		<Item Name="Heading 3.lvclass" Type="LVClass" URL="../Heading 3/Heading 3.lvclass"/>
+	</Item>
 	<Item Name="Style.lvclass" Type="LVClass" URL="../Style/Style.lvclass"/>
 	<Item Name="Title.lvclass" Type="LVClass" URL="../Title/Title.lvclass"/>
-	<Item Name="Heading.lvclass" Type="LVClass" URL="../Heading/Heading.lvclass"/>
-	<Item Name="Heading 1.lvclass" Type="LVClass" URL="../Heading 1/Heading 1.lvclass"/>
-	<Item Name="Heading 2.lvclass" Type="LVClass" URL="../Heading 2/Heading 2.lvclass"/>
-	<Item Name="Convert Font To Font Object.vi" Type="VI" URL="../Convert Font To Font Object.vi"/>
-	<Item Name="Font--cluster.ctl" Type="VI" URL="../Font--cluster.ctl"/>
-	<Item Name="Heading 3.lvclass" Type="LVClass" URL="../Heading 3/Heading 3.lvclass"/>
+	<Item Name="Convert Font To Style Object.vi" Type="VI" URL="../Convert Font To Style Object.vi"/>
 </Library>
