@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -14,6 +16,10 @@
 		<Item Name="Support" Type="Folder">
 			<Item Name="Files" Type="Folder">
 				<Item Name="Prompt File Dialog.vi" Type="VI" URL="../Support/Files/Prompt File Dialog.vi"/>
+			</Item>
+			<Item Name="NPOI 2.1.1" Type="Folder">
+				<Item Name="NPOI.dll" Type="Document" URL="../../lib/NPOI 2.1.1/NPOI.dll"/>
+				<Item Name="NPOI.OOXML.dll" Type="Document" URL="../../lib/NPOI 2.1.1/NPOI.OOXML.dll"/>
 			</Item>
 			<Item Name="File Stream.lvlib" Type="Library" URL="../Support/File Stream/File Stream.lvlib"/>
 			<Item Name="Styles.lvlib" Type="Library" URL="../Styles/Styles.lvlib"/>
@@ -66,13 +72,12 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 			</Item>
-			<Item Name="NPOI.OOXML.dll" Type="Document" URL="../../../LVExcel/Resources/NPOI 2.1.1 dotnet2/NPOI.OOXML.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="NPOI.dll" Type="Document" URL="../../../LVExcel/Resources/NPOI 2.1.1 dotnet2/NPOI.dll"/>
-			<Item Name="NPOI.dll" Type="Document" URL="../../lib/NPOI 2.1.1/NPOI.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
