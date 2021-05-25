@@ -32,7 +32,3 @@ tests/*.txt
 
 # VS files
 .vscode/
-
-# Test generated files
-tests/Test Cases/*.docx
-tests/Test Cases/*.xlsx
