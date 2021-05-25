@@ -1,0 +1,5114 @@
+<HTML>
+<HEAD>
+<TITLE>LabVIEW NPOI.lvlib:Document.lvclass:Append Table (double).vi</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="LabVIEW NPOI.lvlib:Document.lvclass:Append Table _double_.vi"></A><H2>LabVIEW NPOI.lvlib:Document.lvclass:Append Table (double).vi</H2>
+<P>Appends the wire &lt;b&gt;Table&lt;/b&gt; as 2D array of doubles to the &lt;b&gt;Document&lt;/b&gt; as a table. </P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_Document_lvclass_Append_Table_(double)c.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Append Table (double).vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="cLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="c2ddbl.png" ALT="c2ddbl"></P>
+</TD>
+<TD>
+<B>Table</B> <P>contains the data of the table inserted into the <B>Docuement</B>.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cdbl.png" ALT="cdbl"></P>
+</TD>
+<TD>
+<B>Numeric</B> </TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ccclst.png" ALT="ccclst"></P>
+</TD>
+<TD>
+<B>Style</B> <P>indicates the font settings used for the Paragraph.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>Name</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ccclst.png" ALT="ccclst"></P>
+</TD>
+<TD>
+<B>Font</B> <P>indicates the font settings used for the Paragraph.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>Name</B> <P>indicates the name of the font used, such as Times New Roman.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>Size</B> <P>indicates the size of the font used.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Bold</B> <P>indicates whether the text is in bold. </P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Italic</B> <P>indicates whether the text is in italics. </P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>Underline</B> <P>indicates whether the text is underlined. </P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Strike</B> <P>indicates whether the text is struck through. </P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cu32.png" ALT="cu32"></P>
+</TD>
+<TD>
+<B>Color</B> <P>indicates the color of the text. </P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>Alignment</B> <P>indicates the text alignement.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="iLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document out</B> </TD>
+</TR>
+</Table>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:Document.lvclass:Append Table _string_.vi"></A><H2>LabVIEW NPOI.lvlib:Document.lvclass:Append Table (string).vi</H2>
+<P>Appends the wire &lt;b&gt;Table&lt;/b&gt; as 2D array of strings to the &lt;b&gt;Document&lt;/b&gt; as a table. </P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_Document_lvclass_Append_Table_(string)c.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Append Table (string).vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="cLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="c2dstr.png" ALT="c2dstr"></P>
+</TD>
+<TD>
+<B>Table</B> <P>contains the data of the table inserted into the <B>Docuement</B>.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>String</B> </TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ccclst.png" ALT="ccclst"></P>
+</TD>
+<TD>
+<B>Style</B> <P>indicates the font settings used for the Paragraph.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>Name</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ccclst.png" ALT="ccclst"></P>
+</TD>
+<TD>
+<B>Font</B> <P>indicates the font settings used for the Paragraph.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>Name</B> <P>indicates the name of the font used, such as Times New Roman.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>Size</B> <P>indicates the size of the font used.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Bold</B> <P>indicates whether the text is in bold. </P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Italic</B> <P>indicates whether the text is in italics. </P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>Underline</B> <P>indicates whether the text is underlined. </P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Strike</B> <P>indicates whether the text is struck through. </P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cu32.png" ALT="cu32"></P>
+</TD>
+<TD>
+<B>Color</B> <P>indicates the color of the text. </P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>Alignment</B> <P>indicates the text alignement.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="iLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document out</B> </TD>
+</TR>
+</Table>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:Document.lvclass:Append Table.vi"></A><H2>LabVIEW NPOI.lvlib:Document.lvclass:Append Table.vi</H2>
+<P>Appends a 2D array to the &lt;b&gt;Document&lt;/b&gt; as a table. Wire data to the <B>Table</B> input to determine the polymorphic instance to use or manually select the instance.</P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_Document_lvclass_Append_Tablec.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Append Table.vi"></P>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:Document.lvclass:Close Document.vi"></A><H2>LabVIEW NPOI.lvlib:Document.lvclass:Close Document.vi</H2>
+<P>Closes the &lt;b&gt;Document&lt;/b&gt;.</P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_Document_lvclass_Close_Documentc.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Close Document.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="cLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:Document.lvclass:Create New Document.vi"></A><H2>LabVIEW NPOI.lvlib:Document.lvclass:Create New Document.vi</H2>
+<P>Creates a new &lt;b&gt;Document&lt;/b&gt; at the &lt;b&gt;File Path&lt;/b&gt; location. Use save to persist your changes.</P>
+<P></P>
+<P>Notes:</P>
+<P>          - If &lt;b&gt;File Path&lt;/b&gt; is empty (default) or is &lt;Not A Path&gt; or is a directory, the VI displays a dialog box from which the user can select a file. Error 43 occurs if you cancel the dialog box. </P>
+<P>          - If the &lt;b&gt;File Path&lt;/b&gt; already contains a docuement with the same name then that file is overwritten without warning.</P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_Document_lvclass_Create_New_Documentc.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Create New Document.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cpath.png" ALT="cpath"></P>
+</TD>
+<TD>
+<B>File Path</B> <P>specifies the path where you want to create the &lt;b&gt;Document&lt;/b&gt; and the name of the &lt;b&gt;Document&lt;/b&gt;.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="iLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document out</B> </TD>
+</TR>
+</Table>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:Document.lvclass:Get FilePath.vi"></A><H2>LabVIEW NPOI.lvlib:Document.lvclass:Get FilePath.vi</H2>
+<P>Gets the &lt;b&gt;File Path&lt;/b&gt; from the &lt;b&gt;Document&lt;/b&gt;.</P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_Document_lvclass_Get_FilePathc.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Get FilePath.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="cLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="iLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document out</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ipath.png" ALT="ipath"></P>
+</TD>
+<TD>
+<B>FilePath</B> </TD>
+</TR>
+</Table>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:Document.lvclass:Get Font.vi"></A><H2>LabVIEW NPOI.lvlib:Document.lvclass:Get Font.vi</H2>
+<P></P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_Document_lvclass_Get_Fontc.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Get Font.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="cLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="iLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document out</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iuFonts_lvlib_Fontlvclass.png" ALT="iuFonts_lvlib_Fontlvclass"></P>
+</TD>
+<TD>
+<B>Font</B> </TD>
+</TR>
+</Table>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:Document.lvclass:Get Style Collection.vi"></A><H2>LabVIEW NPOI.lvlib:Document.lvclass:Get Style Collection.vi</H2>
+<P></P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_Document_lvclass_Get_Style_Collectionc.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Get Style Collection.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="cLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="iLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document out</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ifxdt.png" ALT="ifxdt"></P>
+</TD>
+<TD>
+<B>StyleCollection</B> </TD>
+</TR>
+</Table>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:Document.lvclass:Get Style List.vi"></A><H2>LabVIEW NPOI.lvlib:Document.lvclass:Get Style List.vi</H2>
+<P></P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_Document_lvclass_Get_Style_Listc.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Get Style List.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="cLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="iLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document out</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="i1dstr.png" ALT="i1dstr"></P>
+</TD>
+<TD>
+<B>Style List</B> </TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B></B> </TD>
+</TR>
+</Table>
+</UL>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:Document.lvclass:Open Document.vi"></A><H2>LabVIEW NPOI.lvlib:Document.lvclass:Open Document.vi</H2>
+<P>Opens the &lt;b&gt;Document&lt;/b&gt; file located at &lt;b&gt;File Path&lt;/b&gt; for reading.</P>
+<P></P>
+<P>Notes:</P>
+<P>          - If &lt;b&gt;File Path&lt;/b&gt; is empty (default) or is &lt;Not A Path&gt; or is a directory, error 7 is returned. </P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_Document_lvclass_Open_Documentc.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Open Document.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cpath.png" ALT="cpath"></P>
+</TD>
+<TD>
+<B>File Path</B> <P>specifies the path where you want to open the &lt;b&gt;Document&lt;/b&gt; and the name of the &lt;b&gt;Document&lt;/b&gt;.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="iLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document out</B> </TD>
+</TR>
+</Table>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:Document.lvclass:Read Table As String.vi"></A><H2>LabVIEW NPOI.lvlib:Document.lvclass:Read Table As String.vi</H2>
+<P>Returns the &lt;b&gt;Table&lt;/b&gt; as 2D array of strings from the &lt;b&gt;Document&lt;/b&gt;.  This VI cast any data type into strings. </P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_Document_lvclass_Read_Table_As_Stringc.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Read Table As String.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="cLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="iLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document out</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="i2dstr.png" ALT="i2dstr"></P>
+</TD>
+<TD>
+<B>Table As String</B> </TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>String</B> </TD>
+</TR>
+</Table>
+</UL>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:Document.lvclass:Read Table.vi"></A><H2>LabVIEW NPOI.lvlib:Document.lvclass:Read Table.vi</H2>
+<P>Reads a 2D array to the &lt;b&gt;Document&lt;/b&gt; as a table. You can manually select the instance that suits your expectation.</P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_Document_lvclass_Read_Tablec.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Read Table.vi"></P>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:Document.lvclass:Retrieve Table _double_.vi"></A><H2>LabVIEW NPOI.lvlib:Document.lvclass:Retrieve Table (double).vi</H2>
+<P>Returns the &lt;b&gt;Table&lt;/b&gt; as 2D array of doubles from the &lt;b&gt;Document&lt;/b&gt; as a table. </P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_Document_lvclass_Retrieve_Table_(double)c.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Retrieve Table (double).vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="cLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="iLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document out</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="i2ddbl.png" ALT="i2ddbl"></P>
+</TD>
+<TD>
+<B>Table</B> <P>contains the data of the table inserted into the <B>Docuement</B>.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="idbl.png" ALT="idbl"></P>
+</TD>
+<TD>
+<B>Numeric</B> </TD>
+</TR>
+</Table>
+</UL>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:Document.lvclass:Retrieve Table _string_.vi"></A><H2>LabVIEW NPOI.lvlib:Document.lvclass:Retrieve Table (string).vi</H2>
+<P>Returns the &lt;b&gt;Table&lt;/b&gt; as 2D array of strings from the &lt;b&gt;Document&lt;/b&gt; as a table. </P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_Document_lvclass_Retrieve_Table_(string)c.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Retrieve Table (string).vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="cLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="iLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document out</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="i2dstr.png" ALT="i2dstr"></P>
+</TD>
+<TD>
+<B>Table</B> <P>contains the data of the table inserted into the <B>Docuement</B>.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>String</B> </TD>
+</TR>
+</Table>
+</UL>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:Document.lvclass:Save Document.vi"></A><H2>LabVIEW NPOI.lvlib:Document.lvclass:Save Document.vi</H2>
+<P>Saves the &lt;b&gt;Document&lt;/b&gt; to the &lt;b&gt;File Path&lt;/b&gt; location given in the create or open method.</P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_Document_lvclass_Save_Documentc.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Save Document.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="cLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="iLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document out</B> </TD>
+</TR>
+</Table>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:Document.lvclass:SaveAs Document.vi"></A><H2>LabVIEW NPOI.lvlib:Document.lvclass:SaveAs Document.vi</H2>
+<P>Saves the &lt;b&gt;Document&lt;/b&gt; to the given &lt;b&gt;File Path&lt;/b&gt;.</P>
+<P></P>
+<P>Notes:</P>
+<P>          - If &lt;b&gt;File Path&lt;/b&gt; is empty (default) or is &lt;Not A Path&gt; or is a directory, the VI displays a dialog box from which the user can select a file. Error 43 occurs if you cancel the dialog box. </P>
+<P>          - If the &lt;b&gt;File Path&lt;/b&gt; already contains a docuement with the same name then that file is overwritten without warning.</P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_Document_lvclass_SaveAs_Documentc.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:SaveAs Document.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="cLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cpath.png" ALT="cpath"></P>
+</TD>
+<TD>
+<B>File Path</B> <P>specifies the path where you want to save the &lt;b&gt;Document&lt;/b&gt; and the name of the &lt;b&gt;Document&lt;/b&gt;.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="iLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document out</B> </TD>
+</TR>
+</Table>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:Document.lvclass:Set FilePath.vi"></A><H2>LabVIEW NPOI.lvlib:Document.lvclass:Set FilePath.vi</H2>
+<P>Sets the &lt;b&gt;File Path&lt;/b&gt; from the &lt;b&gt;Document&lt;/b&gt;.</P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_Document_lvclass_Set_FilePathc.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Set FilePath.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="cLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cpath.png" ALT="cpath"></P>
+</TD>
+<TD>
+<B>FilePath</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="iLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document out</B> </TD>
+</TR>
+</Table>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:Document.lvclass:Set Style Collection.vi"></A><H2>LabVIEW NPOI.lvlib:Document.lvclass:Set Style Collection.vi</H2>
+<P></P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_Document_lvclass_Set_Style_Collectionc.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Set Style Collection.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="cLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cfxdt.png" ALT="cfxdt"></P>
+</TD>
+<TD>
+<B>StyleCollection</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="iLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document out</B> </TD>
+</TR>
+</Table>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:MS_Excel.lvclass:Append 1D Column Boolean.vi"></A><H2>LabVIEW NPOI.lvlib:MS-Excel.lvclass:Append 1D Column Boolean.vi</H2>
+<P>Appends column-wise the wire &lt;b&gt;Value&lt;/b&gt; as 1D array of booleans to the associated workbook to the &lt;b&gt;Document&lt;/b&gt;. </P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_MS-Excel_lvclass_Append_1D_Column_Booleanc.png" ALT="LabVIEW NPOI.lvlib:MS-Excel.lvclass:Append 1D Column Boolean.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="cLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="c1dbool.png" ALT="c1dbool"></P>
+</TD>
+<TD>
+<B>Value</B> </TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Boolean</B> </TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cStyles_lvlib_Stylelvclass.png" ALT="cStyles_lvlib_Stylelvclass"></P>
+</TD>
+<TD>
+<B>Font</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="iLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel out</B> </TD>
+</TR>
+</Table>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:MS_Excel.lvclass:Append 1D Column Double.vi"></A><H2>LabVIEW NPOI.lvlib:MS-Excel.lvclass:Append 1D Column Double.vi</H2>
+<P>Appends column-wise the wire &lt;b&gt;Value&lt;/b&gt; as 1D array of doubles to the associated workbook to the &lt;b&gt;Document&lt;/b&gt;. </P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_MS-Excel_lvclass_Append_1D_Column_Doublec.png" ALT="LabVIEW NPOI.lvlib:MS-Excel.lvclass:Append 1D Column Double.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="cLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="c1ddbl.png" ALT="c1ddbl"></P>
+</TD>
+<TD>
+<B>Value</B> </TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cdbl.png" ALT="cdbl"></P>
+</TD>
+<TD>
+<B>Numeric</B> </TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cStyles_lvlib_Stylelvclass.png" ALT="cStyles_lvlib_Stylelvclass"></P>
+</TD>
+<TD>
+<B>Font</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="iLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel out</B> </TD>
+</TR>
+</Table>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:MS_Excel.lvclass:Append 1D Column String.vi"></A><H2>LabVIEW NPOI.lvlib:MS-Excel.lvclass:Append 1D Column String.vi</H2>
+<P>Appends column-wise the wire &lt;b&gt;Value&lt;/b&gt; as 1D array of strings to the associated workbook to the &lt;b&gt;Document&lt;/b&gt;. </P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_MS-Excel_lvclass_Append_1D_Column_Stringc.png" ALT="LabVIEW NPOI.lvlib:MS-Excel.lvclass:Append 1D Column String.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="cLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="c1dstr.png" ALT="c1dstr"></P>
+</TD>
+<TD>
+<B>Value</B> </TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>String</B> </TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cStyles_lvlib_Stylelvclass.png" ALT="cStyles_lvlib_Stylelvclass"></P>
+</TD>
+<TD>
+<B>Font</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="iLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel out</B> </TD>
+</TR>
+</Table>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:MS_Excel.lvclass:Append 1D Column Timestamp.vi"></A><H2>LabVIEW NPOI.lvlib:MS-Excel.lvclass:Append 1D Column Timestamp.vi</H2>
+<P>Appends column-wise the wire &lt;b&gt;Value&lt;/b&gt; as 1D array of timestamps to the associated workbook to the &lt;b&gt;Document&lt;/b&gt;. </P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_MS-Excel_lvclass_Append_1D_Column_Timestampc.png" ALT="LabVIEW NPOI.lvlib:MS-Excel.lvclass:Append 1D Column Timestamp.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="cLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="c1datrn.png" ALT="c1datrn"></P>
+</TD>
+<TD>
+<B>Value</B> </TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="catrn.png" ALT="catrn"></P>
+</TD>
+<TD>
+<B>Time Stamp</B> </TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cStyles_lvlib_Stylelvclass.png" ALT="cStyles_lvlib_Stylelvclass"></P>
+</TD>
+<TD>
+<B>Style</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="iLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel out</B> </TD>
+</TR>
+</Table>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:MS_Excel.lvclass:Append 1D Row Boolean.vi"></A><H2>LabVIEW NPOI.lvlib:MS-Excel.lvclass:Append 1D Row Boolean.vi</H2>
+<P>Appends the wire &lt;b&gt;Value&lt;/b&gt; as 1D array of booleans to the associated workbook to the &lt;b&gt;Document&lt;/b&gt;. </P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_MS-Excel_lvclass_Append_1D_Row_Booleanc.png" ALT="LabVIEW NPOI.lvlib:MS-Excel.lvclass:Append 1D Row Boolean.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="cLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="c1dbool.png" ALT="c1dbool"></P>
+</TD>
+<TD>
+<B>Value</B> </TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Boolean</B> </TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cStyles_lvlib_Stylelvclass.png" ALT="cStyles_lvlib_Stylelvclass"></P>
+</TD>
+<TD>
+<B>Font</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="iLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel out</B> </TD>
+</TR>
+</Table>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:MS_Excel.lvclass:Append 1D Row Double.vi"></A><H2>LabVIEW NPOI.lvlib:MS-Excel.lvclass:Append 1D Row Double.vi</H2>
+<P>Appends row-wise the wire &lt;b&gt;Value&lt;/b&gt; as 1D array of doubles to the associated workbook to the &lt;b&gt;Document&lt;/b&gt;. </P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_MS-Excel_lvclass_Append_1D_Row_Doublec.png" ALT="LabVIEW NPOI.lvlib:MS-Excel.lvclass:Append 1D Row Double.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="cLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="c1ddbl.png" ALT="c1ddbl"></P>
+</TD>
+<TD>
+<B>Value</B> </TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cdbl.png" ALT="cdbl"></P>
+</TD>
+<TD>
+<B>Numeric</B> </TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cStyles_lvlib_Stylelvclass.png" ALT="cStyles_lvlib_Stylelvclass"></P>
+</TD>
+<TD>
+<B>Style</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="iLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel out</B> </TD>
+</TR>
+</Table>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:MS_Excel.lvclass:Append 1D Row String.vi"></A><H2>LabVIEW NPOI.lvlib:MS-Excel.lvclass:Append 1D Row String.vi</H2>
+<P>Appends row-wise the wire &lt;b&gt;Value&lt;/b&gt; as 1D array of strings to the associated workbook to the &lt;b&gt;Document&lt;/b&gt;. </P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_MS-Excel_lvclass_Append_1D_Row_Stringc.png" ALT="LabVIEW NPOI.lvlib:MS-Excel.lvclass:Append 1D Row String.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="cLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="c1dstr.png" ALT="c1dstr"></P>
+</TD>
+<TD>
+<B>Value</B> </TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>String</B> </TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cStyles_lvlib_Stylelvclass.png" ALT="cStyles_lvlib_Stylelvclass"></P>
+</TD>
+<TD>
+<B>Style</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="iLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel out</B> </TD>
+</TR>
+</Table>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:MS_Excel.lvclass:Append 1D Row Timestamp.vi"></A><H2>LabVIEW NPOI.lvlib:MS-Excel.lvclass:Append 1D Row Timestamp.vi</H2>
+<P>Appends row-wise the wire &lt;b&gt;Value&lt;/b&gt; as 1D array of timestamps to the associated workbook to the &lt;b&gt;Document&lt;/b&gt;. </P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_MS-Excel_lvclass_Append_1D_Row_Timestampc.png" ALT="LabVIEW NPOI.lvlib:MS-Excel.lvclass:Append 1D Row Timestamp.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="cLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="c1datrn.png" ALT="c1datrn"></P>
+</TD>
+<TD>
+<B>Value</B> </TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="catrn.png" ALT="catrn"></P>
+</TD>
+<TD>
+<B>Time Stamp</B> </TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cStyles_lvlib_Stylelvclass.png" ALT="cStyles_lvlib_Stylelvclass"></P>
+</TD>
+<TD>
+<B>Font</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="iLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel out</B> </TD>
+</TR>
+</Table>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:MS_Excel.lvclass:Append 1D.vi"></A><H2>LabVIEW NPOI.lvlib:MS-Excel.lvclass:Append 1D.vi</H2>
+<P>Appends a 1D array to the associated workbook to the &lt;b&gt;Document&lt;/b&gt;. Wire data to the <B>Value</B> input to determine the polymorphic instance to use or manually select the instance.</P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_MS-Excel_lvclass_Append_1Dc.png" ALT="LabVIEW NPOI.lvlib:MS-Excel.lvclass:Append 1D.vi"></P>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:MS_Excel.lvclass:Append New Sheet.vi"></A><H2>LabVIEW NPOI.lvlib:MS-Excel.lvclass:Append New Sheet.vi</H2>
+<P>Create new sheet to the associated workbook to the &lt;b&gt;Document&lt;/b&gt;, nammed &lt;b&gt;SheetName&lt;/b&gt;.</P>
+<P></P>
+<P>Note: </P>
+<P>&lt;b&gt;SheetName&lt;/b&gt; is validated to conform to the sheet name rules.  If you do not wire this input, the VI generates a automatic worksheet name. </P>
+<P>&lt;b&gt;Set as active&lt;/b&gt;: by default the newly created worksheet is becoming the new active worksheet. This behavior will apply even if no worksheet has been created due to the <B>Sheet Name</B> already exists.</P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_MS-Excel_lvclass_Append_New_Sheetc.png" ALT="LabVIEW NPOI.lvlib:MS-Excel.lvclass:Append New Sheet.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="cLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>Sheet Name</B> <P>specifies the name for the new worksheet. The <B>Sheet Name</B> is validated to conform to the worksheet name rules. If you do not wire this input, the VI generates a automatic worksheet name. </P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Set as active (T)</B> <P>specifies whether or not the created worksheet become the new active worksheet. This behavior will apply even if no worksheet has been created due to the <B>Sheet Name</B> already exists.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="iLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel out</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>Created?</B> <P>is TRUE if a worksheet were created.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>Created Sheet Name</B> <P>is the newly created worksheet name. If no new worksheet were created the <B>Created Sheet Name</B> returns an empty string.</P>
+</TD>
+</TR>
+</Table>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:MS_Excel.lvclass:Get Current Sheet Name.vi"></A><H2>LabVIEW NPOI.lvlib:MS-Excel.lvclass:Get Current Sheet Name.vi</H2>
+<P>Returns the name, in &lt;b&gt;Active Sheet Name&lt;/b&gt;, of the active worksheet of the associated workbook to the &lt;b&gt;Document&lt;/b&gt;.</P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_MS-Excel_lvclass_Get_Current_Sheet_Namec.png" ALT="LabVIEW NPOI.lvlib:MS-Excel.lvclass:Get Current Sheet Name.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="cLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="iLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel out</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>Active Sheet Name</B> <P>is the name of the active worksheet.</P>
+</TD>
+</TR>
+</Table>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:MS_Excel.lvclass:Get Current Sheet.vi"></A><H2>LabVIEW NPOI.lvlib:MS-Excel.lvclass:Get Current Sheet.vi</H2>
+<P>Returns a reference, in &lt;b&gt;Sheet Ref&lt;/b&gt;,  to the active worksheet of the associated workbook to the &lt;b&gt;Document&lt;/b&gt;.</P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_MS-Excel_lvclass_Get_Current_Sheetc.png" ALT="LabVIEW NPOI.lvlib:MS-Excel.lvclass:Get Current Sheet.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="cLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="iLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel out</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="idotnetrefn.png" ALT="idotnetrefn"></P>
+</TD>
+<TD>
+<B>Sheet Ref</B> <P>is a reference to the active worksheet.</P>
+</TD>
+</TR>
+</Table>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:MS_Excel.lvclass:Get Current SheetIndex.vi"></A><H2>LabVIEW NPOI.lvlib:MS-Excel.lvclass:Get Current SheetIndex.vi</H2>
+<P>Returns the index , in &lt;b&gt;Sheet Index&lt;/b&gt;,of the active worksheet of the associated workbook to the &lt;b&gt;Document&lt;/b&gt;.</P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_MS-Excel_lvclass_Get_Current_SheetIndexc.png" ALT="LabVIEW NPOI.lvlib:MS-Excel.lvclass:Get Current SheetIndex.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="cLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="iLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel out</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>Sheet Index</B> <P>is the index of the active worksheet.</P>
+</TD>
+</TR>
+</Table>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:MS_Excel.lvclass:Get Next Empty Cell.vi"></A><H2>LabVIEW NPOI.lvlib:MS-Excel.lvclass:Get Next Empty Cell.vi</H2>
+<P>Returns the position , in &lt;b&gt;Next Empty Cell&lt;/b&gt;,of the last cell contained &lt;b&gt;PLUS ONE&lt;/b&gt; in the active worksheet of the associated workbook to the &lt;b&gt;Document&lt;/b&gt;.</P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_MS-Excel_lvclass_Get_Next_Empty_Cellc.png" ALT="LabVIEW NPOI.lvlib:MS-Excel.lvclass:Get Next Empty Cell.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="cLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="iLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel out</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="inclst.png" ALT="inclst"></P>
+</TD>
+<TD>
+<B>Next Empty Cell</B> <P>is the position of the last cell contained &lt;b&gt;PLUS ONE&lt;/b&gt; of the current worksheet.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>Row</B> <P>is the row of the last cell contained &lt;b&gt;PLUS ONE&lt;/b&gt; of the current worksheet.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>Column</B> <P>is the column of the last cell contained &lt;b&gt;PLUS ONE&lt;/b&gt; of the current worksheet.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:MS_Excel.lvclass:Get Sheet Count.vi"></A><H2>LabVIEW NPOI.lvlib:MS-Excel.lvclass:Get Sheet Count.vi</H2>
+<P>Returns the number, in &lt;b&gt;#Sheet&lt;/b&gt;, of worksheets into the associated workbook to the &lt;b&gt;Document&lt;/b&gt;.</P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_MS-Excel_lvclass_Get_Sheet_Countc.png" ALT="LabVIEW NPOI.lvlib:MS-Excel.lvclass:Get Sheet Count.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="cLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="iLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel out</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>#Sheets</B> </TD>
+</TR>
+</Table>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:MS_Excel.lvclass:Get Sheet List.vi"></A><H2>LabVIEW NPOI.lvlib:MS-Excel.lvclass:Get Sheet List.vi</H2>
+<P>Returns the names list, in &lt;b&gt;Sheet List&lt;/b&gt;, of worksheets into the associated workbook to the &lt;b&gt;Document&lt;/b&gt;.</P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_MS-Excel_lvclass_Get_Sheet_Listc.png" ALT="LabVIEW NPOI.lvlib:MS-Excel.lvclass:Get Sheet List.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="cLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="iLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel out</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="i1dstr.png" ALT="i1dstr"></P>
+</TD>
+<TD>
+<B>Sheet List</B> </TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>Sheet List</B> </TD>
+</TR>
+</Table>
+</UL>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:MS_Excel.lvclass:Get Workbook.vi"></A><H2>LabVIEW NPOI.lvlib:MS-Excel.lvclass:Get Workbook.vi</H2>
+<P>Returns a reference, in &lt;b&gt;Excel Document Ref&lt;/b&gt;, to the associated workbook to the &lt;b&gt;Document&lt;/b&gt;.</P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_MS-Excel_lvclass_Get_Workbookc.png" ALT="LabVIEW NPOI.lvlib:MS-Excel.lvclass:Get Workbook.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="cLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="iLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel out</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="idotnetrefn.png" ALT="idotnetrefn"></P>
+</TD>
+<TD>
+<B>Excel Document Ref</B> </TD>
+</TR>
+</Table>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:MS_Excel.lvclass:Remove Sheet.vi"></A><H2>LabVIEW NPOI.lvlib:MS-Excel.lvclass:Remove Sheet.vi</H2>
+<P>Removes sheet with the given &lt;b&gt;Sheet Name&lt;/b&gt; from the associated workbook to the &lt;b&gt;Document&lt;/b&gt;.</P>
+<P></P>
+<P>This method makes sure that if the removed sheet was active, another sheet will become active in its place. Furthermore, if the removed sheet was the only selected sheet, another sheet will become selected. The newly active/selected sheet will have the same index, or one less if the removed sheet was the last in the workbook.</P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_MS-Excel_lvclass_Remove_Sheetc.png" ALT="LabVIEW NPOI.lvlib:MS-Excel.lvclass:Remove Sheet.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="cLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>Sheet Name</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="iLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel out</B> </TD>
+</TR>
+</Table>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:MS_Excel.lvclass:Set Active Sheet Namevi.vi"></A><H2>LabVIEW NPOI.lvlib:MS-Excel.lvclass:Set Active Sheet Namevi.vi</H2>
+<P></P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_MS-Excel_lvclass_Set_Active_Sheet_Namevic.png" ALT="LabVIEW NPOI.lvlib:MS-Excel.lvclass:Set Active Sheet Namevi.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="cLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>Sheet Name</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="iLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel out</B> </TD>
+</TR>
+</Table>
+<HR>
+<A NAME="LabVIEW NPOI.lvlib:MS_Excel.lvclass:Sheet Exists.vi"></A><H2>LabVIEW NPOI.lvlib:MS-Excel.lvclass:Sheet Exists.vi</H2>
+<P>Checksif a sheet nammed &lt;b&gt;SheetName&lt;/b&gt; exists in the associated workbook to the &lt;b&gt;Document&lt;/b&gt;.</P>
+<P>Return True if the sheet exists, false otherwise</P>
+<P><IMG SRC="LabVIEW_NPOI_lvlib_MS-Excel_lvclass_Sheet_Existsc.png" ALT="LabVIEW NPOI.lvlib:MS-Excel.lvclass:Sheet Exists.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="cLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>Sheet Name</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iLabVIEW_NPOI_lvlib_MS-Excellvclass.png" ALT="iLabVIEW_NPOI_lvlib_MS-Excellvclass"></P>
+</TD>
+<TD>
+<B>MS-Excel out</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>Exists</B> </TD>
+</TR>
+</Table>
+</BODY>
+</HTML>
