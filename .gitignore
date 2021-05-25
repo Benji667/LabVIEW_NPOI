@@ -1,0 +1,38 @@
+# Packed libraries
+*.lvlibp
+*.llb
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+
+# Metadata
+*.aliases
+*.lvlps
+.cache/
+
+# Build and Dependencies folders
+builds/
+lib/
+
+# Python files
+*.pyc
+pylintrc
+__pycache__/
+
+# Logs and DB
+*.log
+*.db
+tests/*.txt
+
+# VS files
+.vscode/
+
+# Test generated files
+tests/Test Cases/*.docx
+tests/Test Cases/*.xlsx
