@@ -12,7 +12,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Test Cases" Type="Folder">
-			<Item Name="Font" Type="Folder">
+			<Item Name="Styles" Type="Folder">
 				<Item Name="Style Test Suite.vi" Type="VI" URL="../Test Cases/Style Test Suite.vi"/>
 				<Item Name="Style Tests - Default Style.vi" Type="VI" URL="../Test Cases/Style Tests - Default Style.vi"/>
 				<Item Name="Style Tests - Title Style.vi" Type="VI" URL="../Test Cases/Style Tests - Title Style.vi"/>
@@ -446,7 +446,6 @@
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="NPOI.dll" Type="Document" URL="../../../LVExcel/Resources/NPOI 2.1.1 dotnet2/NPOI.dll"/>
 			<Item Name="File Stream.lvlib" Type="Library" URL="../../src/Support/File Stream/File Stream.lvlib"/>
 			<Item Name="NPOI.dll" Type="Document" URL="../../lib/NPOI 2.1.1/NPOI.dll"/>
 			<Item Name="NPOI.OOXML.dll" Type="Document" URL="../../lib/NPOI 2.1.1/NPOI.OOXML.dll"/>
