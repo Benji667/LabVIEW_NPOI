@@ -23,6 +23,13 @@
 			<Item Name="Document" Type="Folder">
 				<Item Name="Document Tests - .vi" Type="VI" URL="../Test Cases/Document Tests - .vi"/>
 			</Item>
+			<Item Name="Excel" Type="Folder">
+				<Item Name="Excel - Open Docuement Tests.vi" Type="VI" URL="../Test Cases/Excel - Open Docuement Tests.vi"/>
+				<Item Name="Excel - Create And Save Docuement Tests.vi" Type="VI" URL="../Test Cases/Excel - Create And Save Docuement Tests.vi"/>
+				<Item Name="Excel - Save And SaveAs Docuement Tests.vi" Type="VI" URL="../Test Cases/Excel - Save And SaveAs Docuement Tests.vi"/>
+				<Item Name="Excel - Append Table Tests.vi" Type="VI" URL="../Test Cases/Excel - Append Table Tests.vi"/>
+				<Item Name="Excel - Close Docuement Tests.vi" Type="VI" URL="../Test Cases/Excel - Close Docuement Tests.vi"/>
+			</Item>
 		</Item>
 		<Item Name="Run Tests.vi" Type="VI" URL="../Test Cases/Run Tests.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -426,15 +433,23 @@
 				<Item Name="FF154AA9FA361469346938CA7F095A4AValid Path__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/_Caraya_internal_deps/FF154AA9FA361469346938CA7F095A4AValid Path__ogtk.vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Unsorted 1D Array.vim"/>
+				<Item Name="Equal Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Functor/Equal Functor.lvclass"/>
+				<Item Name="Equal Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Comparable/Equal Comparable.lvclass"/>
+				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Search Unsorted 1D Array Core.vim"/>
+				<Item Name="Equals.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Equals.vim"/>
 			</Item>
 			<Item Name="Run Tests in Active Project.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/project/Caraya/Run Tests in Active Project.vi"/>
 			<Item Name="Styles.lvlib" Type="Library" URL="../../src/Styles/Styles.lvlib"/>
 			<Item Name="LabVIEW NPOI.lvlib" Type="Library" URL="../../src/LabVIEW NPOI/LabVIEW NPOI.lvlib"/>
 			<Item Name="Prompt File Dialog.vi" Type="VI" URL="../../src/Support/Files/Prompt File Dialog.vi"/>
-			<Item Name="NPOI.OOXML.dll" Type="Document" URL="../../../LVExcel/Resources/NPOI 2.1.1 dotnet2/NPOI.OOXML.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="NPOI.dll" Type="Document" URL="../../../LVExcel/Resources/NPOI 2.1.1 dotnet2/NPOI.dll"/>
+			<Item Name="File Stream.lvlib" Type="Library" URL="../../src/Support/File Stream/File Stream.lvlib"/>
+			<Item Name="NPOI.dll" Type="Document" URL="../../lib/NPOI 2.1.1/NPOI.dll"/>
+			<Item Name="NPOI.OOXML.dll" Type="Document" URL="../../lib/NPOI 2.1.1/NPOI.OOXML.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
