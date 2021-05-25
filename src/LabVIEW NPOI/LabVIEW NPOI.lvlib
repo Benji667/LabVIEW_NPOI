@@ -6,4 +6,5 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Document.lvclass" Type="LVClass" URL="../Document/Document.lvclass"/>
+	<Item Name="MS-Excel.lvclass" Type="LVClass" URL="../MS-Excel/MS-Excel.lvclass"/>
 </Library>
