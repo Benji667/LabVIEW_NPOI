@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20008000">
+<Project Type="Project" LVVersion="17008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -439,7 +439,7 @@
 				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Search Unsorted 1D Array Core.vim"/>
 				<Item Name="Equals.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Equals.vim"/>
 			</Item>
-			<Item Name="Run Tests in Active Project.vi" Type="VI" URL="/C/Program Files (x86)/National Instruments/LabVIEW 2020/project/Caraya/Run Tests in Active Project.vi"/>
+			<Item Name="Run Tests in Active Project.vi" Type="VI" URL="../../../../../../../../../C/Program Files (x86)/National Instruments/LabVIEW 2020/project/Caraya/Run Tests in Active Project.vi"/>
 			<Item Name="Styles.lvlib" Type="Library" URL="../../src/Styles/Styles.lvlib"/>
 			<Item Name="LabVIEW NPOI.lvlib" Type="Library" URL="../../src/LabVIEW NPOI/LabVIEW NPOI.lvlib"/>
 			<Item Name="Prompt File Dialog.vi" Type="VI" URL="../../src/Support/Files/Prompt File Dialog.vi"/>
