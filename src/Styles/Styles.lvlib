@@ -13,6 +13,12 @@
 		<Item Name="Heading 2.lvclass" Type="LVClass" URL="../Heading 2/Heading 2.lvclass"/>
 		<Item Name="Heading 3.lvclass" Type="LVClass" URL="../Heading 3/Heading 3.lvclass"/>
 	</Item>
+	<Item Name="TypeDefs" Type="Folder">
+		<Item Name="Style--cluster.ctl" Type="VI" URL="../Style--cluster.ctl"/>
+		<Item Name="Font--cluster.ctl" Type="VI" URL="../Font--cluster.ctl"/>
+		<Item Name="Alignment--ring.ctl" Type="VI" URL="../Alignment--ring.ctl"/>
+		<Item Name="Underline--ring.ctl" Type="VI" URL="../Underline--ring.ctl"/>
+	</Item>
 	<Item Name="Style.lvclass" Type="LVClass" URL="../Style/Style.lvclass"/>
 	<Item Name="Title.lvclass" Type="LVClass" URL="../Title/Title.lvclass"/>
 	<Item Name="Convert Font To Style Object.vi" Type="VI" URL="../Convert Font To Style Object.vi"/>
