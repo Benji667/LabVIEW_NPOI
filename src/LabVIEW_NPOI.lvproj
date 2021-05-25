@@ -72,6 +72,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NPOI.dll" Type="Document" URL="../../../LVExcel/Resources/NPOI 2.1.1 dotnet2/NPOI.dll"/>
+			<Item Name="NPOI.dll" Type="Document" URL="../../lib/NPOI 2.1.1/NPOI.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

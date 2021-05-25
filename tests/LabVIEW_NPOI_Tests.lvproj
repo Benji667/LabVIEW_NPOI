@@ -443,12 +443,13 @@
 			<Item Name="Styles.lvlib" Type="Library" URL="../../src/Styles/Styles.lvlib"/>
 			<Item Name="LabVIEW NPOI.lvlib" Type="Library" URL="../../src/LabVIEW NPOI/LabVIEW NPOI.lvlib"/>
 			<Item Name="Prompt File Dialog.vi" Type="VI" URL="../../src/Support/Files/Prompt File Dialog.vi"/>
-			<Item Name="NPOI.OOXML.dll" Type="Document" URL="../../../LVExcel/Resources/NPOI 2.1.1 dotnet2/NPOI.OOXML.dll"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NPOI.dll" Type="Document" URL="../../../LVExcel/Resources/NPOI 2.1.1 dotnet2/NPOI.dll"/>
 			<Item Name="File Stream.lvlib" Type="Library" URL="../../src/Support/File Stream/File Stream.lvlib"/>
+			<Item Name="NPOI.dll" Type="Document" URL="../../lib/NPOI 2.1.1/NPOI.dll"/>
+			<Item Name="NPOI.OOXML.dll" Type="Document" URL="../../lib/NPOI 2.1.1/NPOI.OOXML.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
