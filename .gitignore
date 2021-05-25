@@ -18,7 +18,7 @@
 
 # Build and Dependencies folders
 builds/
-lib/
+# lib/
 
 # Python files
 *.pyc
