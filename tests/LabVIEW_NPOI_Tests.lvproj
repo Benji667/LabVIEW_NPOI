@@ -24,10 +24,11 @@
 				<Item Name="Document Tests - .vi" Type="VI" URL="../Test Cases/Document Tests - .vi"/>
 			</Item>
 			<Item Name="Excel" Type="Folder">
-				<Item Name="Excel - Save And SaveAs Docuement Tests.vi" Type="VI" URL="../Test Cases/Excel - Save And SaveAs Docuement Tests.vi"/>
-				<Item Name="Excel - Close Docuement Tests.vi" Type="VI" URL="../Test Cases/Excel - Close Docuement Tests.vi"/>
-				<Item Name="Excel - Create And Save Docuement Tests.vi" Type="VI" URL="../Test Cases/Excel - Create And Save Docuement Tests.vi"/>
 				<Item Name="Excel - Open Docuement Tests.vi" Type="VI" URL="../Test Cases/Excel - Open Docuement Tests.vi"/>
+				<Item Name="Excel - Create And Save Docuement Tests.vi" Type="VI" URL="../Test Cases/Excel - Create And Save Docuement Tests.vi"/>
+				<Item Name="Excel - Save And SaveAs Docuement Tests.vi" Type="VI" URL="../Test Cases/Excel - Save And SaveAs Docuement Tests.vi"/>
+				<Item Name="Excel - Append Table Tests.vi" Type="VI" URL="../Test Cases/Excel - Append Table Tests.vi"/>
+				<Item Name="Excel - Close Docuement Tests.vi" Type="VI" URL="../Test Cases/Excel - Close Docuement Tests.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Run Tests.vi" Type="VI" URL="../Test Cases/Run Tests.vi"/>
