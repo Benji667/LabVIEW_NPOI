@@ -30,8 +30,15 @@
 				<Item Name="Excel - Append Table Tests.vi" Type="VI" URL="../Test Cases/Excel - Append Table Tests.vi"/>
 				<Item Name="Excel - Close Docuement Tests.vi" Type="VI" URL="../Test Cases/Excel - Close Docuement Tests.vi"/>
 			</Item>
+			<Item Name="Word" Type="Folder">
+				<Item Name="Reader" Type="Folder">
+					<Item Name="Tests - XWPF Reader.vi" Type="VI" URL="../Test Cases/Tests - XWPF Reader.vi"/>
+					<Item Name="Tests - XWPF Writer.vi" Type="VI" URL="../Test Cases/Tests - XWPF Writer.vi"/>
+				</Item>
+			</Item>
 		</Item>
 		<Item Name="Run Tests.vi" Type="VI" URL="../Test Cases/Run Tests.vi"/>
+		<Item Name="LabVIEW NPOI.lvlib" Type="Library" URL="../../src/LabVIEW NPOI/LabVIEW NPOI.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -432,10 +439,21 @@
 				<Item Name="FF154AA9FA361469346938CA7F095A4AValid Path__ogtk.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/_Caraya_internal_deps/FF154AA9FA361469346938CA7F095A4AValid Path__ogtk.vi"/>
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
+				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
+				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
+				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
+				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
+				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
+				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
+				<Item Name="Read BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP File.vi"/>
+				<Item Name="Read BMP File Data.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP File Data.vi"/>
+				<Item Name="Read BMP Header Info.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP Header Info.vi"/>
+				<Item Name="Calc Long Word Padded Width.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Calc Long Word Padded Width.vi"/>
+				<Item Name="Flip and Pad for Picture Control.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Flip and Pad for Picture Control.vi"/>
 			</Item>
 			<Item Name="Run Tests in Active Project.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/project/Caraya/Run Tests in Active Project.vi"/>
 			<Item Name="Styles.lvlib" Type="Library" URL="../../src/Styles/Styles.lvlib"/>
-			<Item Name="LabVIEW NPOI.lvlib" Type="Library" URL="../../src/LabVIEW NPOI/LabVIEW NPOI.lvlib"/>
 			<Item Name="Prompt File Dialog.vi" Type="VI" URL="../../src/Support/Files/Prompt File Dialog.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -443,6 +461,7 @@
 			<Item Name="File Stream.lvlib" Type="Library" URL="../../src/Support/File Stream/File Stream.lvlib"/>
 			<Item Name="NPOI.dll" Type="Document" URL="../../lib/NPOI 2.1.1/NPOI.dll"/>
 			<Item Name="NPOI.OOXML.dll" Type="Document" URL="../../lib/NPOI 2.1.1/NPOI.OOXML.dll"/>
+			<Item Name="Get File Extension (String).vi" Type="VI" URL="../../src/Support/Files/Get File Extension (String).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
