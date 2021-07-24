@@ -31,14 +31,19 @@
 				<Item Name="Excel - Close Docuement Tests.vi" Type="VI" URL="../Test Cases/Excel - Close Docuement Tests.vi"/>
 			</Item>
 			<Item Name="Word" Type="Folder">
-				<Item Name="Reader" Type="Folder">
-					<Item Name="Tests - XWPF Reader.vi" Type="VI" URL="../Test Cases/Tests - XWPF Reader.vi"/>
-					<Item Name="Tests - XWPF Writer.vi" Type="VI" URL="../Test Cases/Tests - XWPF Writer.vi"/>
+				<Item Name="Helpers" Type="Folder">
+					<Item Name="XWPF Reader - Tests.vi" Type="VI" URL="../Test Cases/XWPF Reader - Tests.vi"/>
+					<Item Name="XWPF Writer - Tests.vi" Type="VI" URL="../Test Cases/XWPF Writer - Tests.vi"/>
+					<Item Name="XWPF Writer - Add Picture Tests.vi" Type="VI" URL="../Test Cases/XWPF Writer - Add Picture Tests.vi"/>
 				</Item>
+				<Item Name="Word - Open Docuement Tests.vi" Type="VI" URL="../Test Cases/Word - Open Docuement Tests.vi"/>
+				<Item Name="Word - Create And Save Docuement Tests.vi" Type="VI" URL="../Test Cases/Word - Create And Save Docuement Tests.vi"/>
+				<Item Name="Word - Save And SaveAs Docuement Tests.vi" Type="VI" URL="../Test Cases/Word - Save And SaveAs Docuement Tests.vi"/>
+				<Item Name="Word - Append Table Tests.vi" Type="VI" URL="../Test Cases/Word - Append Table Tests.vi"/>
+				<Item Name="Word - Close Docuement Tests.vi" Type="VI" URL="../Test Cases/Word - Close Docuement Tests.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Run Tests.vi" Type="VI" URL="../Test Cases/Run Tests.vi"/>
-		<Item Name="LabVIEW NPOI.lvlib" Type="Library" URL="../../src/LabVIEW NPOI/LabVIEW NPOI.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -462,6 +467,7 @@
 			<Item Name="NPOI.dll" Type="Document" URL="../../lib/NPOI 2.1.1/NPOI.dll"/>
 			<Item Name="NPOI.OOXML.dll" Type="Document" URL="../../lib/NPOI 2.1.1/NPOI.OOXML.dll"/>
 			<Item Name="Get File Extension (String).vi" Type="VI" URL="../../src/Support/Files/Get File Extension (String).vi"/>
+			<Item Name="LabVIEW NPOI.lvlib" Type="Library" URL="../../src/LabVIEW NPOI/LabVIEW NPOI.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
