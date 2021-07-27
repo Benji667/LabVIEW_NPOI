@@ -6,23 +6,26 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="XWPF" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Run Types" Type="Folder">
-			<Item Name="xwpfRun.Figure.lvclass" Type="LVClass" URL="../xwpfRun.Figure/xwpfRun.Figure.lvclass"/>
-			<Item Name="xwpfRun.Header1.lvclass" Type="LVClass" URL="../xwpfRun.Header1/xwpfRun.Header1.lvclass"/>
-			<Item Name="xwpfRun.Header2.lvclass" Type="LVClass" URL="../xwpfRun.Header2/xwpfRun.Header2.lvclass"/>
-			<Item Name="xwpfRun.Header3.lvclass" Type="LVClass" URL="../xwpfRun.Header3/xwpfRun.Header3.lvclass"/>
-			<Item Name="xwpfRun.Normal.lvclass" Type="LVClass" URL="../xwpfRun.Normal/xwpfRun.Normal.lvclass"/>
-			<Item Name="xwpfRun.PageBreak.lvclass" Type="LVClass" URL="../xwpfRun.PageBreak/xwpfRun.PageBreak.lvclass"/>
-			<Item Name="xwpfRun.Title.lvclass" Type="LVClass" URL="../xwpfRun.Title/xwpfRun.Title.lvclass"/>
+		<Item Name="Elements" Type="Folder">
+			<Item Name="Run Types" Type="Folder">
+				<Item Name="xwpfRun.Figure.lvclass" Type="LVClass" URL="../xwpfRun.Figure/xwpfRun.Figure.lvclass"/>
+				<Item Name="xwpfRun.Header1.lvclass" Type="LVClass" URL="../xwpfRun.Header1/xwpfRun.Header1.lvclass"/>
+				<Item Name="xwpfRun.Header2.lvclass" Type="LVClass" URL="../xwpfRun.Header2/xwpfRun.Header2.lvclass"/>
+				<Item Name="xwpfRun.Header3.lvclass" Type="LVClass" URL="../xwpfRun.Header3/xwpfRun.Header3.lvclass"/>
+				<Item Name="xwpfRun.Normal.lvclass" Type="LVClass" URL="../xwpfRun.Normal/xwpfRun.Normal.lvclass"/>
+				<Item Name="xwpfRun.PageBreak.lvclass" Type="LVClass" URL="../xwpfRun.PageBreak/xwpfRun.PageBreak.lvclass"/>
+				<Item Name="xwpfRun.Title.lvclass" Type="LVClass" URL="../xwpfRun.Title/xwpfRun.Title.lvclass"/>
+				<Item Name="xwpfRun.lvclass" Type="LVClass" URL="../xwpfRun/xwpfRun.lvclass"/>
+			</Item>
+			<Item Name="xwpfParagraph.lvclass" Type="LVClass" URL="../xwpfParagraph/xwpfParagraph.lvclass"/>
+			<Item Name="xwpfTable.lvclass" Type="LVClass" URL="../xwpfTable/xwpfTable.lvclass"/>
+			<Item Name="xwpfDocument.Element.lvclass" Type="LVClass" URL="../xwpfDocument.Element/xwpfDocument.Element.lvclass"/>
+			<Item Name="xwpfHeader_Footer.lvclass" Type="LVClass" URL="../xwpfHeader/xwpfHeader_Footer.lvclass"/>
 		</Item>
+		<Item Name="xwpfDocument.lvclass" Type="LVClass" URL="../xwpfDocument/xwpfDocument.lvclass"/>
 		<Item Name="xwpfDocument Tests Write.vi" Type="VI" URL="../../../tests/Test Cases/xwpfDocument Tests Write.vi"/>
 		<Item Name="xwpfDocument Tests Read.vi" Type="VI" URL="../../../tests/Test Cases/xwpfDocument Tests Read.vi"/>
-		<Item Name="xwpfDocument.Element.lvclass" Type="LVClass" URL="../xwpfDocument.Element/xwpfDocument.Element.lvclass"/>
-		<Item Name="xwpfDocument.lvclass" Type="LVClass" URL="../xwpfDocument/xwpfDocument.lvclass"/>
-		<Item Name="xwpfFooter.lvclass" Type="LVClass" URL="../xwpfFooter/xwpfFooter.lvclass"/>
-		<Item Name="xwpfHeader_Footer.lvclass" Type="LVClass" URL="../xwpfHeader/xwpfHeader_Footer.lvclass"/>
-		<Item Name="xwpfParagraph.lvclass" Type="LVClass" URL="../xwpfParagraph/xwpfParagraph.lvclass"/>
-		<Item Name="xwpfRun.lvclass" Type="LVClass" URL="../xwpfRun/xwpfRun.lvclass"/>
-		<Item Name="xwpfTable.lvclass" Type="LVClass" URL="../xwpfTable/xwpfTable.lvclass"/>
+		<Item Name="xwpfDocument Tests Duplicate Content.vi" Type="VI" URL="../../../tests/Test Cases/xwpfDocument Tests Duplicate Content.vi"/>
+		<Item Name="xwpfDocument Tests Append To File.vi" Type="VI" URL="../../../tests/Test Cases/xwpfDocument Tests Append To File.vi"/>
 	</Item>
 </Library>

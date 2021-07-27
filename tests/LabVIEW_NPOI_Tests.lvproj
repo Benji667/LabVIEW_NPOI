@@ -45,7 +45,6 @@
 			</Item>
 		</Item>
 		<Item Name="Run Tests.vi" Type="VI" URL="../Test Cases/Run Tests.vi"/>
-		<Item Name="setRun.vi" Type="VI" URL="../../src/LabVIEW NPOI/xwpfRun/setRun.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -458,7 +457,6 @@
 				<Item Name="Read BMP Header Info.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP Header Info.vi"/>
 				<Item Name="Calc Long Word Padded Width.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Calc Long Word Padded Width.vi"/>
 				<Item Name="Flip and Pad for Picture Control.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Flip and Pad for Picture Control.vi"/>
-				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="LUT.lvlib" Type="Library" URL="/&lt;vilib&gt;/Ekim/LUT/LUT.lvlib"/>
 			</Item>
 			<Item Name="Run Tests in Active Project.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/project/Caraya/Run Tests in Active Project.vi"/>

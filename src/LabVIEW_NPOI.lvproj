@@ -28,7 +28,6 @@
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Excel Example.vi" Type="VI" URL="../Examples/Excel Example.vi"/>
 			<Item Name="Word Example.vi" Type="VI" URL="../Examples/Word Example.vi"/>
-			<Item Name="_Word Example.vi" Type="VI" URL="../Examples/_Word Example.vi"/>
 		</Item>
 		<Item Name="LabVIEW NPOI.lvlib" Type="Library" URL="../LabVIEW NPOI/LabVIEW NPOI.lvlib"/>
 		<Item Name="Word_Specific.lvlib" Type="Library" URL="../LabVIEW NPOI/Word_Specific.lvlib"/>
@@ -89,9 +88,11 @@
 				<Item Name="Read BMP File Data.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP File Data.vi"/>
 				<Item Name="Read BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP File.vi"/>
 				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
-				<Item Name="LUT.lvlib" Type="Library" URL="/&lt;vilib&gt;/Ekim/LUT/LUT.lvlib"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="System.Xml" Type="Document" URL="System.Xml">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>

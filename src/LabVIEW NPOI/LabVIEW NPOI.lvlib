@@ -9,11 +9,6 @@
 		<Item Name="Docuement Type--enum.ctl" Type="VI" URL="../Docuement Type--enum.ctl"/>
 		<Item Name="Picture Type.ctl" Type="VI" URL="../xwpfWriter/Picture Type.ctl"/>
 	</Item>
-	<Item Name="Helpers" Type="Folder">
-		<Item Name="Structure" Type="Folder"/>
-		<Item Name="xwpfReader.lvclass" Type="LVClass" URL="../xwpfReader/xwpfReader.lvclass"/>
-		<Item Name="xwpfWriter.lvclass" Type="LVClass" URL="../xwpfWriter/xwpfWriter.lvclass"/>
-	</Item>
 	<Item Name="Document.lvclass" Type="LVClass" URL="../Document/Document.lvclass"/>
 	<Item Name="MS-Excel.lvclass" Type="LVClass" URL="../MS-Excel/MS-Excel.lvclass"/>
 	<Item Name="MS-Word.lvclass" Type="LVClass" URL="../MS-Word/MS-Word.lvclass"/>
