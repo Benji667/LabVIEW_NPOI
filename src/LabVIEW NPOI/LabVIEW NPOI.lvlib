@@ -10,6 +10,7 @@
 		<Item Name="Picture Type.ctl" Type="VI" URL="../xwpfWriter/Picture Type.ctl"/>
 	</Item>
 	<Item Name="Helpers" Type="Folder">
+		<Item Name="Structure" Type="Folder"/>
 		<Item Name="xwpfReader.lvclass" Type="LVClass" URL="../xwpfReader/xwpfReader.lvclass"/>
 		<Item Name="xwpfWriter.lvclass" Type="LVClass" URL="../xwpfWriter/xwpfWriter.lvclass"/>
 	</Item>
