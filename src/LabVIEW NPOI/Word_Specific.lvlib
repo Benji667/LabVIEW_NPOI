@@ -20,7 +20,7 @@
 			<Item Name="xwpfParagraph.lvclass" Type="LVClass" URL="../xwpfParagraph/xwpfParagraph.lvclass"/>
 			<Item Name="xwpfTable.lvclass" Type="LVClass" URL="../xwpfTable/xwpfTable.lvclass"/>
 			<Item Name="xwpfDocument.Element.lvclass" Type="LVClass" URL="../xwpfDocument.Element/xwpfDocument.Element.lvclass"/>
-			<Item Name="xwpfHeader_Footer.lvclass" Type="LVClass" URL="../xwpfHeader/xwpfHeader_Footer.lvclass"/>
+			<Item Name="xwpfHeader_Footer.lvclass" Type="LVClass" URL="../xwpfHeader_Footer/xwpfHeader_Footer.lvclass"/>
 		</Item>
 		<Item Name="xwpfDocument.lvclass" Type="LVClass" URL="../xwpfDocument/xwpfDocument.lvclass"/>
 	</Item>

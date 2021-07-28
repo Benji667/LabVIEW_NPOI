@@ -13,6 +13,9 @@ Add convert Excel file to HTML file
 ### Fixed for any bug fixes.
 Fix add picture error for Excel file 
 Fix Style enumeration error on load
+Clean-up files (removed unused and deprecated files)
+Prepared example VIs for NI Example Finder
+
 
 ## [1.0.0] - 2021-05-26
 First package with Excel support only
