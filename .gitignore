@@ -1,0 +1,38 @@
+# Packed libraries
+*.lvlibp
+*.llb
+
+# Shared objects (inc. Windows DLLs)
+# *.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+
+# Metadata
+*.aliases
+*.lvlps
+.cache/
+
+# Build and Dependencies folders
+builds/
+# lib/
+
+# Python files
+*.pyc
+pylintrc
+__pycache__/
+
+# Logs and DB
+*.log
+*.db
+tests/*.txt
+
+# VS files
+.vscode/
+
+# Do not ignore assembly in lib folder
+!/lib/NPOI 2.1.1/NPOI.dll
+!/lib/NPOI 2.1.1/NPOI.OOXML.dll
