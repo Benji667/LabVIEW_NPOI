@@ -28,6 +28,7 @@
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Excel Example.vi" Type="VI" URL="../Examples/Excel Example.vi"/>
 			<Item Name="Word Example.vi" Type="VI" URL="../Examples/Word Example.vi"/>
+			<Item Name="Document API.vi" Type="VI" URL="../Examples/Document API.vi"/>
 		</Item>
 		<Item Name="lib" Type="Folder">
 			<Item Name="ICSharpCode.SharpZipLib.dll" Type="Document" URL="../lib/NPOI 2.1.1/ICSharpCode.SharpZipLib.dll"/>
@@ -41,6 +42,9 @@
 		</Item>
 		<Item Name="LabVIEW NPOI.lvlib" Type="Library" URL="../LabVIEW NPOI/LabVIEW NPOI.lvlib"/>
 		<Item Name="Word_Specific.lvlib" Type="Library" URL="../LabVIEW NPOI/Word_Specific.lvlib"/>
+		<Item Name="Excel_Specific.lvlib" Type="Library" URL="../LabVIEW NPOI/Excel_Specific/Excel_Specific.lvlib"/>
+		<Item Name="NPOI_Document.lvlib" Type="Library" URL="../LabVIEW NPOI/NPOI_Document/NPOI_Document.lvlib"/>
+		<Item Name="Document API.lvlib" Type="Library" URL="../LabVIEW NPOI/NPOI Document API/Document API.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
@@ -98,11 +102,24 @@
 				<Item Name="Read BMP File Data.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP File Data.vi"/>
 				<Item Name="Read BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP File.vi"/>
 				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
+				<Item Name="SAI_PDF_Toolkit.lvlib" Type="Library" URL="/&lt;vilib&gt;/Simplicity AI/SAI_PDF_API/SAI_PDF_Toolkit.lvlib"/>
+				<Item Name="Write BMP Data To Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP Data To Buffer.vi"/>
+				<Item Name="Write BMP Data.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP Data.vi"/>
+				<Item Name="compatOverwrite.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOverwrite.vi"/>
+				<Item Name="Write BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP File.vi"/>
+				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
+				<Item Name="Sai.CustomPdfGenerator.DLL" Type="Document" URL="/&lt;vilib&gt;/Simplicity AI/_SAI_PDF_API_internal_deps/Sai.CustomPdfGenerator.DLL"/>
+				<Item Name="null" Type="VI" URL="/&lt;vilib&gt;/Simplicity AI/_SAI_PDF_API_internal_deps/null"/>
+				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
+				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="System.Xml" Type="Document" URL="System.Xml">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="shell32.dll" Type="Document" URL="shell32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
