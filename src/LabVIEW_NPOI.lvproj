@@ -17,14 +17,12 @@
 			<Item Name="Files" Type="Folder">
 				<Item Name="Prompt File Dialog.vi" Type="VI" URL="../Support/Files/Prompt File Dialog.vi"/>
 				<Item Name="Get File Extension (String).vi" Type="VI" URL="../Support/Files/Get File Extension (String).vi"/>
-				<Item Name="Print File.vi" Type="VI" URL="../Support/Files/Print File.vi"/>
-				<Item Name="List Available Printers.vi" Type="VI" URL="../Support/Files/List Available Printers.vi"/>
-				<Item Name="Wait for Printing To Complete.vi" Type="VI" URL="../Support/Files/Wait for Printing To Complete.vi"/>
-				<Item Name="Set Default Printer.vi" Type="VI" URL="../Support/Files/Set Default Printer.vi"/>
 			</Item>
-			<Item Name="NPOI 2.1.1" Type="Folder">
-				<Item Name="NPOI.dll" Type="Document" URL="../../lib/NPOI 2.1.1/NPOI.dll"/>
-				<Item Name="NPOI.OOXML.dll" Type="Document" URL="../../lib/NPOI 2.1.1/NPOI.OOXML.dll"/>
+			<Item Name="Print" Type="Folder">
+				<Item Name="List Available Printers.vi" Type="VI" URL="../Support/Print/List Available Printers.vi"/>
+				<Item Name="Set Default Printer.vi" Type="VI" URL="../Support/Print/Set Default Printer.vi"/>
+				<Item Name="Print File.vi" Type="VI" URL="../Support/Print/Print File.vi"/>
+				<Item Name="Wait for Printing To Complete.vi" Type="VI" URL="../Support/Print/Wait for Printing To Complete.vi"/>
 			</Item>
 			<Item Name="File Stream.lvlib" Type="Library" URL="../Support/File Stream/File Stream.lvlib"/>
 			<Item Name="Styles.lvlib" Type="Library" URL="../Styles/Styles.lvlib"/>
@@ -43,8 +41,8 @@
 			<Item Name="NPOI.OpenXmlFormats.dll" Type="Document" URL="../lib/NPOI 2.1.1/NPOI.OpenXmlFormats.dll"/>
 			<Item Name="NPOI.XML" Type="Document" URL="../lib/NPOI 2.1.1/NPOI.XML"/>
 		</Item>
-		<Item Name="LabVIEW NPOI.lvlib" Type="Library" URL="../LabVIEW NPOI/LabVIEW NPOI.lvlib"/>
 		<Item Name="Word_Specific.lvlib" Type="Library" URL="../LabVIEW NPOI/Word_Specific.lvlib"/>
+		<Item Name="LabVIEW NPOI.lvlib" Type="Library" URL="../LabVIEW NPOI/LabVIEW NPOI.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
