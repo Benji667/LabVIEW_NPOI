@@ -10,6 +10,7 @@ You can manually download the repository from [GitHub](https://github.com/nissl-
 ## Installation
 * Download the latest version of the LabVIEW NPOI VI Package from the release page.
 * Use VIPM to install it on your LabVIEW version (2017+).
+* Download and install the latest version of the LUT package available [here](https://github.com/Benji667/LookUp_Table).
 
 ## Examples
 Below is a simple example to show how to use the LabVIEW NPOI API to interact with Excel or Word document.
