@@ -1,8 +1,10 @@
 # NPOI assembly wrapper in LabVIEW.
 
 This project intends to implement a wrapper of the NPOI assembly that allows MS Office files manipulation in LabVIEW (no MS Office installation required).
+I'm still exploring NPOI interface for capabilities and possibilities; trying different approaches, more like a PoC. In a second time, I'll try to implement a reliable , scalable, maintainable architecture. 
+Feel free to let me know if you're interested in architecture or implementation contribution, I'll be more than happy! 
 
-## Whast is NPOI?
+##Whast is NPOI?
 
 NPOI is a .NET version of POI Java Project. It is an open source .NET library to read and write Microsoft Office file formats formats (*.xls/xlsx, *.doc/docx, *.ppt/pptx). 
 You can manually download the repository from [GitHub](https://github.com/nissl-lab/npoi) or install from [NuGet](https://www.nuget.org/packages/NPOI/).
