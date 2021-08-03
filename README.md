@@ -18,9 +18,7 @@ Below is a simple example to show how to use the LabVIEW NPOI API to interact wi
 ![SimpleDocumentCreationExample](https://github.com/Benji667/LabVIEW_NPOI/blob/bcb686f6b338eb219e46d72dd402a0802e551e9f/docs/img/SimpleDocumentCreationExample.png)
 
 ## Contributing
-Pull requests are welcome. Please use LabVIEW 2017 SP1 to contribute to this repository.
-
-For major changes, please open an issue first to discuss what you would like to change.
+See [CONTRIBUTING.md]
 
 # Author
 BenjaminR
