@@ -2,7 +2,7 @@
 
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
 
-Feel free to contact us on the [LabVIEW NPOI Scack Channel](https://join.slack.com/t/labviewnpoi/shared_invite/zt-tqebdkra-Z4McJRTNh~1xCGCOo1VJWA)
+Feel free to contact us on the [Discussions page](https://github.com/Benji667/LabVIEW_NPOI/discussions)
 
 If contributing with LabVIEW source code, please make sure your contribution is done in the LabVIEW version of the repository you wish to contribute to.
 
