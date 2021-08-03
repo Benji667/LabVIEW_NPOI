@@ -4,7 +4,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.1.0] - 2021-07-27
+## [1.1.0.5] - 2021-08-02
+
+### Added for new features.
+Add Print document method
+Add Append Table As String VIM
+Add Print support VIs
+
+### Changed for changes in existing functionality.
+Convert to HTML is now limited to Excel documents only
+
+### Fixed for any bug fixes.
+Improve package palettes
+Add palette documentations
+
+## [1.1.0.3] - 2021-07-27
 
 ### Added for new features.
 Support Word document manipulation
