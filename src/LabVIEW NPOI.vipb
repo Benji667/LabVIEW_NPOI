@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-26 00:45:42" Modified_Date="2021-08-02 22:38:30" Creator="Neo" Comments="" ID="630ed0c6e2e1209297d84e16043414fa">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-26 00:45:42" Modified_Date="2021-08-02 22:51:11" Creator="Neo" Comments="" ID="ed7173e0b3060555f941c5c5ff5e75b2">
   <Library_General_Settings>
     <Package_File_Name>BenjaminR_LabVIEW_NPOI</Package_File_Name>
-    <Library_Version>1.1.0.9</Library_Version>
+    <Library_Version>1.1.1.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -43,7 +43,7 @@
 - Add Convert to HTML for Excel document.
 - Add Append Table As String VIM.
 - Add default palettes for classes within the API.
-- Fix issues.</Release_Notes>
+- Fix Assembly loading error issue.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -476,7 +476,7 @@
         <Path>LabVIEW NPOI\Document\Append New Page.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A6081758A74C8132D52D4E410A782A93</GUID>
+      <GUID>5349CF8356F5231A05821B25F9EF8930</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -567,7 +567,7 @@
         <Path>LabVIEW NPOI\Document\Convert To HTML.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E0D884CC35C9A5DB3A3D1D28E927D48A</GUID>
+      <GUID>9B75EB12524AA52517FEB76D2332B749</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -658,7 +658,7 @@
         <Path>Styles\Heading 3\New Heading 3 Object.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5C8985B116D80A4BE14D2003A9799039</GUID>
+      <GUID>D57D19B760828CBA731F1240B7688822</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -707,7 +707,7 @@
         <Path>LabVIEW NPOI\MS-Word\MS-Word Property Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EB6E1CA368D5793443C705C1F6D10087</GUID>
+      <GUID>CDFB6AEF26473931CD9FEB1F3A15F278</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
