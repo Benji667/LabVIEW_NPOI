@@ -20,7 +20,7 @@ Below is a simple example to show how to use the LabVIEW NPOI API to interact wi
 ![SimpleDocumentCreationExample](https://github.com/Benji667/LabVIEW_NPOI/blob/bcb686f6b338eb219e46d72dd402a0802e551e9f/docs/img/SimpleDocumentCreationExample.png?raw=true)
 
 ## Contributing
-See [CONTRIBUTING.md]
+See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 # Author
 BenjaminR

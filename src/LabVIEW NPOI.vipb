@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-26 00:45:42" Modified_Date="2021-08-03 14:35:43" Creator="Neo" Comments="" ID="209e41e4bc71b6537ee8c3a13cca18a8">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-26 00:45:42" Modified_Date="2021-08-03 15:54:36" Creator="Neo" Comments="" ID="39344a225c9df79153e4dfa53670e668">
   <Library_General_Settings>
     <Package_File_Name>BenjaminR_LabVIEW_NPOI</Package_File_Name>
-    <Library_Version>1.1.2.2</Library_Version>
+    <Library_Version>1.1.2.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -115,15 +115,33 @@
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>Examples</Path>
+        <Path>Examples/LabVIEW NPOI.bin3</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Examples/Excel Example.vi</Path>
         <Destination>1</Destination>
         <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>Examples/LabVIEW NPOI.bin3</Path>
-        <Destination>0</Destination>
-        <Additional_Destination>true</Additional_Destination>
+        <Path>Examples/Word Example.vi</Path>
+        <Destination>1</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>help/LabVIEW NPOI API</Path>
+        <Destination>4</Destination>
+        <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>help</Path>
+        <Destination>4</Destination>
+        <Additional_Destination>false</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Password_Overrides>
@@ -144,15 +162,6 @@
       <Exclusions>
         <Path>LabVIEW_NPOI.lvproj</Path>
       </Exclusions>
-      <Exclusions>
-        <Path>Palettes</Path>
-      </Exclusions>
-      <Compile_Exclusions>
-        <Path>Palettes</Path>
-      </Compile_Exclusions>
-      <Compile_Exclusions>
-        <Path>lib/NPOI 2.1.1</Path>
-      </Compile_Exclusions>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>
@@ -466,7 +475,7 @@
         <Path>LabVIEW NPOI\Document\Append New Page.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1271CB0055A6440DAC7869001D8AD620</GUID>
+      <GUID>CEDA114BFE04B08AC6E42EC95FE5064A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -557,7 +566,7 @@
         <Path>LabVIEW NPOI\Document\Convert To HTML.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AEB0F728D99377964DA477C498999DE9</GUID>
+      <GUID>41326C89BFF8CA48E553B915C7A5117B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -648,7 +657,7 @@
         <Path>Styles\Heading 3\New Heading 3 Object.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>597F275B78B309A98074589DE6D7BA76</GUID>
+      <GUID>449927DBF65973A50E0E81F9CE13E8C8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -697,7 +706,7 @@
         <Path>LabVIEW NPOI\MS-Word\MS-Word Property Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>859C8B6845275D51EE22B8E31FE515CD</GUID>
+      <GUID>61EC728EB29302710A5130FB81AB474C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
