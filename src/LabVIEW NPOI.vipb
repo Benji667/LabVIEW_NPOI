@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-26 00:45:42" Modified_Date="2021-08-02 21:03:18" Creator="Neo" Comments="" ID="b33e583606ae8c74129c57b173aaa0a6">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-26 00:45:42" Modified_Date="2021-08-02 21:09:40" Creator="Neo" Comments="" ID="4cbe84a56d877b389e82fbbf89649fe6">
   <Library_General_Settings>
     <Package_File_Name>BenjaminR_LabVIEW_NPOI</Package_File_Name>
-    <Library_Version>1.1.0.5</Library_Version>
+    <Library_Version>1.1.0.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
