@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-26 00:45:42" Modified_Date="2021-08-02 22:51:11" Creator="Neo" Comments="" ID="ed7173e0b3060555f941c5c5ff5e75b2">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-26 00:45:42" Modified_Date="2021-08-03 14:35:43" Creator="Neo" Comments="" ID="209e41e4bc71b6537ee8c3a13cca18a8">
   <Library_General_Settings>
     <Package_File_Name>BenjaminR_LabVIEW_NPOI</Package_File_Name>
-    <Library_Version>1.1.1.2</Library_Version>
+    <Library_Version>1.1.2.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -17,10 +17,8 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>ekim_lut &gt;= 1.1.0.6</External_Dependencies>
       <External_Dependencies>oglib_array &gt;= 4.1.1.14</External_Dependencies>
       <External_Dependencies>oglib_string &gt;= 5.0.0.25</External_Dependencies>
-      <Direct_Dependencies>ekim_lut-1.1.0.6</Direct_Dependencies>
       <Direct_Dependencies>oglib_array-4.1.1.14</Direct_Dependencies>
       <Direct_Dependencies>oglib_string-5.0.0.25</Direct_Dependencies>
     </Package_Dependencies>
@@ -38,12 +36,10 @@
       <Description>LabVIEW wrapper of the NPOI assembly to allow MS Office file manipulation without MS Office installed.</Description>
       <Copyright/>
       <Packager>BenjaminR</Packager>
-      <URL>https://github.com/Benji667/LabVIEW_NPOI</URL>
-      <Release_Notes>- Add Print document method.
-- Add Convert to HTML for Excel document.
-- Add Append Table As String VIM.
-- Add default palettes for classes within the API.
-- Fix Assembly loading error issue.</Release_Notes>
+      <URL>https://benji667.github.io/LabVIEW_NPOI/</URL>
+      <Release_Notes>- Change palette location.
+- Fix the missing *.mnu file error on VI drop.
+- Update API dependency list.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -109,12 +105,6 @@
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path>&lt;application&gt;\examples\exbins</Path>
-      </Additional_Destination>
-      <Additional_Destination>
-        <Name>Palettes</Name>
-        <LLB>false</LLB>
-        <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;application&gt;\menus\Categories\BenjaminR</Path>
       </Additional_Destination>
     </Destinations>
     <Source_Files>
@@ -195,21 +185,21 @@
         <Syncing_MNU_file/>
       </Controls_Palette_Information>
       <Functions_Palette_Information>
-        <Virtual_Palette_Base_Path>Functions</Virtual_Palette_Base_Path>
-        <Palette_Disk_Base_Path>&lt;menus&gt;\Categories</Palette_Disk_Base_Path>
+        <Virtual_Palette_Base_Path>Functions\Addons</Virtual_Palette_Base_Path>
+        <Palette_Disk_Base_Path>&lt;vi.lib&gt;\addons</Palette_Disk_Base_Path>
         <Syncing_MNU_file/>
       </Functions_Palette_Information>
       <Apply_Short_Names_to_VI_Titles>false</Apply_Short_Names_to_VI_Titles>
-      <Apply_Short_Names_to_VI_Titles_2>false</Apply_Short_Names_to_VI_Titles_2>
-      <Library_or_Class_Nmae/>
+      <Apply_Short_Names_to_VI_Titles_2>true</Apply_Short_Names_to_VI_Titles_2>
+      <Library_or_Class_Nmae>LabVIEW NPOI.lvlib</Library_or_Class_Nmae>
     </Palette_Sets>
     <Install_Requirements>
       <All_Windows>true</All_Windows>
       <Windows_7>true</Windows_7>
       <Windows_Vista>true</Windows_Vista>
       <Windows_XP>true</Windows_XP>
-      <Mac_OS>true</Mac_OS>
-      <Linux>true</Linux>
+      <Mac_OS>false</Mac_OS>
+      <Linux>false</Linux>
       <Built_LV_Version>false</Built_LV_Version>
       <Built_LV_Version_or_greater>true</Built_LV_Version_or_greater>
       <Windows_8>true</Windows_8>
@@ -476,7 +466,7 @@
         <Path>LabVIEW NPOI\Document\Append New Page.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5349CF8356F5231A05821B25F9EF8930</GUID>
+      <GUID>1271CB0055A6440DAC7869001D8AD620</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -567,7 +557,7 @@
         <Path>LabVIEW NPOI\Document\Convert To HTML.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9B75EB12524AA52517FEB76D2332B749</GUID>
+      <GUID>AEB0F728D99377964DA477C498999DE9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -658,7 +648,7 @@
         <Path>Styles\Heading 3\New Heading 3 Object.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D57D19B760828CBA731F1240B7688822</GUID>
+      <GUID>597F275B78B309A98074589DE6D7BA76</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -707,7 +697,7 @@
         <Path>LabVIEW NPOI\MS-Word\MS-Word Property Node.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CDFB6AEF26473931CD9FEB1F3A15F278</GUID>
+      <GUID>859C8B6845275D51EE22B8E31FE515CD</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

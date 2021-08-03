@@ -41,14 +41,14 @@
 			<Item Name="Word Example.vi" Type="VI" URL="../Examples/Word Example.vi"/>
 		</Item>
 		<Item Name="lib" Type="Folder">
-			<Item Name="ICSharpCode.SharpZipLib.dll" Type="Document" URL="../lib/NPOI 2.1.1/ICSharpCode.SharpZipLib.dll"/>
-			<Item Name="NPOI.dll" Type="Document" URL="../lib/NPOI 2.1.1/NPOI.dll"/>
-			<Item Name="NPOI.OOXML.dll" Type="Document" URL="../lib/NPOI 2.1.1/NPOI.OOXML.dll"/>
-			<Item Name="NPOI.OOXML.XML" Type="Document" URL="../lib/NPOI 2.1.1/NPOI.OOXML.XML"/>
-			<Item Name="NPOI.OpenXml4Net.dll" Type="Document" URL="../lib/NPOI 2.1.1/NPOI.OpenXml4Net.dll"/>
-			<Item Name="NPOI.OpenXml4Net.XML" Type="Document" URL="../lib/NPOI 2.1.1/NPOI.OpenXml4Net.XML"/>
-			<Item Name="NPOI.OpenXmlFormats.dll" Type="Document" URL="../lib/NPOI 2.1.1/NPOI.OpenXmlFormats.dll"/>
-			<Item Name="NPOI.XML" Type="Document" URL="../lib/NPOI 2.1.1/NPOI.XML"/>
+			<Item Name="ICSharpCode.SharpZipLib.dll" Type="Document" URL="/&lt;vilib&gt;/BenjaminR/LabVIEW NPOI/lib/NPOI 2.1.1/ICSharpCode.SharpZipLib.dll"/>
+			<Item Name="NPOI.dll" Type="Document" URL="/&lt;vilib&gt;/BenjaminR/LabVIEW NPOI/lib/NPOI 2.1.1/NPOI.dll"/>
+			<Item Name="NPOI.OOXML.dll" Type="Document" URL="/&lt;vilib&gt;/BenjaminR/LabVIEW NPOI/lib/NPOI 2.1.1/NPOI.OOXML.dll"/>
+			<Item Name="NPOI.OOXML.XML" Type="Document" URL="/&lt;vilib&gt;/BenjaminR/LabVIEW NPOI/lib/NPOI 2.1.1/NPOI.OOXML.XML"/>
+			<Item Name="NPOI.OpenXml4Net.dll" Type="Document" URL="/&lt;vilib&gt;/BenjaminR/LabVIEW NPOI/lib/NPOI 2.1.1/NPOI.OpenXml4Net.dll"/>
+			<Item Name="NPOI.OpenXml4Net.XML" Type="Document" URL="/&lt;vilib&gt;/BenjaminR/LabVIEW NPOI/lib/NPOI 2.1.1/NPOI.OpenXml4Net.XML"/>
+			<Item Name="NPOI.OpenXmlFormats.dll" Type="Document" URL="/&lt;vilib&gt;/BenjaminR/LabVIEW NPOI/lib/NPOI 2.1.1/NPOI.OpenXmlFormats.dll"/>
+			<Item Name="NPOI.XML" Type="Document" URL="/&lt;vilib&gt;/BenjaminR/LabVIEW NPOI/lib/NPOI 2.1.1/NPOI.XML"/>
 		</Item>
 		<Item Name="Word_Specific.lvlib" Type="Library" URL="../LabVIEW NPOI/Word_Specific.lvlib"/>
 		<Item Name="LabVIEW NPOI.lvlib" Type="Library" URL="../LabVIEW NPOI/LabVIEW NPOI.lvlib"/>
@@ -341,9 +341,6 @@
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="System.Xml" Type="Document" URL="System.Xml">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="shell32.dll" Type="Document" URL="shell32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -354,6 +351,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="System.Xml" Type="Document" URL="System.Xml">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
