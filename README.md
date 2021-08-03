@@ -17,7 +17,7 @@ You can manually download the repository from [GitHub](https://github.com/nissl-
 ## Examples
 Below is a simple example to show how to use the LabVIEW NPOI API to interact with Excel or Word document.
 
-![SimpleDocumentCreationExample](https://github.com/Benji667/LabVIEW_NPOI/blob/bcb686f6b338eb219e46d72dd402a0802e551e9f/docs/img/SimpleDocumentCreationExample.png)
+![SimpleDocumentCreationExample](https://github.com/Benji667/LabVIEW_NPOI/blob/bcb686f6b338eb219e46d72dd402a0802e551e9f/docs/img/SimpleDocumentCreationExample.png?raw=true)
 
 ## Contributing
 See [CONTRIBUTING.md]
