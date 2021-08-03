@@ -22,5 +22,7 @@ Below is a simple example to show how to use the LabVIEW NPOI API to interact wi
 ## Contributing
 See [CONTRIBUTING.md](CONTRIBUTING.md).
 
+Do not hesitate to go on the [Discussions page](https://github.com/Benji667/LabVIEW_NPOI/discussions).
+
 # Author
 BenjaminR
