@@ -1,13 +1,1 @@
-title: LabVIEW NPOI API
-email: benjamin.rouffet@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  This project intends to implement a wrapper of the NPOI assembly to allow MS Office file manipulation in LabVIEW without MS Office installed..
-baseurl: "docs/pages" # the subpath of your site, e.g. /blog
-url: "https://benji667.github.io/LabVIEW_NPOI/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: BenjaminR
-github_username:  Benji667
-
-# Build settings
 theme: jekyll-theme-architect
-plugins:
-  - jekyll-feed
