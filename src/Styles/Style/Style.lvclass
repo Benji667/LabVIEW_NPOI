@@ -30,9 +30,6 @@
 	<Item Name="Style.ctl" Type="Class Private Data" URL="Style.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Palette" Type="Folder">
-		<Item Name="_controls_benjaminr_custom_controls_3.mnu" Type="Document" URL="/&lt;menus&gt;/Controls/BenjaminR/_controls_benjaminr_custom_controls_3.mnu"/>
-	</Item>
 	<Item Name="Protected VIs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		<Item Name="getStyleName.vi" Type="VI" URL="../getStyleName.vi">

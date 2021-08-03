@@ -2,7 +2,6 @@
 <LVClass LVVersion="17008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">LabVIEW NPOI.lvlib</Property>
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../LabVIEW NPOI.lvlib</Property>
-	<Property Name="NI.Lib.DefaultMenu" Type="Str">_controls_benjaminr_custom_controls_1.mnu</Property>
 	<Property Name="NI.Lib.Description" Type="Str">This class handling .xlsx extension files of MS-Excel.</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)+!!!*Q(C=\&gt;4"41-R%)8B"_,!.2WAN0";3!NJ96L)F7.;G"&lt;31E1(UU*;3!PG8T-AS!F1E"$#RJ"^;XM_P+N)M^V,&gt;XK[3BND0#W&gt;$[]8(_`0]4+D,S\7PW4D^?,,[S`LDYM:XWX[&lt;``N&lt;\@(]9HWMY1&lt;;;ER2D'3%1RL+4O+P-C,P-C,P-C40-G40-G40-G$0-C$0-C$0-B.&lt;H+4G^TE*J_&gt;8/1C&amp;TGEIHB2K.CUW+#9$%8&amp;L]*4?!J0Y?&amp;3B;@Q&amp;*\#5XC9IM*4?!J0Y3E],&amp;0B+4S&amp;J`!5(L;;EJK&gt;(%`B98MFHM34?"*0YK'E%E]#3)IF'S?&lt;Q&amp;"S-`G1?"*0YO'D%E`C34S**`&amp;Q7YEH]33?R*.Y7$*0*;&gt;G[?2YW%;"*`!%HM!4?.B;A3@Q"*\!%XAIJ]!4?!*%5$$9()+#2='%Y#,Q""\_+0!%HM!4?!)0N_94CHESCW&lt;JZ(C-RXC-RXC-BSVE0-:D0-:D0'QLYT%?YT%?Y['5D-&gt;YD-&gt;!4&amp;(+SWRG&amp;JJ**D!?@O&lt;&lt;YPG5=EI]O^1PL`KF6,^M[J&gt;)`8+I(\L[9;I@EPLQV9?K0CTV);D`/46;D6%853^?*OL-\R0DS$AQ^IQ&gt;9]P9-.;-V&lt;,USB00Z\./JZ//R[-/BY0W_\VWOZWWW[UWGYX7[\67K^8&lt;V]!$`?U,Y4&gt;],`U+Q[X?V_#-HA%+#\'9!!!!!!</Property>
@@ -252,9 +251,6 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1350578192</Property>
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
-	</Item>
-	<Item Name="Palette" Type="Folder">
-		<Item Name="_controls_benjaminr_custom_controls_1.mnu" Type="Document" URL="/&lt;menus&gt;/Controls/BenjaminR/_controls_benjaminr_custom_controls_1.mnu"/>
 	</Item>
 	<Item Name="Private VIs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
