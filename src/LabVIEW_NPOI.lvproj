@@ -29,6 +29,10 @@
 				<Item Name="Print File.vi" Type="VI" URL="../Support/Print/Print File.vi"/>
 				<Item Name="Wait for Printing To Complete.vi" Type="VI" URL="../Support/Print/Wait for Printing To Complete.vi"/>
 			</Item>
+			<Item Name="Build Support" Type="Folder">
+				<Item Name="Post-Build Custom Action.vi" Type="VI" URL="../Support/Build Support/Post-Build Custom Action.vi"/>
+				<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../Support/Build Support/Post-Install Custom Action.vi"/>
+			</Item>
 			<Item Name="File Stream.lvlib" Type="Library" URL="../Support/File Stream/File Stream.lvlib"/>
 			<Item Name="Styles.lvlib" Type="Library" URL="../Styles/Styles.lvlib"/>
 		</Item>
@@ -133,6 +137,8 @@
 				<Item Name="Create ActiveX Event Queue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Create ActiveX Event Queue.vi"/>
 				<Item Name="Escape Characters for HTTP.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Escape Characters for HTTP.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
+				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace__ogtk.vi"/>

@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-26 00:45:42" Modified_Date="2021-08-02 21:09:40" Creator="Neo" Comments="" ID="4cbe84a56d877b389e82fbbf89649fe6">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-05-26 00:45:42" Modified_Date="2021-08-02 22:38:30" Creator="Neo" Comments="" ID="630ed0c6e2e1209297d84e16043414fa">
   <Library_General_Settings>
     <Package_File_Name>BenjaminR_LabVIEW_NPOI</Package_File_Name>
-    <Library_Version>1.1.0.6</Library_Version>
+    <Library_Version>1.1.0.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\builds</Library_Output_Folder>
@@ -28,7 +28,7 @@
       <Pre-Build_VI/>
       <Post-Build_VI/>
       <Pre-Install_VI/>
-      <Post-Install_VI/>
+      <Post-Install_VI>Support\Build Support\Post-Install Custom Action.vi</Post-Install_VI>
       <Pre-Uninstall_VI/>
       <Post-Uninstall_VI/>
     </Custom_Action_VIs>
@@ -42,6 +42,7 @@
       <Release_Notes>- Add Print document method.
 - Add Convert to HTML for Excel document.
 - Add Append Table As String VIM.
+- Add default palettes for classes within the API.
 - Fix issues.</Release_Notes>
     </Description>
     <Destinations>
@@ -109,6 +110,12 @@
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path>&lt;application&gt;\examples\exbins</Path>
       </Additional_Destination>
+      <Additional_Destination>
+        <Name>Palettes</Name>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path>&lt;application&gt;\menus\Categories\BenjaminR</Path>
+      </Additional_Destination>
     </Destinations>
     <Source_Files>
       <Destination_Overrides>
@@ -147,6 +154,15 @@
       <Exclusions>
         <Path>LabVIEW_NPOI.lvproj</Path>
       </Exclusions>
+      <Exclusions>
+        <Path>Palettes</Path>
+      </Exclusions>
+      <Compile_Exclusions>
+        <Path>Palettes</Path>
+      </Compile_Exclusions>
+      <Compile_Exclusions>
+        <Path>lib/NPOI 2.1.1</Path>
+      </Compile_Exclusions>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>
