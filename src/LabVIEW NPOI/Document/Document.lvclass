@@ -2,6 +2,7 @@
 <LVClass LVVersion="17008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">LabVIEW NPOI.lvlib</Property>
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../LabVIEW NPOI.lvlib</Property>
+	<Property Name="NI.Lib.DefaultMenu" Type="Str">controls_benjaminr_custom_controls.mnu</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)8!!!*Q(C=\&gt;3R&lt;2N"%)8B*]/"5H:A-(8Y7G$ES$$!&amp;C:XR&amp;1B!T5Q,&lt;!&amp;ND!NM!7W=0ZX0;9&amp;#*!%12)%18P=)_`&gt;\=\(P=.*MVV,8`8^J&gt;KS,(0`&lt;X@P`0D]XTV]`DHD([H`T+&lt;0^NE_&gt;LN:HN"?FX!FD2L,5P3E"^U;::=C,`)C,`)C,`)E4`)E4`)E4`)A$`)A$`)A$X+4G^TE*D?ZS?&gt;',H+2CRR35&lt;QI6%R;4&amp;"=$%8&amp;LP!5HM*4?$B5Y3E]B;@Q&amp;"YO5?%J0)7H]"1?BKHQ&amp;*\#5XA+$V..3=W.(%`B98IFHM34?"*0YK'E%E]#3)IF%S?4Q&amp;"S-PG2?"*0YO'H%E`C34S**`&amp;Q7IEH]33?R*.Y'$*8*;&gt;G&lt;/2YG%;"*`!%HM!4?*B;A3@Q"*\!%XAIJ]!4?!*%5$#9()+#1=%&amp;Q5(A#4R]+@!%HM!4?!)0J_9&gt;CLES1T-W=DT'9TT'9TT'QR1S(O-R(O-R(K;6]2C0]2C0]6"+RG-]RG-AJCDF:39T!]V&amp;*D!?0P.J]&lt;R,/37?G^10L`KB6$^M[I&gt;)`8#I&lt;\L[:KJPEHLRV9OK8CTV)KD`H"KNRKC,K!?0#X6G@[)@[1@[HL[D&lt;_E&lt;_JK_'E.@_-,T_;T4[;4D];D$Y;$^@K`&gt;&lt;K@N&gt;KP.:K0V?KX6;H6Z$8RDO\Q1&gt;(0*@^^+0X\2@`\^(M&gt;PU^\"OV&amp;@&gt;,=';`1(_%,\3Q!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">385908736</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.6</Property>
@@ -27,6 +28,9 @@
 </Property>
 	<Item Name="Document.ctl" Type="Class Private Data" URL="Document.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+	</Item>
+	<Item Name="Palette" Type="Folder">
+		<Item Name="controls_benjaminr_custom_controls.mnu" Type="Document" URL="/&lt;menus&gt;/Controls/BenjaminR/controls_benjaminr_custom_controls.mnu"/>
 	</Item>
 	<Item Name="Private VIs" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
