@@ -7,7 +7,7 @@
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="Docuement Type--enum.ctl" Type="VI" URL="../Docuement Type--enum.ctl"/>
-		<Item Name="Picture Type.ctl" Type="VI" URL="../xwpfWriter/Picture Type.ctl"/>
+		<Item Name="Picture Type.ctl" Type="VI" URL="../Picture Type.ctl"/>
 	</Item>
 	<Item Name="Document.lvclass" Type="LVClass" URL="../Document/Document.lvclass"/>
 	<Item Name="MS-Excel.lvclass" Type="LVClass" URL="../MS-Excel/MS-Excel.lvclass"/>
