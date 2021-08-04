@@ -6,7 +6,7 @@ I'm still exploring the capabilities and possibilities of the NPOI interfaces, t
 
 Feel free to drop a message in the [Discussions page](https://github.com/Benji667/LabVIEW_NPOI/discussions) and/or contribute.
 
-##Whast is NPOI?
+## Whast is NPOI?
 
 NPOI is a .NET version of POI Java Project. It is an open source .NET library to read and write Microsoft Office file formats formats (*.xls/xlsx, *.doc/docx, *.ppt/pptx). 
 You can manually download the repository from [GitHub](https://github.com/nissl-lab/npoi) or install from [NuGet](https://www.nuget.org/packages/NPOI/).
