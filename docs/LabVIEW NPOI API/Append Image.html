@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<head>
+    <title>LabVIEW NPOI API - Append Image.vi</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <meta charset='utf-8'/>
+    <meta name='description' content='Documentation website'/>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+    <link href='assets.css' rel='stylesheet' type='text/css'>
+</head>
+<body>  
+  <nav id='sidebar'>
+        <div class="header">
+    	   <img src="img/LabVIEW_NPOI_Logo_Small.png" alt="logo"/>
+            <h1>LabVIEW NPOI API</h1>
+        </div>
+            <ul id='links'> 
+                <li><a href='LabVIEW NPOI API.html'>Home</a></li>
+                <li><a href='LabVIEW NPOI API.html#/overview'>Overview</a></li>
+                <li><a href='LabVIEW NPOI API.html#/prerequisites'>Prerequisites</a></li>
+                <li><a href='LabVIEW NPOI API.html#/installation'>Installation</a></li>
+                <li><a href='LabVIEW NPOI API.html#/examples'>Examples</a></li>
+                <li><a href='LabVIEW NPOI API.html#/componant-api'>Componemt APIs</a></li>
+                <ul>
+                    <li><a href='LabVIEW NPOI API.html#/append-elements'>Append Image</a></li>
+                </ul>
+                <li><a href='LabVIEW NPOI API.html#/legal'>Legal</a></li>
+            </ul>
+    </nav>
+
+    <section id='content' ex>
+
+        <article class=''>
+        <a name='/append-image' href='#/append-image'><h2>Append Image.vi</h2></a>
+            <section class='body'>
+				<P>
+					Appends the image located at <strong>Image File Path</strong> to the <strong>Document</strong>. Only PNG and JPG format are supported.
+				</P>
+				<P><IMG SRC="img/Append Imagec.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Append Image.vi"></P>
+				<Table>
+					<TR valign=TOP>
+						<TD>
+							<P><IMG SRC="img/cerrcodeclst.png" ALT="cerrcodeclst"></P>
+						</TD>
+						<TD>
+							<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+							<P></P>
+							<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+						</TD>
+					</TR>
+				</Table>
+				<UL>
+					<Table>
+						<TR valign=TOP>
+							<TD>
+								<P><IMG SRC="img/cbool.png" ALT="cbool"></P>
+							</TD>
+							<TD>
+								<B>status</B>
+							</TD>
+						</TR>
+					</Table>
+					<Table>
+						<TR valign=TOP>
+						<TD>
+						<P><IMG SRC="img/ci32.png" ALT="ci32"></P>
+						</TD>
+						<TD>
+						<B>code</B>
+						</TD>
+						</TR>
+					</Table>
+					<Table>
+						<TR valign=TOP>
+						<TD>
+						<P><IMG SRC="img/cstr.png" ALT="cstr"></P>
+						</TD>
+						<TD>
+						<B>source</B>
+						</TD>
+						</TR>
+					</Table>
+				</UL>
+			<Table>
+				<TR valign=TOP>
+				<TD>
+				<P><IMG SRC="img/cLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="cLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+				</TD>
+				<TD>
+				<B>Document in</B> <P><B>Document in</B> is a reference to the Document whose appearance, data, and printing you want to control. Use the &quot;New Document&quot; VI or the &quot;Create Document&quot; VI to generate this LabVIEW class object.</P>
+				</TD>
+				</TR>
+			</Table>
+			<Table>
+				<TR valign=TOP>
+				<TD>
+				<P><IMG SRC="img/cpath.png" ALT="cpath"></P>
+				</TD>
+				<TD>
+				<B>Image File Path</B> <P><B>Image File Path</B> designates the path to the linked image. If you move the image, you must update the path.</P>
+				</TD>
+				</TR>
+			</Table>
+			<Table>
+				<TR valign=TOP>
+				<TD>
+				<P><IMG SRC="img/ierrcodeclst.png" ALT="ierrcodeclst"></P>
+				</TD>
+				<TD>
+				<B>error out</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+				<P></P>
+				<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+				</TD>
+				</TR>
+			</Table>
+				<UL>
+				<Table>
+					<TR valign=TOP>
+					<TD>
+					<P><IMG SRC="img/ibool.png" ALT="ibool"></P>
+					</TD>
+					<TD>
+					<B>status</B>
+					</TD>
+					</TR>
+				</Table>
+				<Table>
+					<TR valign=TOP>
+					<TD>
+					<P><IMG SRC="img/ii32.png" ALT="ii32"></P>
+					</TD>
+					<TD>
+					<B>code</B>
+					</TD>
+					</TR>
+				</Table>		
+				<Table>
+				<TR valign=TOP>
+				<TD>
+				<P><IMG SRC="img/istr.png" ALT="istr"></P>
+				</TD>
+				<TD>
+				<B>source</B>
+				</TD>
+				</TR>
+				</Table>
+				</UL>
+				<Table>
+					<TR valign=TOP>
+					<TD>
+					<P><IMG SRC="img/iLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="iLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+					</TD>
+					<TD>
+					<B>Document out</B> <P><B>Document in</B> is a reference to the Document whose appearance, data, and printing you want to control.</P>
+					</TD>
+					</TR>
+				</Table>
+            </section>
+        </article>
+    </body>
+</html>

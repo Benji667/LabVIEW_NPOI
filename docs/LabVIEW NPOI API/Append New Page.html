@@ -1,0 +1,174 @@
+<HTML>
+<HEAD>
+<TITLE>LabVIEW NPOI.lvlib:Document.lvclass:Append New Page.vi</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+<META NAME="Content-Type" CONTENT="text/html; charset=x-mac-roman">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="LabVIEW NPOI.lvlib:Document.lvclass:Append New Page.vi"></A><H2>LabVIEW NPOI.lvlib:Document.lvclass:Append New Page.vi</H2>
+<P>Create new page to the <strong>Document</strong>, nammed <strong>Sheet Name</strong>.</P>
+<P></P>
+<P>The <B>Sheet Name</B> is validated to conform to the worksheet name rules. If you do not wire this input, the VI generates a automatic worksheet name. </P>
+<P><IMG SRC="img/Append New Pagec.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Append New Page.vi"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="img/cerrcodeclst.png" ALT="cerrcodeclst"></P>
+</TD>
+<TD>
+<B>error in (no error)</B> <P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="img/cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="img/ci32.png" ALT="ci32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="img/cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="img/cLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="cLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document in</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="img/cstr.png" ALT="cstr"></P>
+</TD>
+<TD>
+<B>Sheet Name</B> <P>specifies the name for the new worksheet. The <B>Sheet Name</B> is validated to conform to the worksheet name rules. If you do not wire this input, the VI generates a automatic worksheet name. </P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="img/cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Set as active (T)</B> <P>specifies whether or not the created worksheet become the new active worksheet. This behavior will apply even if no worksheet has been created due to the <B>Sheet Name</B> already exists.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="img/ierrcodeclst.png" ALT="ierrcodeclst"></P>
+</TD>
+<TD>
+<B>error out</B> <P>The <B>error out</B> cluster passes error or warning information out of a VI to be used by other VIs.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="img/ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>status</B> <P>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="img/ii32.png" ALT="ii32"></P>
+</TD>
+<TD>
+<B>code</B> <P>The <B>code</B> input identifies the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="img/istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>source</B> <P>The <B>source</B> string describes the origin of the error or warning.</P>
+<P></P>
+<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed.</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="img/iLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="iLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+</TD>
+<TD>
+<B>Document out</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="img/ibool.png" ALT="ibool"></P>
+</TD>
+<TD>
+<B>Created?</B> <P>is TRUE if a worksheet were created.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="img/istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>Created Sheet Name</B> <P>is the newly created worksheet name. If no new worksheet were created the <B>Created Sheet Name</B> returns an empty string.</P>
+</TD>
+</TR>
+</Table>
+</BODY>
+</HTML>
+ML>
