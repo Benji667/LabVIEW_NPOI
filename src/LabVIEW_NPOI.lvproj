@@ -39,7 +39,7 @@
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Excel Example.vi" Type="VI" URL="../examples/BenjaminR/LabVIEW NPOI/Excel Example.vi"/>
 			<Item Name="Word Example.vi" Type="VI" URL="../examples/BenjaminR/LabVIEW NPOI/Word Example.vi"/>
-			<Item Name="Append String Table To Document.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/BenjaminR/LabVIEW NPOI/Append String Table To Document.vi"/>
+			<Item Name="Append String Table To Document.vi" Type="VI" URL="../examples/BenjaminR/LabVIEW NPOI/Append String Table To Document.vi"/>
 			<Item Name="Append Image To Document.vi" Type="VI" URL="../examples/BenjaminR/LabVIEW NPOI/Append Image To Document.vi"/>
 			<Item Name="Append New Page To Document Excel.vi" Type="VI" URL="../examples/BenjaminR/LabVIEW NPOI/Append New Page To Document Excel.vi"/>
 			<Item Name="Append Text To Document Word.vi" Type="VI" URL="../examples/BenjaminR/LabVIEW NPOI/Append Text To Document Word.vi"/>
