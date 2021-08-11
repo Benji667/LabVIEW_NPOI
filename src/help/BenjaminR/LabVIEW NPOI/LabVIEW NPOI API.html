@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<head>
+    <title>LabVIEW NPOI API</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <meta charset='utf-8'/>
+    <meta name='description' content='Documentation website'/>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+    <link href='assets.css' rel='stylesheet' type='text/css'>
+</head>
+<body>  
+	<nav id='sidebar'>
+        <div class="header">
+    	   <img src="img/LabVIEW_NPOI_Logo_Small.png" alt="logo"/>
+            <h1>LabVIEW NPOI API</h1>
+        </div>
+		<ul id='links'> 
+			<li><a href='#/overview'>Overview</a></li>
+			<li><a href='#/prerequisites'>Prerequisites</a></li>
+			<li><a href='#/installation'>Installation</a></li>
+			<li><a href='#/examples'>Examples</a></li>
+			<li><a href='#/componant-api'>Componemt APIs</a></li>
+			<ul>
+				<li><a href='#/open-or-creates'>Open or Create and Close</a></li>
+				<!--
+				<UL>
+					<li><a href='#/open-document'>Open Document</a></li>
+					<li><a href='#/create-new-document'>Create New Document</a></li>
+					<li><a href='#/close-document'>Close Document</a></li>
+				</UL>
+				-->
+				<li><a href='#/append-elements'>Append Elements</a></li>
+				<!--
+				<UL>
+					<li><a href='#/append-text'>Append Text</a></li>
+					<li><a href='#/append-table'>Append Table</a></li>
+					<UL>
+						<li><a href='#/append-table-string'>Append Table (string)</a></li>
+						<li><a href='#/append-table-double'>Append Table (double)</a></li>
+						<li><a href='#/append-table-as-strings'>Append Table As Strings</a></li>
+					</UL>
+					<li><a href='#/append-image'>Append Image</a></li>
+				</UL>
+				-->
+				<li><a href='#/retrieve-elements'>Retrieve Elements</a></li>
+				<li><a href='#/properties'>Properties</a></li>
+				<li><a href='#/excel-specific'>Excel Specific</a></li>
+				<li><a href='#/save-and-print'>Save and Print</a></li>
+			</ul>
+			<li><a href='#/legal'>Legal</a></li>
+		</ul>
+    </nav>
+    <section id='content'>
+
+		<!-- Overview section -->
+        <article class=''>
+        <a name='/overview' href='#/overview'><h2>Overview</h2></a>
+            <section class='body'>
+                <iframe src="Overview.html" 
+						style="border: none"
+						width="960px"
+						height="250px"
+						scrolling="no">
+				</iframe>
+            </section>
+        </article>
+		
+		<!-- Prerequisites section -->
+        <article class=''>
+        <a name='/prerequisites' href='#/prerequisites'><h2>Prerequisites</h2></a>
+            <section class='body'>
+                <iframe src="Prerequisites.html" 
+						style="border: none"
+						width="960px"
+						height="100px"
+						scrolling="no">
+				</iframe>
+            </section>
+        </article>
+
+		<!-- Installation section -->
+        <article class=''>
+        <a name='/installation' href='#/installation'><h2>Installation</h2></a>
+            <section class='body'>
+                <iframe src="Installation.html" 
+						style="border: none"
+						width="960px"
+						height="100px"
+						scrolling="no">
+				</iframe>
+            </section>
+        </article>
+		
+		<!-- Examples section -->
+        <article class=''>
+        <a name='/examples' href='#/examples'><h2>Examples</h2></a>
+            <section class='body'>
+				<iframe src="Examples.html" 
+						style="border: none"
+						width="960px"
+						height="3500px"
+						scrolling="no">
+				</iframe>
+            </section>
+        </article>
+
+		<!-- Component API section -->
+        <article class=''>
+        <a name='/componant-api' href='#/componant-api'><h2>Componant API</h2></a>
+            <section class='body'>
+				<iframe src="Component API.html" 
+						style="border: none"
+						width="960px"
+						height="1000px"
+						scrolling="no">
+				</iframe>
+            </section>
+        </article>
+
+		<!-- Open and Create section -->
+        <article class=''>
+        <a name='/open-or-creates' href='#/open-or-creates'><h2>Open or Create and Close</h2></a>
+            <section class='body'>
+				<section id='subcontent'>
+					<p>
+						The following VIs allow you to Open or Create a (new) document. The call of the Close function is mandatory to close any references that you open or create.
+					</p>
+					<article class=''>
+						<a name='/open-document' href='#/open-document'>Open Document</a>
+						<section class='body'>
+							<iframe src="Open Document.html" 
+									style="border: none"
+									width="960px"
+									height="900px"
+									scrolling="no">
+							</iframe>
+						</section>
+					</article>
+					<article class=''>
+						<a name='/create-new-document' href='#/create-new-document'>Create New Document</a>
+						<section class='body'>
+							<iframe src="Create New Document.html" 
+									style="border: none"
+									width="960px"
+									height="900px"
+									scrolling="no">
+							</iframe>
+						</section>
+					</article>
+					<article class=''>
+						<a name='/close-document' href='#/close-document'>Close Document</a>
+						<section class='body'>
+							<iframe src="Close Document.html" 
+									style="border: none"
+									width="960px"
+									height="750px"
+									scrolling="no">
+							</iframe>
+						</section>
+					</article>
+				</section>
+			</section>
+        </article>
+
+		<!-- Append Elements section -->
+        <article class=''>
+            <a name='/append-elements' href='#/append-elements'><h2>Append Elements</h2></a>
+            <section class='body'>
+				<section id='subcontent'>
+						<p>
+							The following VIs allow you to append elements to the document.
+						</p>
+						<article class=''>
+							<a name='/append-text' href='#/append-text'>Append Text</a>
+							<section class='body'>
+								<iframe src="Append Text.html" 
+										style="border: none"
+										width="960px"
+										height="1300px"
+										scrolling="no">
+								</iframe>
+							</section>
+						</article>
+						<article class=''>
+							<a name='/append-elements-table' href='#/append-elements-table'>Append Table</a>
+							<section class='body'>
+								<article class=''>
+									<a name='/append-table-string' href='#/append-table-string'>Append Table (string)</a>
+									<section class='body'>
+										<iframe src="Append Table (string).html" 
+												style="border: none"
+												width="960px"
+												height="1500px"
+												scrolling="no">
+										</iframe>
+									</section>	
+								</article>
+								<article class=''>
+									<a name='/append-table-double' href='#/append-table-double'>Append Table (double)</a>
+									<section class='body'>
+										<iframe src="Append Table (double).html" 
+												style="border: none"
+												width="960px"
+												height="1500px"
+												scrolling="no">
+										</iframe>
+									</section>	
+								</article>
+								<article class=''>
+									<a name='/append-table-as-strings' href='#/append-table-as-strings'>Append Table As Strings (Malleable VI)</a>
+									<section class='body'>
+										<iframe src="Append Table As Strings.html" 
+												style="border: none"
+												width="960px"
+												height="1600px"
+												scrolling="no">
+										</iframe>
+									</section>	
+								</article>
+							</section>
+						</article>
+						<article class=''>
+							<a name='/append-image' href='#/append-image'>Append Image</a>
+							<section class='body'>
+								<iframe src="Append Image.html" 
+										style="border: none"
+										width="960px"
+										height="900px"
+										scrolling="no">
+								</iframe>
+							</section>
+						</article>
+					</section>
+        </article>
+
+		<!-- Retrieve Elements section -->
+        <article class=''>
+            <a name='/retrieve-elements' href='#/retrieve-elements'><h2>Retrieve Elements</h2></a>
+            <section class='body'>
+				<section id='subcontent'>
+						<p>
+							The following VIs allow you to retrieve elements from the document.
+						</p>
+						<article class=''>
+							<a name='/read-text' href='#/read-text'>Read Text</a>
+							<section class='body'>
+								<iframe src="Read Text.html" 
+										style="border: none"
+										width="960px"
+										height="900px"
+										scrolling="no">
+								</iframe>
+							</section>
+						</article>
+						<article class=''>
+							<a name='/retrieve-elements-table' href='#/retrieve-elements-table'>Read Table</a>
+							<section class='body'>
+								<article class=''>
+									<a name='/read-table-as-string' href='#/read-table-as-string'>Read Table As String</a>
+									<section class='body'>
+										<iframe src="Read Table As String.html" 
+												style="border: none"
+												width="960px"
+												height="950px"
+												scrolling="no">
+										</iframe>
+									</section>	
+								</article>
+								<article class=''>
+									<a name='/read-table-string' href='#/read-table-string'>Read Table (string)</a>
+									<section class='body'>
+										<iframe src="Retrieve Table (string).html" 
+												style="border: none"
+												width="960px"
+												height="900px"
+												scrolling="no">
+										</iframe>
+									</section>	
+								</article>
+								<article class=''>
+									<a name='/read-table-double' href='#/read-table-double'>Read Table (double)</a>
+									<section class='body'>
+										<iframe src="Retrieve Table (double).html" 
+												style="border: none"
+												width="960px"
+												height="900px"
+												scrolling="no">
+										</iframe>
+									</section>	
+								</article>
+							</section>
+						</article>
+					</section>
+        </article>
+
+		<!-- Document Properties section -->
+		<article class=''>
+			<a name='/properties' href='#/properties'><h2>Properties</h2></a>
+			<section class='body'>
+				<article class=''>
+				<a name='/document-properties' href='#/document-properties'>Document Properties</a>
+				<section class='body'>
+					<iframe src="Document Properties.html" 
+							style="border: none"
+							width="960px"
+							height="600px"
+							scrolling="no">
+					</iframe>
+				</section>
+				</article>
+				<article class=''>
+					<a name='/document-property-node' href='#/document-property-node'>Document Property Node</a>
+					<section class='body'>
+						<iframe src="Document Property Node.html" 
+								style="border: none"
+								width="960px"
+								height="1000px"
+								scrolling="no">
+						</iframe>
+					</section>
+				</article>
+			</section>
+        </article>
+        
+		<!-- Excel Specific section -->
+        <article class=''>
+            <a name='/excel-specific' href='#/excel-specific'><h2>Excel Specific</h2></a>
+            <section class='body'>
+				<p>
+					The following VIs allow you to incorporate Microsoft Excel features into the document.
+				</p>
+				<article class=''>
+					<a name='/add-new-page' href='#/add-new-page'>Add New Page</a>
+					<section class='body'>
+						<iframe src="Append New Page.html" 
+								style="border: none"
+								width="960px"
+								height="1100px"
+								scrolling="no">
+						</iframe>
+					</section>
+				</article>
+				<article class=''>
+					<a name='/remove-page' href='#/remove-page'>Remove Page</a>
+					<section class='body'>
+						<iframe src="Remove Page.html" 
+								style="border: none"
+								width="960px"
+								height="1000px"
+								scrolling="no">
+						</iframe>
+					</section>
+				</article>
+			</section>
+        </article>
+
+		<!-- Save And Print section -->
+        <article class=''>
+            <a name='/save-and-print' href='#/save-and-print'><h2>Save And Print</h2></a>
+            <section class='body'>
+				<p>
+					The following VIs allow you to save or print the document.
+				</p>
+				<article class=''>
+					<a name='/save-document' href='#/save-document'>Save Document</a>
+					<section class='body'>
+						<iframe src="Save Document.html" 
+								style="border: none"
+								width="960px"
+								height="850px"
+								scrolling="no">
+						</iframe>
+					</section>
+				</article>
+				<article class=''>
+					<a name='/save-as-document' href='#/save-as-document'>Save As Document</a>
+					<section class='body'>
+						<iframe src="SaveAs Document.html" 
+								style="border: none"
+								width="960px"
+								height="900px"
+								scrolling="no">
+						</iframe>
+					</section>
+				</article>
+				<article class=''>
+					<a name='/convert-to-html' href='#/convert-to-html'>Convert To HTML</a>
+					<section class='body'>
+						<iframe src="Convert To HTML.html" 
+								style="border: none"
+								width="960px"
+								height="1000px"
+								scrolling="no">
+						</iframe>
+					</section>
+				</article>
+				<article class=''>
+					<a name='/print-document' href='#/print-document'>Print Document</a>
+					<section class='body'>
+						<iframe src="Print Document.html" 
+								style="border: none"
+								width="960px"
+								height="1000px"
+								scrolling="no">
+						</iframe>
+					</section>
+				</article>
+			</section>
+        </article>		
+
+		<!-- Legal section -->
+        <article class=''>
+            <a name='/legal' href='#/legal'><h2>Legal</h2></a>
+			<section class='body'>
+				<iframe src="Legal.html" 
+						style="border: none"
+						width="960px"
+						height="200px"
+						scrolling="no">
+				</iframe>
+			</section>
+        </article>		
+		
+      <!--[if lt IE 9]><script src='http://html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
+      <script src='assets.js' type='text/javascript'></script>
+      <script>require('boot');</script>
+
+		<!-- Footer -->
+		<BR>
+		<BR>
+		<div class="footer-basic">
+			<footer>
+				<ul class="list-inline">
+					<li class="list-inline-item"><a href="https://benji667.github.io/LabVIEW_NPOI/index" target="_blank">Project</a></li>
+					<li class="list-inline-item"><a href="https://github.com/Benji667/LabVIEW_NPOI/discussions" target="_blank">Discussions</a></li>
+					<li class="list-inline-item"><a href="https://github.com/Benji667/LabVIEW_NPOI/issues" target="_blank">Issues</a></li>
+					<li class="list-inline-item"><a href="https://github.com/Benji667/LabVIEW_NPOI" target="_blank">Repository</a></li>
+				</ul>
+				<p class="copyright">BenjaminR © 2021</p>
+			</footer>
+		</div>
+		
+    </body>
+</html>
