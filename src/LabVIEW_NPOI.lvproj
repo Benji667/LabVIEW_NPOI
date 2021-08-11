@@ -39,6 +39,10 @@
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Excel Example.vi" Type="VI" URL="../examples/BenjaminR/LabVIEW NPOI/Excel Example.vi"/>
 			<Item Name="Word Example.vi" Type="VI" URL="../examples/BenjaminR/LabVIEW NPOI/Word Example.vi"/>
+			<Item Name="Append String Table To Document.vi" Type="VI" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2017/examples/BenjaminR/LabVIEW NPOI/Append String Table To Document.vi"/>
+			<Item Name="Append Image To Document.vi" Type="VI" URL="../examples/BenjaminR/LabVIEW NPOI/Append Image To Document.vi"/>
+			<Item Name="Append New Page To Document Excel.vi" Type="VI" URL="../examples/BenjaminR/LabVIEW NPOI/Append New Page To Document Excel.vi"/>
+			<Item Name="Append Text To Document Word.vi" Type="VI" URL="../examples/BenjaminR/LabVIEW NPOI/Append Text To Document Word.vi"/>
 		</Item>
 		<Item Name="lib" Type="Folder">
 			<Item Name="ICSharpCode.SharpZipLib.dll" Type="Document" URL="/&lt;vilib&gt;/BenjaminR/LabVIEW NPOI/lib/NPOI 2.1.1/ICSharpCode.SharpZipLib.dll"/>
@@ -139,6 +143,7 @@
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Trim Whitespace__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/Trim Whitespace__ogtk.vi"/>
@@ -356,6 +361,8 @@
 			<Item Name="System.Xml" Type="Document" URL="System.Xml">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="NPOI.OOXML.dll" Type="Document" URL="../lib/NPOI 2.1.1/NPOI.OOXML.dll"/>
+			<Item Name="NPOI.dll" Type="Document" URL="../lib/NPOI 2.1.1/NPOI.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
