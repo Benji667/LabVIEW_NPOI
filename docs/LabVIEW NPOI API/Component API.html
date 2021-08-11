@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <title>LabVIEW NPOI API - Component API</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <meta charset='utf-8'/>
+    <meta name='description' content='LabVIEW NPOI API - Component API'/>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+    <link href='assets.css' rel='stylesheet' type='text/css'>
+</head>
+<body>  
+	<p>
+	   The LabVIEW NPOI API exposes properties and methods to an abstract LVClass called Document. This allows us to have a unique manner to manipulate MS Office document, hiding the complexity of the underneath specific components for each file formar (*.doc, *.docx, *.xls,*.xlsx).  This Document class is a the top of the class hierarchy, that helps us to ensure reliability , scalability, maintainability of the whole library. 
+	</p>
+	<p>
+		The LabVIEW NPOI dynamically handle the file format, based on the file extension that if pass through, to load the propper type of class. This will help the user to carry out tasks as efficiently as possible and to keep focuss on its most important topics.
+	</p>
+	<p>
+		<img src="img/Document Class Diagram.png" width="200px" height="200px">
+	</p>
+	<p>
+		Below if the class diagran show the class hierarchy for decoding the Microsoft Office format.
+	</p>
+	<p>
+		<a class="lightbox" href="#class-diagram">
+			<img src="img/xwpfDocument Class.pngDiagram.png"/>
+		</a> 
+		<div class="lightbox-target" id="class-diagram">
+		   <img src="img/xwpfDocument Class.pngDiagram.png"/>
+		   <a class="lightbox-close" href="#"></a>
+		</div>
+	</p>
+	<p>
+		The LabVIEW NPOI also provides an collection of classes for text formatting purpose. It integrates predefined styles such as heading from H1 to H3 and others and will let the user to easily create his owns.
+	</p>    
+	<p>
+		<img src="img/Style Class  Diagram.png" width="300px" height="200px">
+	</p>
+</body>
+</html>

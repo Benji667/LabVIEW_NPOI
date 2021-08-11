@@ -409,7 +409,48 @@ table {
     border-spacing: 0;
 }
 
+TABLE, TH, TD {
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
 
+TH {
+	text-align: center;
+}
+
+table.subtable {
+	margin: auto;
+	border-collapse: collapse;
+	border: 1px solid #fff; /*for older IE*/
+	border-style: hidden;
+}
+
+table.subtable tr {
+	border-style: hidden;
+	
+}
+
+table.subtable td.name {
+	text-align: left;
+	width: 80px;
+	border-style: hidden;
+}
+
+table.subtable td.terminal {
+	text-align: left;
+	width: 50px;
+	border-style: hidden;
+}
+
+table.subtable td.description {
+	text-align: left;
+	border-style: hidden;
+}
+
+table.subtable td {
+	text-align: left;
+	border-style: hidden;
+}
 
 /* GENERAL */
 html,
@@ -661,6 +702,139 @@ code {
   white-space: pre;
 }
 
+/*Subcontent */
+#subcontent  {
+  padding: 20px;
+  padding-left: 0px;
+  max-width: 700px;
+}
+
+
+#subcontent .control {
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 15px;
+}
+
+#subcontent article {
+  clear: both;
+  margin: 15px 0;
+}
+
+#subcontent article > a {
+  background: #333;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  cursor: pointer;
+  display: block;
+  padding: 15px;
+}
+#subcontent article > a:hover {
+  background: #222;
+  text-decoration: none;
+}
+
+#subcontent a h2 {
+  color: #F6DB37;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+}
+
+#subcontent a h2 code {
+  float: right;
+  font-size: 14px;
+}
+
+#subcontent a h2 code b {
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  color: #fff;
+  font-weight: normal;
+  padding: 3px 6px;
+}
+
+/* Default */
+#subcontent article {
+  border-color: #e2e7ea;
+}
+
+#subcontent article a h2 code {
+  color: #657e8b;
+}
+
+#subcontent article a h2 code b {
+  background: #657e8b;
+  text-transform: uppercase;
+}
+
+/* GET */
+#subcontent article.GET a h2 code {
+  color: #119bdf;
+}
+
+#subcontent article.GET a h2 code b {
+  background: #119bdf;
+}
+
+/* POST */
+#subcontent article.POST a h2 code {
+  color: #52ce0e;
+}
+
+#subcontent article.POST a h2 code b {
+  background: #52ce0e;
+}
+
+/* PUT */
+#subcontent article.PUT a h2 code {
+  color: #e08f10;
+}
+
+#subcontent article.PUT a h2 code b {
+  background: #e08f10;
+}
+
+/* DELETE */
+#subcontent article.DELETE a h2 code {
+  color: #e02a10;
+}
+
+#subcontent article.DELETE a h2 code b {
+  background: #e02a10;
+}
+
+/* Reference's body */
+#subcontent h3 {
+}
+
+#subcontent .body {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-top: 1px solid #eef1f2;
+  box-sizing: border-box;
+  display: block;
+  padding: 15px 15px 0;
+  width: 100%;
+}
+
+#subcontent .body code {
+  border: 1px solid #e2e7ea;
+  background: #eef1f2;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  color: #546974;
+  padding: 0 1px;
+}
+
+#subcontent .body p > code {
+  display: block;
+  padding: 15px;
+  white-space: pre;
+}
 /*Eliminates padding, centers the thumbnail */
 
 body, html {

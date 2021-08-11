@@ -23,13 +23,7 @@
                 <ul>
                     <li><a href='#/open-or-creates'>Open and Create</a></li>
                     <li><a href='#/append-elements'>Append Elements</a></li>
-                        <ul>    
-                            <li><a href='#/append-elements-table'>Append Table</a></li>
-                        </ul>
                     <li><a href='#/retrieve-elements'>Retrieve Elements</a></li>
-                        <ul>    
-                            <li><a href='#/retrieve-elements-table'>Read Table</a></li>
-                        </ul>
                     <li><a href='#/document-properties'>Document Properties</a></li>
                     <li><a href='#/excel-specific'>Excel Specific</a></li>
                     <li><a href='#/save-and-print'>Save and Print</a></li>
@@ -39,182 +33,413 @@
     </nav>
     <section id='content'>
 
-
+		<!-- Overview section -->
         <article class=''>
         <a name='/overview' href='#/overview'><h2>Overview</h2></a>
             <section class='body'>
-                <p>
-                    Many a time, a software application is required to generate reports in Microsoft Excel file format. Sometimes, an application is even expected to receive Excel files as input data.
-                </br>
-                <h2>What is LabVIEW NPOI?</h2>
-                <p>
-                    LabVIEW NPOI is ab API that allows programmers to create, modify, and display MS Office files using LabVIEW programs. It contains classes and methods to decode the user input data or a file into MS Office documents. 
-                </p>
-                <p>
-                    It attempts to provide an high-level API for an easy and fast intagration by handling the interface to the .NET version of the <A href='http://poi.apache.org/'>POI Java project</A> called <A href='https://github.com/nissl-lab/npoi'>NPOI</A>.
-                </p>
+                <iframe src="Overview.html" 
+						style="border: none"
+						width="960px"
+						height="250px"
+						scrolling="no">
+				</iframe>
             </section>
         </article>
-
+		
+		<!-- Prerequisites section -->
         <article class=''>
         <a name='/prerequisites' href='#/prerequisites'><h2>Prerequisites</h2></a>
             <section class='body'>
-                <p>
-                    <ul>
-                        <li><A hrf='https://www.ni.com/en-ca/shop/labview.html'>LabVIEW</A> 2017 (Full,Pro or Community) or later.</li>
-                        <li>Operating Systems: <A hrf='https://www.microsoft.com/en-ca/windows/get-windows-10'>Windows 10</A> (8 but not tested on it).</li>
-                        <li>.NET Standard 2.0 (.NET Core).</li>
-                        <li>.NET Framework 4.0 and above.</li>
-                </p>
+                <iframe src="Prerequisites.html" 
+						style="border: none"
+						width="960px"
+						height="100px"
+						scrolling="no">
+				</iframe>
             </section>
         </article>
 
+		<!-- Installation section -->
         <article class=''>
         <a name='/installation' href='#/installation'><h2>Installation</h2></a>
             <section class='body'>
-                <ol>
-                    <li>Download the latest version of the LabVIEW NPOI VI Package from the <A href='https://github.com/Benji667/LabVIEW_NPOI/releases'>release page</A>.</li>
-                    <li>Use VIPM to install it on your LabVIEW version (2017+).</li>
-                </ol>
+                <iframe src="Installation.html" 
+						style="border: none"
+						width="960px"
+						height="100px"
+						scrolling="no">
+				</iframe>
             </section>
         </article>
-
+		
+		<!-- Examples section -->
         <article class=''>
         <a name='/examples' href='#/examples'><h2>Examples</h2></a>
             <section class='body'>
-                <ul>
-                    <li>
-                        <p><A href='Excel Example.html'>Excel Example.</A></p>
-                        <p><img src="img/Excel Example.png"></p>
-                    </li>
-                    <li>
-                        <p><A href='Word Example.html'>Word Example.</A></p>
-                        <p><img src="img/Word Example.png"></p>
-                    </li>
-                 </ul>
+				<iframe src="Examples.html" 
+						style="border: none"
+						width="960px"
+						height="250px"
+						scrolling="no">
+				</iframe>
             </section>
         </article>
 
+		<!-- Component API section -->
         <article class=''>
         <a name='/componant-api' href='#/componant-api'><h2>Componant API</h2></a>
             <section class='body'>
-                <p>
-                   The LabVIEW NPOI API exposes properties and methods to an abstract LVClass called Document. This allows us to have a unique manner to manipulate MS Office document, hiding the complexity of the underneath specific components for each file formar (*.doc, *.docx, *.xls,*.xlsx).  This Document class is a the top of the class hierarchy, that helps us to ensure reliability , scalability, maintainability of the whole library. 
-                </p>
-                <p>
-                    The LabVIEW NPOI dynamically handle the file format, based on the file extension that if pass through, to load the propper type of class. This will help the user to carry out tasks as efficiently as possible and to keep focuss on its most important topics.
-                </p>
-                <p>
-                    <img src="img/Document Class Diagram.png" width="200px" height="200px">
-                </p>
-                <p>
-                    Below if the class diagran show the class hierarchy for decoding the Microsoft Office format.
-                </p>
-                <p>
-                    <a class="lightbox" href="#class-diagram">
-                        <img src="img/xwpfDocument Class.pngDiagram.png"/>
-                    </a> 
-                    <div class="lightbox-target" id="class-diagram">
-                       <img src="img/xwpfDocument Class.pngDiagram.png"/>
-                       <a class="lightbox-close" href="#"></a>
-                    </div>
-                </p>
-                <p>
-                    The LabVIEW NPOI also provides an collection of classes for text formatting purpose. It integrates predefined styles such as heading from H1 to H3 and others and will let the user to easily create his owns.
-                </p>    
-                <p>
-                    <img src="img/Style Class  Diagram.png" width="100px" height="100px">
-                </p>
+				<iframe src="Component API.html" 
+						style="border: none"
+						width="960px"
+						height="1000px"
+						scrolling="no">
+				</iframe>
             </section>
         </article>
 
+		<!-- Open and Create section -->
         <article class=''>
-        <a name='/open-or-creates' href='#/open-or-creates'><h2>Open and Create</h2></a>
+        <a name='/open-or-creates' href='#/open-or-creates'><h2>Open or Create and Close</h2></a>
             <section class='body'>
-                <h3 id="create-new-document"><A href='Create New Document.html'>Create New Document</A></h3>
-                <h3 id="open-document"><A href='Open Document.html'>Open Document</A></h3>
-            </section>
+				<section id='subcontent'>
+					<p>
+						The following VIs allow you to Open or Create a (new) document. The call of the Close function is mandatory to close any references that you open or create.
+					</p>
+					<article class=''>
+						<a name='/open-document' href='#/open-document'>Open Document</a>
+						<section class='body'>
+							<iframe src="Open Document.html" 
+									style="border: none"
+									width="960px"
+									height="900px"
+									scrolling="no">
+							</iframe>
+						</section>
+					</article>
+					<article class=''>
+						<a name='/create-new-document' href='#/create-new-document'>Create New Document</a>
+						<section class='body'>
+							<iframe src="Create New Document.html" 
+									style="border: none"
+									width="960px"
+									height="900px"
+									scrolling="no">
+							</iframe>
+						</section>
+					</article>
+					<article class=''>
+						<a name='/close-document' href='#/close-document'>Close Document</a>
+						<section class='body'>
+							<iframe src="Close Document.html" 
+									style="border: none"
+									width="960px"
+									height="750px"
+									scrolling="no">
+							</iframe>
+						</section>
+					</article>
+				</section>
+			</section>
         </article>
 
+		<!-- Append Elements section -->
         <article class=''>
             <a name='/append-elements' href='#/append-elements'><h2>Append Elements</h2></a>
             <section class='body'>
-                <h3 id="append-image"><A href='Append Image.html'>Append Image</A></h3>
-                <h3 id="append-text"><A href='Append Text.html'>Append Text</A></h3>
-                <article class=''>
-                <a name='/append-elements-table' href='#/append-elements-table'>Append Table</a>
-                <section class='body'>
-                    <h4 id="append-table-string"><A href='Append Table (string).html'>Append Table (string)</A></h4>
-                    <h4 id="append-table-double"><A href='Append Table (double).html'>Append Table (double)</A></h4>
-                </section>
-                </article>
-            </section>
+				<section id='subcontent'>
+						<p>
+							The following VIs allow you to append elements to the document.
+						</p>
+						<article class=''>
+							<a name='/append-text' href='#/append-text'>Append Text</a>
+							<section class='body'>
+								<iframe src="Append Text.html" 
+										style="border: none"
+										width="960px"
+										height="1300px"
+										scrolling="no">
+								</iframe>
+							</section>
+						</article>
+						<article class=''>
+							<a name='/append-elements-table' href='#/append-elements-table'>Append Table</a>
+							<section class='body'>
+								<article class=''>
+									<a name='/append-table-string' href='#/append-table-string'>Append Table (string)</a>
+									<section class='body'>
+										<iframe src="Append Table (string).html" 
+												style="border: none"
+												width="960px"
+												height="1500px"
+												scrolling="no">
+										</iframe>
+									</section>	
+								</article>
+								<article class=''>
+									<a name='/append-table-double' href='#/append-table-double'>Append Table (double)</a>
+									<section class='body'>
+										<iframe src="Append Table (double).html" 
+												style="border: none"
+												width="960px"
+												height="1500px"
+												scrolling="no">
+										</iframe>
+									</section>	
+								</article>
+							</section>
+						</article>
+						<article class=''>
+							<a name='/append-image' href='#/append-image'>Append Image</a>
+							<section class='body'>
+								<iframe src="Append Image.html" 
+										style="border: none"
+										width="960px"
+										height="900px"
+										scrolling="no">
+								</iframe>
+							</section>
+						</article>
+					</section>
         </article>
 
+		<!-- Retrieve Elements section -->
         <article class=''>
             <a name='/retrieve-elements' href='#/retrieve-elements'><h2>Retrieve Elements</h2></a>
             <section class='body'>
-                <h3 id="read-text"><A href='Read Text.html'>Read Text</A></h3>
-                <article class=''>
-                    <a name='/retrieve-elements-table' href='#/retrieve-elements-table'>Read Table</a>
-                    <section class='body'>
-                        <h4 id="read-table-as-string"><A href='Read Table As String.html'>Read Table As String</A></h4>
-                        <h4 id="read-table-string"><A href='Read Table (string).html'>Read Table (string)</A></h4>
-                        <h4 id="read-table-double"><A href='Read Table (double).html'>Read Table (double)</A></h4>
-                    </section>
-                </article>
-            </section>
+				<section id='subcontent'>
+						<p>
+							The following VIs allow you to retrieve elements from the document.
+						</p>
+						<article class=''>
+							<a name='/read-text' href='#/read-text'>Read Text</a>
+							<section class='body'>
+								<iframe src="Read Text.html" 
+										style="border: none"
+										width="960px"
+										height="900px"
+										scrolling="no">
+								</iframe>
+							</section>
+						</article>
+						<article class=''>
+							<a name='/retrieve-elements-table' href='#/retrieve-elements-table'>Read Table</a>
+							<section class='body'>
+								<article class=''>
+									<a name='/read-table-as-string' href='#/read-table-as-string'>Read Table As String</a>
+									<section class='body'>
+										<iframe src="Read Table As String.html" 
+												style="border: none"
+												width="960px"
+												height="1500px"
+												scrolling="no">
+										</iframe>
+									</section>	
+								</article>
+								<article class=''>
+									<a name='/read-table-string' href='#/read-table-string'>Read Table (string)</a>
+									<section class='body'>
+										<iframe src="Retrieve Table (string).html" 
+												style="border: none"
+												width="960px"
+												height="1500px"
+												scrolling="no">
+										</iframe>
+									</section>	
+								</article>
+								<article class=''>
+									<a name='/read-table-double' href='#/read-table-double'>Read Table (double)</a>
+									<section class='body'>
+										<iframe src="Retrieve Table (double).html" 
+												style="border: none"
+												width="960px"
+												height="1500px"
+												scrolling="no">
+										</iframe>
+									</section>	
+								</article>
+							</section>
+						</article>
+					</section>
         </article>
 
+		<!-- Document Properties section -->
         <article class=''>
-            <a name='/document-properties' href='#/document-properties'><h2>Document Properties</h2></a>
+        <a name='/document-properties' href='#/document-properties'><h2>Document Properties</h2></a>
             <section class='body'>
-                <h3 id="get-file-path"><A href='Get FilePath.html'>Get File Path</A></h3>
-                <h3 id="get-style-collection"><A href='Get Style Collection.html'>Get Style Collection</A></h3>
-                <h3 id="get-style-list"><A href='Get Style List.html'>Get Style List</A></h3>
-                <h3 id="set-document-style"><A href='Set Document Style.html'>Set Document Style</A></h3>
-                <h3 id="set-file-path"><A href='Set FilePath.html'>Set File Path</A></h3>
-                <h3 id="set-style-collection"><A href='Set Style Collection.html'>Set Style Collection</A></h3>
-            </section>
+				<section id='subcontent'>
+					<p>
+						The following VIs allow you to access to the properties of the document.
+					</p>
+					<article class=''>
+						<a name='/get-file-path' href='#/get-file-path'>Get FilePath</a>
+						<section class='body'>
+							<iframe src="Get FilePath.html" 
+									style="border: none"
+									width="960px"
+									height="900px"
+									scrolling="no">
+							</iframe>
+						</section>
+					</article>
+					<article class=''>
+						<a name='/set-file-path' href='#/set-file-path'>Set FilePath</a>
+						<section class='body'>
+							<iframe src="Set FilePath.html" 
+									style="border: none"
+									width="960px"
+									height="900px"
+									scrolling="no">
+							</iframe>
+						</section>
+					</article>
+					<article class=''>
+						<a name='/get-style-collection' href='#/get-style-collection'>Get Style Collection</a>
+						<section class='body'>
+							<iframe src="Get Style Collection.html" 
+									style="border: none"
+									width="960px"
+									height="900px"
+									scrolling="no">
+							</iframe>
+						</section>
+					</article>
+					<article class=''>
+						<a name='/set-style-collection' href='#/set-style-collection'>Set Style Collection</a>
+						<section class='body'>
+							<iframe src="Set Style Collection.html" 
+									style="border: none"
+									width="960px"
+									height="900px"
+									scrolling="no">
+							</iframe>
+						</section>
+					</article>
+					<article class=''>
+						<a name='/get-style-list' href='#/get-style-list'>Get Style List</a>
+						<section class='body'>
+							<iframe src="Get Style List.html" 
+									style="border: none"
+									width="960px"
+									height="900px"
+									scrolling="no">
+							</iframe>
+						</section>
+					</article>
+					<article class=''>
+						<a name='/set-document-style' href='#/set-document-style'>Set Document Style</a>
+						<section class='body'>
+							<iframe src="Set Document Style.html" 
+									style="border: none"
+									width="960px"
+									height="900px"
+									scrolling="no">
+							</iframe>
+						</section>
+					</article>
+				</section>
+			</section>
         </article>
+
+		<!-- Excel Specific section -->
         <article class=''>
             <a name='/excel-specific' href='#/excel-specific'><h2>Excel Specific</h2></a>
             <section class='body'>
-                <h3 id="add-new-page"><A href='Add New Page.html'>Add New Page</A></h3>
-                <h3 id="remove-page"><A href='Remove Page.html'>Remove Page</A></h3>
-            </section>
+				<p>
+					The following VIs allow you to incorporate Microsoft Excel features into the document.
+				</p>
+				<article class=''>
+					<a name='/add-new-page' href='#/add-new-page'>Add New Page</a>
+					<section class='body'>
+						<iframe src="Append New Page.html" 
+								style="border: none"
+								width="960px"
+								height="900px"
+								scrolling="no">
+						</iframe>
+					</section>
+				</article>
+				<article class=''>
+					<a name='/remove-page' href='#/remove-page'>Remove Page</a>
+					<section class='body'>
+						<iframe src="Remove Page.html" 
+								style="border: none"
+								width="960px"
+								height="900px"
+								scrolling="no">
+						</iframe>
+					</section>
+				</article>
+			</section>
         </article>
+
+		<!-- Save And Print section -->
         <article class=''>
             <a name='/save-and-print' href='#/save-and-print'><h2>Save And Print</h2></a>
             <section class='body'>
-                <h3 id="save-document"><A href='Save Document.html'>Save Document</A></h3>
-                <h3 id="save-as-document"><A href='SaveAs Document.html'>Save As Document</A></h3>
-                <h3 id="convert-to-html"><A href='Convert To HTML.html'>Convert To HTML</A></h3>
-                <h3 id="print-document"><A href='Print Document.html'>Print Document</A></h3>
-                <h3 id="close-document"><A href='Close Document.html'>Close Document</A></h3>
-            </section>
-        </article>
+				<p>
+					The following VIs allow you to save or print the document.
+				</p>
+				<article class=''>
+					<a name='/save-document' href='#/save-document'>Save Document</a>
+					<section class='body'>
+						<iframe src="Save Document.html" 
+								style="border: none"
+								width="960px"
+								height="900px"
+								scrolling="no">
+						</iframe>
+					</section>
+				</article>
+				<article class=''>
+					<a name='/save-as-document' href='#/save-as-document'>Save As Document</a>
+					<section class='body'>
+						<iframe src="SaveAs Document.html" 
+								style="border: none"
+								width="960px"
+								height="900px"
+								scrolling="no">
+						</iframe>
+					</section>
+				</article>
+				<article class=''>
+					<a name='/convert-to-html' href='#/convert-to-html'>Convert To HTML</a>
+					<section class='body'>
+						<iframe src="Convert To HTML.html" 
+								style="border: none"
+								width="960px"
+								height="900px"
+								scrolling="no">
+						</iframe>
+					</section>
+				</article>
+				<article class=''>
+					<a name='/print-document' href='#/print-document'>Print Document</a>
+					<section class='body'>
+						<iframe src="Print Document.html" 
+								style="border: none"
+								width="960px"
+								height="900px"
+								scrolling="no">
+						</iframe>
+					</section>
+				</article>
+			</section>
+        </article>		
+
+		<!-- Legal section -->
         <article class=''>
             <a name='/legal' href='#/legal'><h2>Legal</h2></a>
-            <section class='body'>
-                <p>
-                    Zero-Clause BSD
-                </p>
-                <p>
-                    Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted.
-                </p>
-                <p>
-                    THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED
-                    WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR
-                    CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT,
-                    NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-                </p>
-                <p>
-                    Apache POI releases are available under the <A hrf='https://www.apache.org/licenses/LICENSE-2.0'>Apache License, Version 2.0</A>.
-                </p>
-            </section>
-        </article>
-
+			<section class='body'>
+				<iframe src="Legal.html" 
+						style="border: none"
+						width="960px"
+						height="900px"
+						scrolling="no">
+				</iframe>
+			</section>
+        </article>		
+		
       <!--[if lt IE 9]><script src='http://html5shim.googlecode.com/svn/trunk/html5.js'></script><![endif]-->
       <script src='assets.js' type='text/javascript'></script>
       <script>require('boot');</script>
