@@ -1004,3 +1004,7 @@ top: 0;
   color:#aaa;
   margin-bottom:0;
 }
+
+hr.new1 {
+  border-top: 1px solid #191919;
+}

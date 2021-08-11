@@ -9718,3 +9718,65 @@ require.alias("component-jquery/index.js", "boot/deps/jquery/index.js");
 require.alias("filter/index.js", "boot/deps/filter/index.js");
 require.alias("component-jquery/index.js", "filter/deps/jquery/index.js");
 
+function WWW(url) 
+	{
+	urlWindow=window.open(url, "New", "directories=yes,location=yes,menubar=yes,resizable=yes,scrollbars=yes,status=yes,toolbar=yes");
+	urlWindow.focus();
+	}
+
+/* LabVIEW Help Server */
+var objectName;
+var thisPage = location.href;
+
+// we have to send you back to the top of the topic because of a HTML Help API bug when you call a topic with a hash in the URL
+function replaceURL() {
+	if (location.hash == "" )
+		thisPage = location.href;
+	else
+		thisPage = location.pathname;
+	
+	location.replace(thisPage);
+	}
+
+
+function placeObject(objectName) {
+		setTimeout(replaceURL, 500);
+		location.replace("http://127.0.0.1:3580/National%20Instruments/LabVIEW/LabVIEW/17.0/DropControlOrFunction?drop=" + objectName );
+	return false;
+}
+
+function findObject(objectName) {
+		setTimeout(replaceURL, 500);
+		location.replace("http://127.0.0.1:3580/National%20Instruments/LabVIEW/LabVIEW/17.0/HighlightPaletteMenuItem?highlight=" + objectName );
+	return false;
+}
+
+function searchMacUnixHelp() {
+		setTimeout(replaceURL, 500);
+		location.replace("http://127.0.0.1:3580/National%20Instruments/LabVIEW/LabVIEW/17.0/SearchMacUnixHelp");
+	return false;
+}
+
+function openVI(path) {
+		setTimeout(replaceURL, 500);
+		location.replace("http://127.0.0.1:3580/National%20Instruments/LabVIEW/LabVIEW/17.0/OpenVIFromHelp?VI=" + path );
+	return false;
+}
+
+function openLLB(path) {
+		setTimeout(replaceURL, 500);
+		location.replace("http://127.0.0.1:3580/National%20Instruments/LabVIEW/LabVIEW/17.0/OpenVIFromHelp?LLB=" + path );
+	return false;
+}
+
+function openProj(path) {
+		setTimeout(replaceURL, 500);
+		location.replace("http://127.0.0.1:3580/National%20Instruments/LabVIEW/LabVIEW/17.0/OpenVIFromHelp?PROJ=" + path );
+	return false;
+}
+
+function findExamples(categoryID) {
+		setTimeout(replaceURL, 500);
+		location.replace("http://127.0.0.1:3580/National%20Instruments/LabVIEW/LabVIEW/17.0/ExampleFinderCommand?name=leaf&value=" + categoryID );
+	return false;
+}

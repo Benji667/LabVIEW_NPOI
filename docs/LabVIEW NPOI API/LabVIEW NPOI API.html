@@ -21,10 +21,29 @@
 			<li><a href='#/examples'>Examples</a></li>
 			<li><a href='#/componant-api'>Componemt APIs</a></li>
 			<ul>
-				<li><a href='#/open-or-creates'>Open and Create</a></li>
+				<li><a href='#/open-or-creates'>Open or Create and Close</a></li>
+				<!--
+				<UL>
+					<li><a href='#/open-document'>Open Document</a></li>
+					<li><a href='#/create-new-document'>Create New Document</a></li>
+					<li><a href='#/close-document'>Close Document</a></li>
+				</UL>
+				-->
 				<li><a href='#/append-elements'>Append Elements</a></li>
+				<!--
+				<UL>
+					<li><a href='#/append-text'>Append Text</a></li>
+					<li><a href='#/append-table'>Append Table</a></li>
+					<UL>
+						<li><a href='#/append-table-string'>Append Table (string)</a></li>
+						<li><a href='#/append-table-double'>Append Table (double)</a></li>
+						<li><a href='#/append-table-as-strings'>Append Table As Strings</a></li>
+					</UL>
+					<li><a href='#/append-image'>Append Image</a></li>
+				</UL>
+				-->
 				<li><a href='#/retrieve-elements'>Retrieve Elements</a></li>
-				<li><a href='#/document-properties'>Document Properties</a></li>
+				<li><a href='#/properties'>Properties</a></li>
 				<li><a href='#/excel-specific'>Excel Specific</a></li>
 				<li><a href='#/save-and-print'>Save and Print</a></li>
 			</ul>
@@ -79,7 +98,7 @@
 				<iframe src="Examples.html" 
 						style="border: none"
 						width="960px"
-						height="250px"
+						height="3500px"
 						scrolling="no">
 				</iframe>
             </section>
@@ -187,6 +206,17 @@
 										</iframe>
 									</section>	
 								</article>
+								<article class=''>
+									<a name='/append-table-as-strings' href='#/append-table-as-strings'>Append Table As Strings (Malleable VI)</a>
+									<section class='body'>
+										<iframe src="Append Table As Strings.html" 
+												style="border: none"
+												width="960px"
+												height="1600px"
+												scrolling="no">
+										</iframe>
+									</section>	
+								</article>
 							</section>
 						</article>
 						<article class=''>
@@ -264,85 +294,34 @@
         </article>
 
 		<!-- Document Properties section -->
-        <article class=''>
-        <a name='/document-properties' href='#/document-properties'><h2>Document Properties</h2></a>
-            <section class='body'>
-				<section id='subcontent'>
-					<p>
-						The following VIs allow you to access to the properties of the document.
-					</p>
-					<article class=''>
-						<a name='/get-file-path' href='#/get-file-path'>Get FilePath</a>
-						<section class='body'>
-							<iframe src="Get FilePath.html" 
-									style="border: none"
-									width="960px"
-									height="900px"
-									scrolling="no">
-							</iframe>
-						</section>
-					</article>
-					<article class=''>
-						<a name='/set-file-path' href='#/set-file-path'>Set FilePath</a>
-						<section class='body'>
-							<iframe src="Set FilePath.html" 
-									style="border: none"
-									width="960px"
-									height="900px"
-									scrolling="no">
-							</iframe>
-						</section>
-					</article>
-					<!--
-					<article class=''>
-						<a name='/get-style-collection' href='#/get-style-collection'>Get Style Collection</a>
-						<section class='body'>
-							<iframe src="Get Style Collection.html" 
-									style="border: none"
-									width="960px"
-									height="900px"
-									scrolling="no">
-							</iframe>
-						</section>
-					</article>
-					<article class=''>
-						<a name='/set-style-collection' href='#/set-style-collection'>Set Style Collection</a>
-						<section class='body'>
-							<iframe src="Set Style Collection.html" 
-									style="border: none"
-									width="960px"
-									height="900px"
-									scrolling="no">
-							</iframe>
-						</section>
-					</article>
-					-->
-					<article class=''>
-						<a name='/get-style-list' href='#/get-style-list'>Get Style List</a>
-						<section class='body'>
-							<iframe src="Get Style List.html" 
-									style="border: none"
-									width="960px"
-									height="900px"
-									scrolling="no">
-							</iframe>
-						</section>
-					</article>
-					<article class=''>
-						<a name='/set-document-style' href='#/set-document-style'>Set Document Style</a>
-						<section class='body'>
-							<iframe src="Set Document Style.html" 
-									style="border: none"
-									width="960px"
-									height="900px"
-									scrolling="no">
-							</iframe>
-						</section>
-					</article>
+		<article class=''>
+			<a name='/properties' href='#/properties'><h2>Properties</h2></a>
+			<section class='body'>
+				<article class=''>
+				<a name='/document-properties' href='#/document-properties'>Document Properties</a>
+				<section class='body'>
+					<iframe src="Document Properties.html" 
+							style="border: none"
+							width="960px"
+							height="600px"
+							scrolling="no">
+					</iframe>
 				</section>
+				</article>
+				<article class=''>
+					<a name='/document-property-node' href='#/document-property-node'>Document Property Node</a>
+					<section class='body'>
+						<iframe src="Document Property Node.html" 
+								style="border: none"
+								width="960px"
+								height="1000px"
+								scrolling="no">
+						</iframe>
+					</section>
+				</article>
 			</section>
         </article>
-
+        
 		<!-- Excel Specific section -->
         <article class=''>
             <a name='/excel-specific' href='#/excel-specific'><h2>Excel Specific</h2></a>
