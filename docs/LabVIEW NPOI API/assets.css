@@ -960,3 +960,47 @@ max-width: 80%;
 .lightbox-target:target a.lightbox-close {
 top: 0;
 }
+
+/* Footer */
+
+.footer-basic {
+	background: #191919;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: #F6DB37;
+	text-align: center;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:15px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+  display:inline;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
