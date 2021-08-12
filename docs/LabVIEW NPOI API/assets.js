@@ -9739,44 +9739,44 @@ function replaceURL() {
 	}
 
 
-function placeObject(objectName) {
+function placeObject(LVVersion, objectName) {
 		setTimeout(replaceURL, 500);
-		location.replace("http://127.0.0.1:3580/National%20Instruments/LabVIEW/LabVIEW/17.0/DropControlOrFunction?drop=" + objectName );
+		location.replace("http://127.0.0.1:3580/National%20Instruments/LabVIEW/LabVIEW/"+LVVersion+"/DropControlOrFunction?drop=" + objectName );
 	return false;
 }
 
-function findObject(objectName) {
+function findObject(LVVersion, objectName) {
 		setTimeout(replaceURL, 500);
-		location.replace("http://127.0.0.1:3580/National%20Instruments/LabVIEW/LabVIEW/17.0/HighlightPaletteMenuItem?highlight=" + objectName );
+		location.replace("http://127.0.0.1:3580/National%20Instruments/LabVIEW/LabVIEW/"+LVVersion+"/HighlightPaletteMenuItem?highlight=" + objectName );
 	return false;
 }
 
-function searchMacUnixHelp() {
+function searchMacUnixHelp(LVVersion) {
 		setTimeout(replaceURL, 500);
-		location.replace("http://127.0.0.1:3580/National%20Instruments/LabVIEW/LabVIEW/17.0/SearchMacUnixHelp");
+		location.replace("http://127.0.0.1:3580/National%20Instruments/LabVIEW/LabVIEW/"+LVVersion+"/SearchMacUnixHelp");
 	return false;
 }
 
-function openVI(path) {
+function openVI(LVVersion, path) {
 		setTimeout(replaceURL, 500);
-		location.replace("http://127.0.0.1:3580/National%20Instruments/LabVIEW/LabVIEW/17.0/OpenVIFromHelp?VI=" + path );
+		location.replace("http://127.0.0.1:3580/National%20Instruments/LabVIEW/LabVIEW/"+LVVersion+"/OpenVIFromHelp?VI=" + path );
 	return false;
 }
 
-function openLLB(path) {
+function openLLB(LVVersion, path) {
 		setTimeout(replaceURL, 500);
-		location.replace("http://127.0.0.1:3580/National%20Instruments/LabVIEW/LabVIEW/17.0/OpenVIFromHelp?LLB=" + path );
+		location.replace("http://127.0.0.1:3580/National%20Instruments/LabVIEW/LabVIEW/"+LVVersion+"/OpenVIFromHelp?LLB=" + path );
 	return false;
 }
 
-function openProj(path) {
+function openProj(LVVersion, path) {
 		setTimeout(replaceURL, 500);
-		location.replace("http://127.0.0.1:3580/National%20Instruments/LabVIEW/LabVIEW/17.0/OpenVIFromHelp?PROJ=" + path );
+		location.replace("http://127.0.0.1:3580/National%20Instruments/LabVIEW/LabVIEW/"+LVVersion+"/OpenVIFromHelp?PROJ=" + path );
 	return false;
 }
 
-function findExamples(categoryID) {
+function findExamples(LVVersion, categoryID) {
 		setTimeout(replaceURL, 500);
-		location.replace("http://127.0.0.1:3580/National%20Instruments/LabVIEW/LabVIEW/17.0/ExampleFinderCommand?name=leaf&value=" + categoryID );
+		location.replace("http://127.0.0.1:3580/National%20Instruments/LabVIEW/LabVIEW/"+LVVersion+"/ExampleFinderCommand?name=leaf&value=" + categoryID );
 	return false;
 }
