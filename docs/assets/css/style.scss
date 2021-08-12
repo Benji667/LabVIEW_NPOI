@@ -1,8 +1,6 @@
 ---
 ---
-
-@import "jekyll-theme-slate";
-
+@import "{{ site.theme }}";
 
 #forkme_banner {
     display: block;
