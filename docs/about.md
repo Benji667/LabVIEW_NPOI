@@ -1,4 +1,4 @@
-# [LabVIEW NPOI](https://benji667.github.io/LabVIEW_NPOI/) 
+# ![SimpleDocumentCreationExample](LabVIEW NPOI/img/LabVIEW_NPOI_Logo_Small.png) [LabVIEW NPOI](https://benji667.github.io/LabVIEW_NPOI/about) 
 
 This project intends to implement a wrapper of the NPOI assembly that allows MS Office files manipulation in LabVIEW (no MS Office installation required).
 
