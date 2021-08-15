@@ -82,7 +82,7 @@ Notes:
 			<p><IMG SRC="assets/img/cpath.png" ALT="cpath"></p>
 		</TD>
 		<TD>
-			<P>The <B>File Path</B> specifies the location from where you want to open the **Document** and the name of the **Document**.</P>
+			<P>The **File Path** specifies the location from where you want to open the **Document** and the name of the **Document**.</P>
 		</TD>
 	</TR>
 	<tr>
@@ -91,24 +91,24 @@ Notes:
 			<p><IMG SRC="assets/img/cerrcodeclst.png" ALT="cerrcodeclst"></P>
 		</TD>
 		<TD>
-			<P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+			<P>The **error in** cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
 			<P></P>
-			<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+			<P>The pop-up option **Explain Error** (or Explain Warning) gives more information about the error displayed. </P>
 			<table class="subtable">
 				<TR>
 					<TD class="name">status</TD>
 					<TD class="terminal"><IMG SRC="assets/img/cbool.png" ALT="cbool"></TD>
-					<TD>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</TD>
+					<TD>The **status** boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</TD>
 				</TR>
 				<TR>
 					<TD class="name">code</TD>
 					<TD class="terminal"><IMG SRC="assets/img/ci32.png" ALT="ci32"></TD>
-					<TD>The <B>code</B> input identifies the error or warning.</TD>
+					<TD>The **code** input identifies the error or warning.</TD>
 				</TR>
 				<TR>
 					<TD class="name">source</TD>
 					<TD class="terminal"><IMG SRC="assets/img/cstr.png" ALT="cstr"></TD>
-					<TD>The <B>source</B> string describes the origin of the error or warning.</TD>
+					<TD>The **source** string describes the origin of the error or warning.</TD>
 				</TR>
 			</table>
 		</TD>
@@ -119,7 +119,7 @@ Notes:
 			<P><IMG SRC="assets/img/iLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="iLabVIEW_NPOI_lvlib_Documentlvclass"></P>
 		</TD>
 		<TD>
-			<P>The <B>Document out</B> is a reference to the Document whose appearance, data, and printing you want to control.</P>
+			<P>The **Document out** is a reference to the Document whose appearance, data, and printing you want to control.</P>
 		</TD>
 	</TR>
 			<TR>
@@ -128,24 +128,24 @@ Notes:
 			<P><IMG SRC="assets/img/ierrcodeclst.png" ALT="ierrcodeclst"></P>
 		</TD>
 		<TD>
-			<P>The <B>error out</B> t cluster passes error or warning information out of a VI to be used by other VIs. </P>
+			<P>The **error out** t cluster passes error or warning information out of a VI to be used by other VIs. </P>
 			<P></P>
-			<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+			<P>The pop-up option **Explain Error** (or Explain Warning) gives more information about the error displayed. </P>
 			<table class="subtable">
 				<TR>
 					<TD class="name">status</TD>
 					<TD class="terminal"><IMG SRC="assets/img/cbool.png" ALT="cbool"></TD>
-					<TD>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</TD>
+					<TD>The **status** boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</TD>
 				</TR>
 				<TR>
 					<TD class="name">code</TD>
 					<TD class="terminal"><IMG SRC="assets/img/ci32.png" ALT="ci32"></TD>
-					<TD>The <B>code</B> input identifies the error or warning.</TD>
+					<TD>The **code** input identifies the error or warning.</TD>
 				</TR>
 				<TR>
 					<TD class="name">source</TD>
 					<TD class="terminal"><IMG SRC="assets/img/cstr.png" ALT="cstr"></TD>
-					<TD>The <B>source</B> string describes the origin of the error or warning.</TD>
+					<TD>The **source** string describes the origin of the error or warning.</TD>
 				</TR>
 			</table>
 		</TD>
@@ -163,86 +163,86 @@ Notes:
 - If the **File Path** already contains a docuement with the same name then that file is overwritten without warning.
 - The qualified name of this VI is: NPOI.lvlib:Document.lvclass:Create New Document.vi.
 	
-	<Table style="width:960px">
-		<TR style="height:50px">
-			<TH style="width:20%"><H3>Terminal</H3></TH>
-			<TH><H3>Description</H3></TH>
-		</TR>
-		<TR>
-			<TD>
-				<p><B>File Path</B></p>
-				<p><IMG SRC="assets/img/cpath.png" ALT="cpath"></p>
-			</TD>
-			<TD>
-				<P>The <B>File Path</B> specifies the location from where you want to open the **Document** and the name of the **Document**.</P>
-			</TD>
-		</TR>
-		<tr>
-			<TD>
-				<p>error in (no error)</p>
-				<p><IMG SRC="assets/img/cerrcodeclst.png" ALT="cerrcodeclst"></P>
-			</TD>
-			<TD>
-				<P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
-				<P></P>
-				<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
-				<table class="subtable">
-					<TR>
-						<TD class="name">status</TD>
-						<TD class="terminal"><IMG SRC="assets/img/cbool.png" ALT="cbool"></TD>
-						<TD>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</TD>
-					</TR>
-					<TR>
-						<TD class="name">code</TD>
-						<TD class="terminal"><IMG SRC="assets/img/ci32.png" ALT="ci32"></TD>
-						<TD>The <B>code</B> input identifies the error or warning.</TD>
-					</TR>
-					<TR>
-						<TD class="name">source</TD>
-						<TD class="terminal"><IMG SRC="assets/img/cstr.png" ALT="cstr"></TD>
-						<TD>The <B>source</B> string describes the origin of the error or warning.</TD>
-					</TR>
-				</table>
-			</TD>
-		</TR>
-		<TR>
-			<TD>
-				<p>Document out</p>
-				<P><IMG SRC="assets/img/iLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="iLabVIEW_NPOI_lvlib_Documentlvclass"></P>
-			</TD>
-			<TD>
-				<P>The <B>Document out</B> is a reference to the Document whose appearance, data, and printing you want to control.</P>
-			</TD>
-		</TR>
-		<TR>
-			<TD>
-				<p>error out</P>
-				<P><IMG SRC="assets/img/ierrcodeclst.png" ALT="ierrcodeclst"></P>
-			</TD>
-			<TD>
-				<P>The <B>error out</B> t cluster passes error or warning information out of a VI to be used by other VIs. </P>
-				<P></P>
-				<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
-				<table class="subtable">
-					<TR>
-						<TD class="name">status</TD>
-						<TD class="terminal"><IMG SRC="assets/img/cbool.png" ALT="cbool"></TD>
-						<TD>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</TD>
-					</TR>
-					<TR>
-						<TD class="name">code</TD>
-						<TD class="terminal"><IMG SRC="assets/img/ci32.png" ALT="ci32"></TD>
-						<TD>The <B>code</B> input identifies the error or warning.</TD>
-					</TR>
-					<TR>
-						<TD class="name">source</TD>
-						<TD class="terminal"><IMG SRC="assets/img/cstr.png" ALT="cstr"></TD>
-						<TD>The <B>source</B> string describes the origin of the error or warning.</TD>
-					</TR>
-				</table>
-			</TD>
-		</TR>
-	</Table>
+<Table style="width:960px">
+	<TR style="height:50px">
+		<TH style="width:20%"><H3>Terminal</H3></TH>
+		<TH><H3>Description</H3></TH>
+	</TR>
+	<TR>
+		<TD>
+			<p>**File Path**</p>
+			<p><IMG SRC="assets/img/cpath.png" ALT="cpath"></p>
+		</TD>
+		<TD>
+			<P>The **File Path** specifies the location from where you want to open the **Document** and the name of the **Document**.</P>
+		</TD>
+	</TR>
+	<tr>
+		<TD>
+			<p>error in (no error)</p>
+			<p><IMG SRC="assets/img/cerrcodeclst.png" ALT="cerrcodeclst"></P>
+		</TD>
+		<TD>
+			<P>The **error in** cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+			<P></P>
+			<P>The pop-up option **Explain Error** (or Explain Warning) gives more information about the error displayed. </P>
+			<table class="subtable">
+				<TR>
+					<TD class="name">status</TD>
+					<TD class="terminal"><IMG SRC="assets/img/cbool.png" ALT="cbool"></TD>
+					<TD>The **status** boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</TD>
+				</TR>
+				<TR>
+					<TD class="name">code</TD>
+					<TD class="terminal"><IMG SRC="assets/img/ci32.png" ALT="ci32"></TD>
+					<TD>The **code** input identifies the error or warning.</TD>
+				</TR>
+				<TR>
+					<TD class="name">source</TD>
+					<TD class="terminal"><IMG SRC="assets/img/cstr.png" ALT="cstr"></TD>
+					<TD>The **source** string describes the origin of the error or warning.</TD>
+				</TR>
+			</table>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<p>Document out</p>
+			<P><IMG SRC="assets/img/iLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="iLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+		</TD>
+		<TD>
+			<P>The **Document out** is a reference to the Document whose appearance, data, and printing you want to control.</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<p>error out</P>
+			<P><IMG SRC="assets/img/ierrcodeclst.png" ALT="ierrcodeclst"></P>
+		</TD>
+		<TD>
+			<P>The **error out** t cluster passes error or warning information out of a VI to be used by other VIs. </P>
+			<P></P>
+			<P>The pop-up option **Explain Error** (or Explain Warning) gives more information about the error displayed. </P>
+			<table class="subtable">
+				<TR>
+					<TD class="name">status</TD>
+					<TD class="terminal"><IMG SRC="assets/img/cbool.png" ALT="cbool"></TD>
+					<TD>The **status** boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</TD>
+				</TR>
+				<TR>
+					<TD class="name">code</TD>
+					<TD class="terminal"><IMG SRC="assets/img/ci32.png" ALT="ci32"></TD>
+					<TD>The **code** input identifies the error or warning.</TD>
+				</TR>
+				<TR>
+					<TD class="name">source</TD>
+					<TD class="terminal"><IMG SRC="assets/img/cstr.png" ALT="cstr"></TD>
+					<TD>The **source** string describes the origin of the error or warning.</TD>
+				</TR>
+			</table>
+		</TD>
+	</TR>
+</Table>
 
 + Close Document
 <P><IMG SRC="assets/img/Close Documentc.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Close Document.vi"></P>
@@ -254,76 +254,76 @@ Notes:
 
 
 <Table style="width:960px">
-		<TR style="height:50px">
-			<TH style="width:20%"><H3>Terminal</H3></TH>
-			<TH><H3>Description</H3></TH>
-		</TR>
-		<TR>
-			<TD>
-				<p><B>Document in</B></p>
-				<p><IMG SRC="assets/img/cLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="cLabVIEW_NPOI_lvlib_Documentlvclass"></p>
-			</TD>
-			<TD>
-				<P><B>Document in</B> is a reference to the Document whose appearance, data, and printing you want to control. Use the &quot;New Document&quot; VI or the &quot;Create Document&quot; VI to generate this LabVIEW class object.</P>
-			</TD>
-		</TR>
-		<tr>
-			<TD>
-				<p>error in (no error)</p>
-				<p><IMG SRC="assets/img/cerrcodeclst.png" ALT="cerrcodeclst"></P>
-			</TD>
-			<TD>
-				<P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
-				<P></P>
-				<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
-				<table class="subtable">
-					<TR>
-						<TD class="name">status</TD>
-						<TD class="terminal"><IMG SRC="assets/img/cbool.png" ALT="cbool"></TD>
-						<TD>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</TD>
-					</TR>
-					<TR>
-						<TD class="name">code</TD>
-						<TD class="terminal"><IMG SRC="assets/img/ci32.png" ALT="ci32"></TD>
-						<TD>The <B>code</B> input identifies the error or warning.</TD>
-					</TR>
-					<TR>
-						<TD class="name">source</TD>
-						<TD class="terminal"><IMG SRC="assets/img/cstr.png" ALT="cstr"></TD>
-						<TD>The <B>source</B> string describes the origin of the error or warning.</TD>
-					</TR>
-				</table>
-			</TD>
-		</TR>
-		<TR>
-			<TD>
-				<p>error out</P>
-				<P><IMG SRC="assets/img/ierrcodeclst.png" ALT="ierrcodeclst"></P>
-			</TD>
-			<TD>
-				<P>The <B>error out</B> t cluster passes error or warning information out of a VI to be used by other VIs. </P>
-				<P></P>
-				<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
-				<table class="subtable">
-					<TR>
-						<TD class="name">status</TD>
-						<TD class="terminal"><IMG SRC="assets/img/cbool.png" ALT="cbool"></TD>
-						<TD>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</TD>
-					</TR>
-					<TR>
-						<TD class="name">code</TD>
-						<TD class="terminal"><IMG SRC="assets/img/ci32.png" ALT="ci32"></TD>
-						<TD>The <B>code</B> input identifies the error or warning.</TD>
-					</TR>
-					<TR>
-						<TD class="name">source</TD>
-						<TD class="terminal"><IMG SRC="assets/img/cstr.png" ALT="cstr"></TD>
-						<TD>The <B>source</B> string describes the origin of the error or warning.</TD>
-					</TR>
-				</table>
-			</TD>
-		</TR>
-	</Table>
+	<TR style="height:50px">
+		<TH style="width:20%"><H3>Terminal</H3></TH>
+		<TH><H3>Description</H3></TH>
+	</TR>
+	<TR>
+		<TD>
+			<p>**Document in**</p>
+			<p><IMG SRC="assets/img/cLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="cLabVIEW_NPOI_lvlib_Documentlvclass"></p>
+		</TD>
+		<TD>
+			<P>**Document in** is a reference to the Document whose appearance, data, and printing you want to control. Use the &quot;New Document&quot; VI or the &quot;Create Document&quot; VI to generate this LabVIEW class object.</P>
+		</TD>
+	</TR>
+	<tr>
+		<TD>
+			<p>error in (no error)</p>
+			<p><IMG SRC="assets/img/cerrcodeclst.png" ALT="cerrcodeclst"></P>
+		</TD>
+		<TD>
+			<P>The **error in** cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+			<P></P>
+			<P>The pop-up option **Explain Error** (or Explain Warning) gives more information about the error displayed. </P>
+			<table class="subtable">
+				<TR>
+					<TD class="name">status</TD>
+					<TD class="terminal"><IMG SRC="assets/img/cbool.png" ALT="cbool"></TD>
+					<TD>The **status** boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</TD>
+				</TR>
+				<TR>
+					<TD class="name">code</TD>
+					<TD class="terminal"><IMG SRC="assets/img/ci32.png" ALT="ci32"></TD>
+					<TD>The **code** input identifies the error or warning.</TD>
+				</TR>
+				<TR>
+					<TD class="name">source</TD>
+					<TD class="terminal"><IMG SRC="assets/img/cstr.png" ALT="cstr"></TD>
+					<TD>The **source** string describes the origin of the error or warning.</TD>
+				</TR>
+			</table>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<p>error out</P>
+			<P><IMG SRC="assets/img/ierrcodeclst.png" ALT="ierrcodeclst"></P>
+		</TD>
+		<TD>
+			<P>The **error out** t cluster passes error or warning information out of a VI to be used by other VIs. </P>
+			<P></P>
+			<P>The pop-up option **Explain Error** (or Explain Warning) gives more information about the error displayed. </P>
+			<table class="subtable">
+				<TR>
+					<TD class="name">status</TD>
+					<TD class="terminal"><IMG SRC="assets/img/cbool.png" ALT="cbool"></TD>
+					<TD>The **status** boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</TD>
+				</TR>
+				<TR>
+					<TD class="name">code</TD>
+					<TD class="terminal"><IMG SRC="assets/img/ci32.png" ALT="ci32"></TD>
+					<TD>The **code** input identifies the error or warning.</TD>
+				</TR>
+				<TR>
+					<TD class="name">source</TD>
+					<TD class="terminal"><IMG SRC="assets/img/cstr.png" ALT="cstr"></TD>
+					<TD>The **source** string describes the origin of the error or warning.</TD>
+				</TR>
+			</table>
+		</TD>
+	</TR>
+</Table>
 
 ## Append Elements
 
