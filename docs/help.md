@@ -65,7 +65,6 @@ The following VIs allow you to Open or Create a (new) document. The call of the 
 + Open Document
 
 <P><IMG SRC="assets/img/Open Documentc.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Open Document.vi"></P>
-
 			<P></P>
 			<P>Opens the <strong>Document</strong> file located at <strong>File Path</strong> for reading.</P>
 		</DT>
