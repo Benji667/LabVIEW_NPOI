@@ -9,18 +9,13 @@ layout: default
 
 ## Overview
 
-<p>
-	Many a time, a software application is required to generate reports in Microsoft Excel file format. Sometimes, an application is even expected to receive Excel files as input data.
-</p>
+Many a time, a software application is required to generate reports in Microsoft Excel file format. Sometimes, an application is even expected to receive Excel files as input data.
 
 ### What is LabVIEW NPOI?
 
-<p>
-	LabVIEW NPOI is ab API that allows programmers to create, modify, and display MS Office files using LabVIEW programs. It contains classes and methods to decode the user input data or a file into MS Office documents. 
-</p>
-<p>
-	It attempts to provide an high-level API for an easy and fast intagration by handling the interface to the .NET version of the <A href='http://poi.apache.org/'>POI Java project</A> called <A href='https://github.com/nissl-lab/npoi'>NPOI</A>.
-</p>
+LabVIEW NPOI is ab API that allows programmers to create, modify, and display MS Office files using LabVIEW programs. It contains classes and methods to decode the user input data or a file into MS Office documents. 
+
+It attempts to provide an high-level API for an easy and fast intagration by handling the interface to the .NET version of the <A href='http://poi.apache.org/'>POI Java project</A> called <A href='https://github.com/nissl-lab/npoi'>NPOI</A>.
 
 ## Prerequisites
 
