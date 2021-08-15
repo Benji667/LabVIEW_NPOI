@@ -63,21 +63,14 @@ Demonstrates how to add formatted texts to an MS Word document.
 The following VIs allow you to Open or Create a (new) document. The call of the Close function is mandatory to close any references that you open or create.
 
 + Open Document
-<DL>
 <P><IMG SRC="assets/img/Open Documentc.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Open Document.vi"></P>
-			<P></P>
-			<P>Opens the <strong>Document</strong> file located at <strong>File Path</strong> for reading.</P>
-		</DT>
-		<DT>
-		<P><i>Notes</i> :</P>
-		</DT>
-			<DD>
-				<P>- If <strong>File Path</strong> is empty (default) or is &lt;Not A Path&gt; or is a directory, error 7 is returned.</P>
-			</DD>
-			<DD>
-				<p>- The qualified name of this VI is: NPOI.lvlib:Document.lvclass:Open Document.vi.</p>
-			</DD>
-	</DL>
+
+Opens the **Document** file located at **File Path** for reading.
+
+Notes:
+- If **File Path** is empty (default) or is &lt;Not A Path&gt; or is a directory, error 7 is returned.
+- The qualified name of this VI is: NPOI.lvlib:Document.lvclass:Open Document.vi.
+
 <Table style="width:960px">
 	<TR style="height:50px">
 		<TH style="width:20%"><H3>Terminal</H3></TH>
@@ -89,7 +82,7 @@ The following VIs allow you to Open or Create a (new) document. The call of the 
 			<p><IMG SRC="assets/img/cpath.png" ALT="cpath"></p>
 		</TD>
 		<TD>
-			<P>The <B>File Path</B> specifies the location from where you want to open the <strong>Document</strong> and the name of the <strong>Document</strong>.</P>
+			<P>The <B>File Path</B> specifies the location from where you want to open the **Document** and the name of the **Document**.</P>
 		</TD>
 	</TR>
 	<tr>
@@ -160,24 +153,16 @@ The following VIs allow you to Open or Create a (new) document. The call of the 
 </Table>
 
 + Create New Document
-<DL>
+
 <P><IMG SRC="assets/img/Create New Documentc.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Create New Document.vi"></P>
-			<P></P>
-			<P>Creates a new <strong>Document</strong> at the <strong>File Path</strong> location. Use save to persist your changes.</P>
-		</DT>
-		<DT>
-		<P><i>Notes</i> :</P>
-		</DT>
-			<DD>
-				<P>- If <strong>File Path</strong> is empty (default) or is &lt;Not A Path&gt; or is a directory, the VI displays a dialog box from which the user can select a file. Error 43 occurs if you cancel the dialog box. </P>
-			</DD>
-			<DD>
-				<P>- If the <strong>File Path</strong> already contains a docuement with the same name then that file is overwritten without warning.</P>
-			</DD>
-			<DD>
-				<p>- The qualified name of this VI is: NPOI.lvlib:Document.lvclass:Create New Document.vi.</p>
-			</DD>
-	</DL>
+			
+Creates a new **Document** at the **File Path** location. Use save to persist your changes.
+
+Notes:
+- If **File Path** is empty (default) or is &lt;Not A Path&gt; or is a directory, the VI displays a dialog box from which the user can select a file. Error 43 occurs if you cancel the dialog box.
+- If the **File Path** already contains a docuement with the same name then that file is overwritten without warning.
+- The qualified name of this VI is: NPOI.lvlib:Document.lvclass:Create New Document.vi.
+	
 	<Table style="width:960px">
 		<TR style="height:50px">
 			<TH style="width:20%"><H3>Terminal</H3></TH>
@@ -189,7 +174,7 @@ The following VIs allow you to Open or Create a (new) document. The call of the 
 				<p><IMG SRC="assets/img/cpath.png" ALT="cpath"></p>
 			</TD>
 			<TD>
-				<P>The <B>File Path</B> specifies the location from where you want to open the <strong>Document</strong> and the name of the <strong>Document</strong>.</P>
+				<P>The <B>File Path</B> specifies the location from where you want to open the **Document** and the name of the **Document**.</P>
 			</TD>
 		</TR>
 		<tr>
@@ -260,18 +245,13 @@ The following VIs allow you to Open or Create a (new) document. The call of the 
 	</Table>
 
 + Close Document
-<DL>
 <P><IMG SRC="assets/img/Close Documentc.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Close Document.vi"></P>
-			<P></P>
-			<P>Closes any references that you open or create for the <strong>Document</strong>.</P>
-		</DT>
-		<DT>
-		<P><i>Notes</i> :</P>
-		</DT>
-			<DD>
-				<p>- The qualified name of this VI is: NPOI.lvlib:Document.lvclass:Close Document.vi.</p>
-			</DD>
-	</DL>
+
+Closes any references that you open or create for the **Document**.
+
+Notes:
+- The qualified name of this VI is: NPOI.lvlib:Document.lvclass:Close Document.vi.
+
 
 <Table style="width:960px">
 		<TR style="height:50px">
