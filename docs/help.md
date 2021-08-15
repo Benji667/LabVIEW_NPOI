@@ -63,7 +63,7 @@ Demonstrates how to add formatted texts to an MS Word document.
 The following VIs allow you to Open or Create a (new) document. The call of the Close function is mandatory to close any references that you open or create.
 
 + Open Document
-
+<DL>
 <P><IMG SRC="assets/img/Open Documentc.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Open Document.vi"></P>
 			<P></P>
 			<P>Opens the <strong>Document</strong> file located at <strong>File Path</strong> for reading.</P>
@@ -160,7 +160,7 @@ The following VIs allow you to Open or Create a (new) document. The call of the 
 </Table>
 
 + Create New Document
-
+<DL>
 <P><IMG SRC="assets/img/Create New Documentc.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Create New Document.vi"></P>
 			<P></P>
 			<P>Creates a new <strong>Document</strong> at the <strong>File Path</strong> location. Use save to persist your changes.</P>
@@ -260,7 +260,7 @@ The following VIs allow you to Open or Create a (new) document. The call of the 
 	</Table>
 
 + Close Document
-
+<DL>
 <P><IMG SRC="assets/img/Close Documentc.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Close Document.vi"></P>
 			<P></P>
 			<P>Closes any references that you open or create for the <strong>Document</strong>.</P>
