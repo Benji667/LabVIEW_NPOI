@@ -2,6 +2,6 @@ theme: jekyll-theme-slate
 
 defaults:
   - scope:
-      path: "LabVIEW NPOI API/img"
+      path: "assets/img"
     values:
       image: true
