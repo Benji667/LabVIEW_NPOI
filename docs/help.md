@@ -64,24 +64,13 @@ The following VIs allow you to Open or Create a (new) document. The call of the 
 
 #### Open Document
 
-<DL>
-		<DT>
-			<A NAME="LabVIEW NPOI.lvlib:Document.lvclass:Open Document.vi"></A>
-			<H2>Open Document.vi</H2>
-			<P><IMG SRC="img/Open Documentc.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Open Document.vi"></P>
-			<P></P>
-			<P>Opens the <strong>Document</strong> file located at <strong>File Path</strong> for reading.</P>
-		</DT>
-		<DT>
-		<P><i>Notes</i> :</P>
-		</DT>
-			<DD>
-				<P>- If <strong>File Path</strong> is empty (default) or is &lt;Not A Path&gt; or is a directory, error 7 is returned.</P>
-			</DD>
-			<DD>
-				<p>- The qualified name of this VI is: NPOI.lvlib:Document.lvclass:Open Document.vi.</p>
-			</DD>
-	</DL>
+* Open Document.vi
+Opens the **Document** file located at **File Path** for reading.
+
+Notes:
+- If **File Path** is empty (default) or is <Not A Path> or is a directory, error 7 is returned.
+- The qualified name of this VI is: NPOI.lvlib:Document.lvclass:Open Document.vi.
+
 	<Table style="width:960px">
 		<TR style="height:50px">
 			<TH style="width:20%"><H3>Terminal</H3></TH>
@@ -90,7 +79,7 @@ The following VIs allow you to Open or Create a (new) document. The call of the 
 		<TR>
 			<TD>
 				<p>File Path</p>
-				<p><IMG SRC="img/cpath.png" ALT="cpath"></p>
+				<p><IMG SRC="assets/img/cpath.png" ALT="cpath"></p>
 			</TD>
 			<TD>
 				<P>The <B>File Path</B> specifies the location from where you want to open the <strong>Document</strong> and the name of the <strong>Document</strong>.</P>
