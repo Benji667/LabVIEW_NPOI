@@ -12,8 +12,9 @@ layout: default
 <p>
 	Many a time, a software application is required to generate reports in Microsoft Excel file format. Sometimes, an application is even expected to receive Excel files as input data.
 </p>
-</br>
-<h2>What is LabVIEW NPOI?</h2>
+
+### What is LabVIEW NPOI?
+
 <p>
 	LabVIEW NPOI is ab API that allows programmers to create, modify, and display MS Office files using LabVIEW programs. It contains classes and methods to decode the user input data or a file into MS Office documents. 
 </p>
@@ -23,15 +24,66 @@ layout: default
 
 ## Prerequisites
 
-<section class="body"><iframe src="/LabVIEW NPOI API/Prerequisites.html" style="border: none" width="960px" height="100px" scrolling="no"></iframe></section>
+<p>
+	<ul>
+		<li>
+			<a href='https://www.ni.com/en-ca/shop/labview.html'>LabVIEW</a> 2017 (Full,Pro or Community) or later.
+		</li>
+		<li>Operating Systems: <a href='https://www.microsoft.com/en-ca/windows/get-windows-10'>Windows 10</a> (8 but not tested on it).</li>
+		<li>.NET Framework 4.0 and above.</li>
+	</ul>
+</p>
 
 ## Installation
 
-<section class="body"><iframe src="/LabVIEW NPOI API/Installation.html" style="border: none" width="960px" height="100px" scrolling="no"></iframe></section>
+<p>
+	<ol>
+		<li>Download the latest version of the LabVIEW NPOI VI Package from the <A href='https://github.com/Benji667/LabVIEW_NPOI/releases'>release page</A>.</li>
+		<li>Use VIPM to install it on your LabVIEW version (2017+).</li>
+	</ol>
+</p>
 
 ## Examples
 
-<section class="body"><iframe src="/LabVIEW NPOI API/Examples.html" style="border: none" width="960px" height="3500px" scrolling="no"></iframe></section>
+<p>
+	<DL>
+		<DT>
+			<A NAME="Append String Table To Document.vi"></A>
+			<H2>Append String Table To Document.vi</H2>
+			<P>Demonstrates how to add string table to an MS Office document.</P>
+			<P><IMG SRC="img/Append_String_Table_To_Documentp.png" ALT="Append String Table To Document.vi"></P>
+			<P><IMG SRC="img/Append_String_Table_To_Documentd.png" ALT="Append String Table To Document.vi"></P>
+			<P><a href="javascript:openVI('LVVersion', 'examples%5C%5CBenjaminR%5C%5CLabVIEW%20NPOI%5C%5CAppend%20String%20Table%20To%20Document.vi');">Open This Example</a></P>
+		</DT>
+		<hr class="new1">
+		<DT>
+			<A NAME="Append Image To Document.vi"></A>
+			<H2>Append Image To Document.vi</H2>
+			<P>Demonstrates how to add an image to an MS Office document.</P>
+			<P><IMG SRC="img/Append_Image_To_Documentp.png" ALT="Append Image To Document.vi"></P>
+			<P><IMG SRC="img/Append_Image_To_Documentd.png" ALT="Append Image To Document.vi"></P>
+			<P><a href="javascript:openVI('LVVersion', 'examples%5C%5CBenjaminR%5C%5CLabVIEW%20NPOI%5C%5CAppend%20Image%20To%20Document.vi');">Open This Example</a></P>
+		</DT>
+		<hr class="new1">
+		<DT>
+			<A NAME="Append New Page To Document (Excel).vi"></A>
+			<H2>Append New Page To Document (Excel).vi</H2>
+			<P>Demonstrates how to add a page to an MS Excel document.</P>
+			<P><IMG SRC="img/Append_New_Page_To_Document_(Excel)p.png" ALT="Append New Page To Document (Excel).vi"></P>
+			<P><IMG SRC="img/Append_New_Page_To_Document_(Excel)d.png" ALT="Append New Page To Document (Excel).vi"></P>
+			<P><a href="javascript:openVI('LVVersion', 'examples%5C%5CBenjaminR%5C%5CLabVIEW%20NPOI%5C%5CAppend%20New%20Page%20To%20Document%20Excel.vi');">Open This Example</a></P>
+		</DT>
+		<hr class="new1">
+		<DT>
+			<A NAME="Append Text To Document Word.vi"></A>
+			<H2>Append Text To Document Word.vi</H2>
+			<P>Demonstrates how to add formatted texts to an MS Word document.</P>
+			<P><IMG SRC="img/Append_Text_To_Document_(Word)p.png" ALT="Append Text To Document (Word).vi"></P>
+			<P><IMG SRC="img/Append_Text_To_Document_(Word)d.png" ALT="Append Text To Document (Word).vi"></P>
+			<P><a href="javascript:openVI('LVVersion', 'examples%5C%5CBenjaminR%5C%5CLabVIEW%20NPOI%5C%5CAppend%20Text%20To%20Document%20Word.vi');">Open This Example</a></P>
+		</DT>
+	</DL>
+</p>
 
 ## Componant API
 
