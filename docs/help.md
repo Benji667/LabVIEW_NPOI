@@ -46,7 +46,7 @@ It attempts to provide an high-level API for an easy and fast intagration by han
 			<A NAME="Append String Table To Document.vi"></A>
 			<H2>Append String Table To Document.vi</H2>
 			<P>Demonstrates how to add string table to an MS Office document.</P>
-			![Append String Table To Document.vi](https://github.com/Benji667/LabVIEW_NPOI/blob/gp/docs/LabVIEW%20NPOI%20API/img/Append_String_Table_To_Documentp.png?raw=true)
+			<p>![AppendStringTableToDocument](https://github.com/Benji667/LabVIEW_NPOI/blob/gp/docs/LabVIEW%20NPOI%20API/img/Append_String_Table_To_Documentp.png?raw=true)</p>
 		</DT>
 		<hr class="new1">
 		<DT>
