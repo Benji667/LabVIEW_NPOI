@@ -64,13 +64,114 @@ The following VIs allow you to Open or Create a (new) document. The call of the 
 
 #### Open Document
 
-* Open Document.vi
+<P><IMG SRC="assets/img/Open Documentc.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Open Document.vi"></P>
+
 Opens the **Document** file located at **File Path** for reading.
 
 Notes:
 - If **File Path** is empty (default) or is <Not A Path> or is a directory, error 7 is returned.
 - The qualified name of this VI is: NPOI.lvlib:Document.lvclass:Open Document.vi.
 
+<Table style="width:960px">
+	<TR style="height:50px">
+		<TH style="width:20%"><H3>Terminal</H3></TH>
+		<TH><H3>Description</H3></TH>
+	</TR>
+	<TR>
+		<TD>
+			<p>File Path</p>
+			<p><IMG SRC="assets/img/cpath.png" ALT="cpath"></p>
+		</TD>
+		<TD>
+			<P>The <B>File Path</B> specifies the location from where you want to open the <strong>Document</strong> and the name of the <strong>Document</strong>.</P>
+		</TD>
+	</TR>
+	<tr>
+		<TD>
+			<p>error in (no error)</p>
+			<p><IMG SRC="assets/img/cerrcodeclst.png" ALT="cerrcodeclst"></P>
+		</TD>
+		<TD>
+			<P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+			<P></P>
+			<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+			<table class="subtable">
+				<TR>
+					<TD class="name">status</TD>
+					<TD class="terminal"><IMG SRC="assets/img/cbool.png" ALT="cbool"></TD>
+					<TD>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</TD>
+				</TR>
+				<TR>
+					<TD class="name">code</TD>
+					<TD class="terminal"><IMG SRC="assets/img/ci32.png" ALT="ci32"></TD>
+					<TD>The <B>code</B> input identifies the error or warning.</TD>
+				</TR>
+				<TR>
+					<TD class="name">source</TD>
+					<TD class="terminal"><IMG SRC="assets/img/cstr.png" ALT="cstr"></TD>
+					<TD>The <B>source</B> string describes the origin of the error or warning.</TD>
+				</TR>
+			</table>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<p>Document out</p>
+			<P><IMG SRC="assets/img/iLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="iLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+		</TD>
+		<TD>
+			<P>The <B>Document out</B> is a reference to the Document whose appearance, data, and printing you want to control.</P>
+		</TD>
+	</TR>
+			<TR>
+		<TD>
+			<p>error out</P>
+			<P><IMG SRC="assets/img/ierrcodeclst.png" ALT="ierrcodeclst"></P>
+		</TD>
+		<TD>
+			<P>The <B>error out</B> t cluster passes error or warning information out of a VI to be used by other VIs. </P>
+			<P></P>
+			<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+			<table class="subtable">
+				<TR>
+					<TD class="name">status</TD>
+					<TD class="terminal"><IMG SRC="assets/img/cbool.png" ALT="cbool"></TD>
+					<TD>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</TD>
+				</TR>
+				<TR>
+					<TD class="name">code</TD>
+					<TD class="terminal"><IMG SRC="assets/img/ci32.png" ALT="ci32"></TD>
+					<TD>The <B>code</B> input identifies the error or warning.</TD>
+				</TR>
+				<TR>
+					<TD class="name">source</TD>
+					<TD class="terminal"><IMG SRC="assets/img/cstr.png" ALT="cstr"></TD>
+					<TD>The <B>source</B> string describes the origin of the error or warning.</TD>
+				</TR>
+			</table>
+		</TD>
+	</TR>
+</Table>
+
+#### Create New Document
+
+<P><IMG SRC="assets/img/Create New Documentc.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Create New Document.vi"></P>
+			<P></P>
+			<P>Creates a new <strong>Document</strong> at the <strong>File Path</strong> location. Use save to persist your changes.</P>
+		</DT>
+		<DT>
+		<P><i>Notes</i> :</P>
+		</DT>
+			<DD>
+				<P>- If <strong>File Path</strong> is empty (default) or is &lt;Not A Path&gt; or is a directory, the VI displays a dialog box from which the user can select a file. Error 43 occurs if you cancel the dialog box. </P>
+			</DD>
+			<DD>
+				<P>- If the <strong>File Path</strong> already contains a docuement with the same name then that file is overwritten without warning.</P>
+			</DD>
+			<DD>
+				<p>- The qualified name of this VI is: NPOI.lvlib:Document.lvclass:Create New Document.vi.</p>
+			</DD>
+	</DL>
 	<Table style="width:960px">
 		<TR style="height:50px">
 			<TH style="width:20%"><H3>Terminal</H3></TH>
@@ -78,7 +179,7 @@ Notes:
 		</TR>
 		<TR>
 			<TD>
-				<p>File Path</p>
+				<p><B>File Path</B></p>
 				<p><IMG SRC="assets/img/cpath.png" ALT="cpath"></p>
 			</TD>
 			<TD>
@@ -122,7 +223,7 @@ Notes:
 				<P>The <B>Document out</B> is a reference to the Document whose appearance, data, and printing you want to control.</P>
 			</TD>
 		</TR>
-				<TR>
+		<TR>
 			<TD>
 				<p>error out</P>
 				<P><IMG SRC="assets/img/ierrcodeclst.png" ALT="ierrcodeclst"></P>
@@ -151,10 +252,6 @@ Notes:
 			</TD>
 		</TR>
 	</Table>
-
-#### Create New Document
-
-<section class="body"><iframe src="/LabVIEW NPOI API/Create New Document.html" style="border: none" width="960px" height="900px" scrolling="no"></iframe></section>
 
 #### Close Document
 
