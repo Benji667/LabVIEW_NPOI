@@ -88,7 +88,7 @@ Notes:
 		<tr>
 			<TD>
 				<p>error in (no error)</p>
-				<p><IMG SRC="img/cerrcodeclst.png" ALT="cerrcodeclst"></P>
+				<p><IMG SRC="assets/img/cerrcodeclst.png" ALT="cerrcodeclst"></P>
 			</TD>
 			<TD>
 				<P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
@@ -97,17 +97,17 @@ Notes:
 				<table class="subtable">
 					<TR>
 						<TD class="name">status</TD>
-						<TD class="terminal"><IMG SRC="img/cbool.png" ALT="cbool"></TD>
+						<TD class="terminal"><IMG SRC="assets/img/cbool.png" ALT="cbool"></TD>
 						<TD>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</TD>
 					</TR>
 					<TR>
 						<TD class="name">code</TD>
-						<TD class="terminal"><IMG SRC="img/ci32.png" ALT="ci32"></TD>
+						<TD class="terminal"><IMG SRC="assets/img/ci32.png" ALT="ci32"></TD>
 						<TD>The <B>code</B> input identifies the error or warning.</TD>
 					</TR>
 					<TR>
 						<TD class="name">source</TD>
-						<TD class="terminal"><IMG SRC="img/cstr.png" ALT="cstr"></TD>
+						<TD class="terminal"><IMG SRC="assets/img/cstr.png" ALT="cstr"></TD>
 						<TD>The <B>source</B> string describes the origin of the error or warning.</TD>
 					</TR>
 				</table>
@@ -116,7 +116,7 @@ Notes:
 		<TR>
 			<TD>
 				<p>Document out</p>
-				<P><IMG SRC="img/iLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="iLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+				<P><IMG SRC="assets/img/iLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="iLabVIEW_NPOI_lvlib_Documentlvclass"></P>
 			</TD>
 			<TD>
 				<P>The <B>Document out</B> is a reference to the Document whose appearance, data, and printing you want to control.</P>
@@ -125,7 +125,7 @@ Notes:
 				<TR>
 			<TD>
 				<p>error out</P>
-				<P><IMG SRC="img/ierrcodeclst.png" ALT="ierrcodeclst"></P>
+				<P><IMG SRC="assets/img/ierrcodeclst.png" ALT="ierrcodeclst"></P>
 			</TD>
 			<TD>
 				<P>The <B>error out</B> t cluster passes error or warning information out of a VI to be used by other VIs. </P>
@@ -134,17 +134,17 @@ Notes:
 				<table class="subtable">
 					<TR>
 						<TD class="name">status</TD>
-						<TD class="terminal"><IMG SRC="img/cbool.png" ALT="cbool"></TD>
+						<TD class="terminal"><IMG SRC="assets/img/cbool.png" ALT="cbool"></TD>
 						<TD>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</TD>
 					</TR>
 					<TR>
 						<TD class="name">code</TD>
-						<TD class="terminal"><IMG SRC="img/ci32.png" ALT="ci32"></TD>
+						<TD class="terminal"><IMG SRC="assets/img/ci32.png" ALT="ci32"></TD>
 						<TD>The <B>code</B> input identifies the error or warning.</TD>
 					</TR>
 					<TR>
 						<TD class="name">source</TD>
-						<TD class="terminal"><IMG SRC="img/cstr.png" ALT="cstr"></TD>
+						<TD class="terminal"><IMG SRC="assets/img/cstr.png" ALT="cstr"></TD>
 						<TD>The <B>source</B> string describes the origin of the error or warning.</TD>
 					</TR>
 				</table>
