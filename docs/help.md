@@ -522,19 +522,742 @@ The following VIs allow you to append elements to the document.
 
 - Append Table (string)
 
-<section class="body"><iframe src="/LabVIEW NPOI API/Append Table (string).html" style="border: none" width="960px" height="1500px" scrolling="no"></iframe></section>
+<DL>
+	<DT>
+		<P><IMG SRC="assets/imgAppend Table (string)c.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Append Table (string).vi"></P>
+		<P></P>
+		<P>Appends the wired <strong>Table</strong> as 2D array of strings to the <strong>Document</strong> as a table. Wire data to the <B>Table</B> input to determine the polymorphic instance to use or manually select the instance.</P>
+	</DT>
+	<DT>
+	<P><i>Notes</i> :</P>
+	</DT>
+		<DD>
+			<p>- The qualified name of this VI is: NPOI.lvlib:Document.lvclass:Append Table (string).vi.</p>
+		</DD>
+</DL>
+<Table style="width:960px">
+	<TR style="height:50px">
+		<TH style="width:20%"><H3>Terminal</H3></TH>
+		<TH><H3>Description</H3></TH>
+	</TR>
+	<TR>
+		<TD>
+			<p><B>Document in</B></p>
+			<p><IMG SRC="assets/imgcLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="cLabVIEW_NPOI_lvlib_Documentlvclass"></p>
+		</TD>
+		<TD>
+			<P><B>Document in</B> is a reference to the Document whose appearance, data, and printing you want to control. Use the &quot;New Document&quot; VI or the &quot;Create Document&quot; VI to generate this LabVIEW class object.</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<p><B>Table</B></p>
+			<p><IMG SRC="assets/imgc2dstr.png" ALT="cstr"></p>
+		</TD>
+		<TD>
+			<P><B>Table</B> contains the data of the table inserted into the <B>Docuement</B>.</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<p>Column Headers</p>
+			<p><IMG SRC="assets/imgc1dstr.png" ALT="c1dstr"></p>
+		</TD>
+		<TD>
+			<P><B>Column Headers</B> determines how each column is labeled in the table. </P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<p>Row Headers</p>
+			<p><IMG SRC="assets/imgc1dstr.png" ALT="c1dstr"></p>
+		</TD>
+		<TD>
+			<P><B>Row Headers</B> determines how each row is labeled in the table. </P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<p>Style</p>
+			<p><IMG SRC="assets/imgccclst.png" ALT="ccclst"></p>
+		</TD>
+		<TD>
+			<P><strong>Style</strong> indicates how the text appears in the Document.</P>
+			<table class="subtable">
+				<TR>
+					<TD class="name">Name</TD>
+					<TD class="terminal"><IMG SRC="assets/imgcstr.png" ALT="cstr"></TD>
+					<TD colspan="2">The <B>Name</B> is the style name.</TD>
+				</TR>
+				<TR>
+					<TD class="name">Font</TD>
+					<TD class="terminal"><IMG SRC="assets/imgccclst.png" ALT="ccclst"></TD>
+					<TD colspan="2">The <B>Font</B> indicates the font settings used for the Paragraph.</TD>
+				</TR>
+				<TR>
+					<TD> </TD>
+					<TD colspan="2">
+						<BR>
+						The <B>Font</B> cluster is composed of:
+					</TD>
+				</TR>
+				<TR>
+					<TD> </TD>
+				</TR>
+				<TR>
+					<TD></TD>
+					<TD class="name">Name</TD>
+					<TD class="terminal"><IMG SRC="assets/imgcstr.png" ALT="cstr"></TD>
+					<TD>The <B>Name</B> indicates the name of the font used, such as Times New Roman.</TD>
+				</TR>
+				<TR>
+					<TD></TD>
+					<TD class="name">Size</TD>
+					<td class="terminal"><IMG SRC="assets/imgci32.png" ALT="ci32"></TD>
+					<TD>The <B>Size</B> indicates the size of the font used.</TD>	
+				</TR>
+				<TR>
+					<TD></TD>
+					<TD class="name">Bold</TD>
+					<td class="terminal"><IMG SRC="assets/imgcbool.png" ALT="cbool"></TD>
+					<TD>The <B>Bold</B> indicates whether the text is in bold.</TD>
+				</TR>
+				<TR>
+					<TD></TD>
+					<TD class="name">Italic</TD>
+					<td class="terminal"><IMG SRC="assets/imgcbool.png" ALT="cbool"></TD>
+					<TD>The <B>Italic</B> indicates whether the text is in italics.</TD>
+				</TR>
+				<TR>
+					<TD></TD>
+					<TD class="name">Underline</TD>
+					<td class="terminal"><IMG SRC="assets/imgcbool.png" ALT="cbool"></TD>
+					<TD>The <B>Underline</B> indicates whether the text is underlined.</TD>
+				</TR>
+				<TR>
+					<TD></TD>
+					<TD class="name">Strike</TD>
+					<td class="terminal"><IMG SRC="assets/imgcbool.png" ALT="cbool"></TD>
+					<TD>The <B>Strike</B> indicates whether the text is struck through.</TD>
+				</TR>
+				<TR>
+					<TD></TD>
+					<TD class="name">Color</TD>
+					<td class="terminal"><IMG SRC="assets/imgcu32.png" ALT="cu32"></TD>
+					<TD>The <B>Color</B> indicates the color of the text.</TD>
+				</TR>
+				<TR>
+					<TD></TD>
+					<TD class="name">Alignment</TD>
+					<td class="terminal"><IMG SRC="assets/imgcu32.png" ALT="cu32"></TD>
+					<TD>The <B>Alignment</B> indicates the text alignment.</TD>
+				</TR>
+				<TR>
+					<TD><BR></TD>
+				</TR>
+			</Table>
+		</TD>
+	</TR>
+
+	</tr>
+	<tr>
+		<TD>
+			<p>error in (no error)</p>
+			<p><IMG SRC="assets/imgcerrcodeclst.png" ALT="cerrcodeclst"></P>
+		</TD>
+		<TD>
+			<P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+			<P></P>
+			<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+			<table class="subtable">
+				<TR>
+					<TD class="name">status</TD>
+					<TD class="terminal"><IMG SRC="assets/imgcbool.png" ALT="cbool"></TD>
+					<TD>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</TD>
+				</TR>
+				<TR>
+					<TD class="name">code</TD>
+					<TD class="terminal"><IMG SRC="assets/imgci32.png" ALT="ci32"></TD>
+					<TD>The <B>code</B> input identifies the error or warning.</TD>
+				</TR>
+				<TR>
+					<TD class="name">source</TD>
+					<TD class="terminal"><IMG SRC="assets/imgcstr.png" ALT="cstr"></TD>
+					<TD>The <B>source</B> string describes the origin of the error or warning.</TD>
+				</TR>
+			</table>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<p>Document out</p>
+			<P><IMG SRC="assets/imgiLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="iLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+		</TD>
+		<TD>
+			<P>The <B>Document out</B> is a reference to the Document whose appearance, data, and printing you want to control.</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<p>error out</P>
+			<P><IMG SRC="assets/imgierrcodeclst.png" ALT="ierrcodeclst"></P>
+		</TD>
+		<TD>
+			<P>The <B>error out</B> t cluster passes error or warning information out of a VI to be used by other VIs. </P>
+			<P></P>
+			<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+			<table class="subtable">
+				<TR>
+					<TD class="name">status</TD>
+					<TD class="terminal"><IMG SRC="assets/imgcbool.png" ALT="cbool"></TD>
+					<TD>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</TD>
+				</TR>
+				<TR>
+					<TD class="name">code</TD>
+					<TD class="terminal"><IMG SRC="assets/imgci32.png" ALT="ci32"></TD>
+					<TD>The <B>code</B> input identifies the error or warning.</TD>
+				</TR>
+				<TR>
+					<TD class="name">source</TD>
+					<TD class="terminal"><IMG SRC="assets/imgcstr.png" ALT="cstr"></TD>
+					<TD>The <B>source</B> string describes the origin of the error or warning.</TD>
+				</TR>
+			</table>
+		</TD>
+	</TR>
+</Table>
 
 -- Append Table (double)
 
-<section class="body"><iframe src="/LabVIEW NPOI API/Append Table (double).html" style="border: none" width="960px" height="1500px" scrolling="no"></iframe></section>
+<DL>
+	<DT>
+		<A NAME="LabVIEW NPOI.lvlib:Document.lvclass:Append Table _double_.vi"></A>
+		<H2>Append Table (double).vi</H2>
+		<P><IMG SRC="assets/imgAppend Table (double)c.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Append Table (double).vi"></P>
+		<P></P>
+		<P>Appends the wired <strong>Table</strong> as 2D array of doubles to the <strong>Document</strong> as a table. Wire data to the <B>Table</B> input to determine the polymorphic instance to use or manually select the instance.</P>
+	</DT>
+	<DT>
+	<P><i>Notes</i> :</P>
+	</DT>
+		<DD>
+			<p>- The qualified name of this VI is: NPOI.lvlib:Document.lvclass:Append Table (double).vi.</p>
+		</DD>
+</DL>
+<Table style="width:960px">
+	<TR style="height:50px">
+		<TH style="width:20%"><H3>Terminal</H3></TH>
+		<TH><H3>Description</H3></TH>
+	</TR>
+	<TR>
+		<TD>
+			<p><B>Document in</B></p>
+			<p><IMG SRC="assets/imgcLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="cLabVIEW_NPOI_lvlib_Documentlvclass"></p>
+		</TD>
+		<TD>
+			<P><B>Document in</B> is a reference to the Document whose appearance, data, and printing you want to control. Use the &quot;New Document&quot; VI or the &quot;Create Document&quot; VI to generate this LabVIEW class object.</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<p><B>Table</B></p>
+			<p><IMG SRC="assets/imgcdbl.png" ALT="cdbl"></p>
+		</TD>
+		<TD>
+			<P><B>Table</B> contains the data of the table inserted into the <B>Docuement</B>.</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<p>Column Headers</p>
+			<p><IMG SRC="assets/imgc1dstr.png" ALT="c1dstr"></p>
+		</TD>
+		<TD>
+			<P><B>Column Headers</B> determines how each column is labeled in the table. </P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<p>Row Headers</p>
+			<p><IMG SRC="assets/imgc1dstr.png" ALT="c1dstr"></p>
+		</TD>
+		<TD>
+			<P><B>Row Headers</B> determines how each row is labeled in the table. </P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<p>Style</p>
+			<p><IMG SRC="assets/imgccclst.png" ALT="ccclst"></p>
+		</TD>
+		<TD>
+			<P><strong>Style</strong> indicates how the text appears in the Document.</P>
+			<table class="subtable">
+				<TR>
+					<TD class="name">Name</TD>
+					<TD class="terminal"><IMG SRC="assets/imgcstr.png" ALT="cstr"></TD>
+					<TD colspan="2">The <B>Name</B> is the style name.</TD>
+				</TR>
+				<TR>
+					<TD class="name">Font</TD>
+					<TD class="terminal"><IMG SRC="assets/imgccclst.png" ALT="ccclst"></TD>
+					<TD colspan="2">The <B>Font</B> indicates the font settings used for the Paragraph.</TD>
+				</TR>
+				<TR>
+					<TD> </TD>
+					<TD colspan="2">
+						<BR>
+						The <B>Font</B> cluster is composed of:
+					</TD>
+				</TR>
+				<TR>
+					<TD> </TD>
+				</TR>
+				<TR>
+					<TD></TD>
+					<TD class="name">Name</TD>
+					<TD class="terminal"><IMG SRC="assets/imgcstr.png" ALT="cstr"></TD>
+					<TD>The <B>Name</B> indicates the name of the font used, such as Times New Roman.</TD>
+				</TR>
+				<TR>
+					<TD></TD>
+					<TD class="name">Size</TD>
+					<td class="terminal"><IMG SRC="assets/imgci32.png" ALT="ci32"></TD>
+					<TD>The <B>Size</B> indicates the size of the font used.</TD>	
+				</TR>
+				<TR>
+					<TD></TD>
+					<TD class="name">Bold</TD>
+					<td class="terminal"><IMG SRC="assets/imgcbool.png" ALT="cbool"></TD>
+					<TD>The <B>Bold</B> indicates whether the text is in bold.</TD>
+				</TR>
+				<TR>
+					<TD></TD>
+					<TD class="name">Italic</TD>
+					<td class="terminal"><IMG SRC="assets/imgcbool.png" ALT="cbool"></TD>
+					<TD>The <B>Italic</B> indicates whether the text is in italics.</TD>
+				</TR>
+				<TR>
+					<TD></TD>
+					<TD class="name">Underline</TD>
+					<td class="terminal"><IMG SRC="assets/imgcbool.png" ALT="cbool"></TD>
+					<TD>The <B>Underline</B> indicates whether the text is underlined.</TD>
+				</TR>
+				<TR>
+					<TD></TD>
+					<TD class="name">Strike</TD>
+					<td class="terminal"><IMG SRC="assets/imgcbool.png" ALT="cbool"></TD>
+					<TD>The <B>Strike</B> indicates whether the text is struck through.</TD>
+				</TR>
+				<TR>
+					<TD></TD>
+					<TD class="name">Color</TD>
+					<td class="terminal"><IMG SRC="assets/imgcu32.png" ALT="cu32"></TD>
+					<TD>The <B>Color</B> indicates the color of the text.</TD>
+				</TR>
+				<TR>
+					<TD></TD>
+					<TD class="name">Alignment</TD>
+					<td class="terminal"><IMG SRC="assets/imgcu32.png" ALT="cu32"></TD>
+					<TD>The <B>Alignment</B> indicates the text alignment.</TD>
+				</TR>
+				<TR>
+					<TD><BR></TD>
+				</TR>
+			</Table>
+		</TD>
+	</TR>
+
+	</tr>
+	<tr>
+		<TD>
+			<p>error in (no error)</p>
+			<p><IMG SRC="assets/imgcerrcodeclst.png" ALT="cerrcodeclst"></P>
+		</TD>
+		<TD>
+			<P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+			<P></P>
+			<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+			<table class="subtable">
+				<TR>
+					<TD class="name">status</TD>
+					<TD class="terminal"><IMG SRC="assets/imgcbool.png" ALT="cbool"></TD>
+					<TD>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</TD>
+				</TR>
+				<TR>
+					<TD class="name">code</TD>
+					<TD class="terminal"><IMG SRC="assets/imgci32.png" ALT="ci32"></TD>
+					<TD>The <B>code</B> input identifies the error or warning.</TD>
+				</TR>
+				<TR>
+					<TD class="name">source</TD>
+					<TD class="terminal"><IMG SRC="assets/imgcstr.png" ALT="cstr"></TD>
+					<TD>The <B>source</B> string describes the origin of the error or warning.</TD>
+				</TR>
+			</table>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<p>Document out</p>
+			<P><IMG SRC="assets/imgiLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="iLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+		</TD>
+		<TD>
+			<P>The <B>Document out</B> is a reference to the Document whose appearance, data, and printing you want to control.</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<p>error out</P>
+			<P><IMG SRC="assets/imgierrcodeclst.png" ALT="ierrcodeclst"></P>
+		</TD>
+		<TD>
+			<P>The <B>error out</B> t cluster passes error or warning information out of a VI to be used by other VIs. </P>
+			<P></P>
+			<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+			<table class="subtable">
+				<TR>
+					<TD class="name">status</TD>
+					<TD class="terminal"><IMG SRC="assets/imgcbool.png" ALT="cbool"></TD>
+					<TD>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</TD>
+				</TR>
+				<TR>
+					<TD class="name">code</TD>
+					<TD class="terminal"><IMG SRC="assets/imgci32.png" ALT="ci32"></TD>
+					<TD>The <B>code</B> input identifies the error or warning.</TD>
+				</TR>
+				<TR>
+					<TD class="name">source</TD>
+					<TD class="terminal"><IMG SRC="assets/imgcstr.png" ALT="cstr"></TD>
+					<TD>The <B>source</B> string describes the origin of the error or warning.</TD>
+				</TR>
+			</table>
+		</TD>
+	</TR>
+</Table>
 
 - Append Table As Strings (Malleable VI)
 
-<section class="body"><iframe src="/LabVIEW NPOI API/Append Table As Strings.html" style="border: none" width="960px" height="1600px" scrolling="no"></iframe></section>
+<DL>
+	<DT>
+		<A NAME="LabVIEW NPOI.lvlib:Document.lvclass:Append Table As Strings.vim"></A>
+		<H2>Append Table As Strings.vim</H2>
+		<P><IMG SRC="assets/imgAppend Table As Stringsc.png" ALT="Append Table As Strings.vim"></P>
+		<P></P>
+		<P>Appends the wired <B>Table</B> as strings to the <B>Document</B>.</P>
+	</DT>
+	<DT>
+	<P><i>Notes</i> :</P>
+	</DT>
+		<DD>
+			<P>- As a malleable VI (.vim) this VI is inlined into its calling VI and can adapt each terminal to its corresponding input data type.</P>
+		</DD>
+		<DD>
+			<P>- The following data types will be formatted to strings: 2D or 1D array of strings, all numerics (except Fixed-Point), timestamp, and Boolean. All other data types will cause a broken wire and broken run arrow.</P>
+		</DD>
+		<DD>
+			<p>- The qualified name of this VI is: NPOI.lvlib:Document.lvclass:Append Table As Strings.vim.</p>
+		</DD>
+</DL>
+<Table style="width:960px">
+	<TR style="height:50px">
+		<TH style="width:20%"><H3>Terminal</H3></TH>
+		<TH><H3>Description</H3></TH>
+	</TR>
+	<TR>
+		<TD>
+			<p><B>Document in</B></p>
+			<p><IMG SRC="assets/imgcLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="cLabVIEW_NPOI_lvlib_Documentlvclass"></p>
+		</TD>
+		<TD>
+			<P><B>Document in</B> is a reference to the Document whose appearance, data, and printing you want to control. Use the &quot;New Document&quot; VI or the &quot;Create Document&quot; VI to generate this LabVIEW class object.</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<p><B>Table</B></p>
+			<p><IMG SRC="assets/imgc2dstr.png" ALT="cstr"></p>
+		</TD>
+		<TD>
+			<P><B>Table</B> contains the data of the table inserted into the <B>Docuement</B>.</P>
+			<P>This input accepts a 2D or 1D array of strings, all numerics (except Fixed-Point), timestamp, and Boolean. All other data types will cause a broken wire and broken run arrow.</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<p>Column Headers</p>
+			<p><IMG SRC="assets/imgc1dstr.png" ALT="c1dstr"></p>
+		</TD>
+		<TD>
+			<P><B>Column Headers</B> determines how each column is labeled in the table. </P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<p>Row Headers</p>
+			<p><IMG SRC="assets/imgc1dstr.png" ALT="c1dstr"></p>
+		</TD>
+		<TD>
+			<P><B>Row Headers</B> determines how each row is labeled in the table. </P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<p>Style</p>
+			<p><IMG SRC="assets/imgccclst.png" ALT="ccclst"></p>
+		</TD>
+		<TD>
+			<P><strong>Style</strong> indicates how the text appears in the Document.</P>
+			<table class="subtable">
+				<TR>
+					<TD class="name">Name</TD>
+					<TD class="terminal"><IMG SRC="assets/imgcstr.png" ALT="cstr"></TD>
+					<TD colspan="2">The <B>Name</B> is the style name.</TD>
+				</TR>
+				<TR>
+					<TD class="name">Font</TD>
+					<TD class="terminal"><IMG SRC="assets/imgccclst.png" ALT="ccclst"></TD>
+					<TD colspan="2">The <B>Font</B> indicates the font settings used for the Paragraph.</TD>
+				</TR>
+				<TR>
+					<TD> </TD>
+					<TD colspan="2">
+						<BR>
+						The <B>Font</B> cluster is composed of:
+					</TD>
+				</TR>
+				<TR>
+					<TD> </TD>
+				</TR>
+				<TR>
+					<TD></TD>
+					<TD class="name">Name</TD>
+					<TD class="terminal"><IMG SRC="assets/imgcstr.png" ALT="cstr"></TD>
+					<TD>The <B>Name</B> indicates the name of the font used, such as Times New Roman.</TD>
+				</TR>
+				<TR>
+					<TD></TD>
+					<TD class="name">Size</TD>
+					<td class="terminal"><IMG SRC="assets/imgci32.png" ALT="ci32"></TD>
+					<TD>The <B>Size</B> indicates the size of the font used.</TD>	
+				</TR>
+				<TR>
+					<TD></TD>
+					<TD class="name">Bold</TD>
+					<td class="terminal"><IMG SRC="assets/imgcbool.png" ALT="cbool"></TD>
+					<TD>The <B>Bold</B> indicates whether the text is in bold.</TD>
+				</TR>
+				<TR>
+					<TD></TD>
+					<TD class="name">Italic</TD>
+					<td class="terminal"><IMG SRC="assets/imgcbool.png" ALT="cbool"></TD>
+					<TD>The <B>Italic</B> indicates whether the text is in italics.</TD>
+				</TR>
+				<TR>
+					<TD></TD>
+					<TD class="name">Underline</TD>
+					<td class="terminal"><IMG SRC="assets/imgcbool.png" ALT="cbool"></TD>
+					<TD>The <B>Underline</B> indicates whether the text is underlined.</TD>
+				</TR>
+				<TR>
+					<TD></TD>
+					<TD class="name">Strike</TD>
+					<td class="terminal"><IMG SRC="assets/imgcbool.png" ALT="cbool"></TD>
+					<TD>The <B>Strike</B> indicates whether the text is struck through.</TD>
+				</TR>
+				<TR>
+					<TD></TD>
+					<TD class="name">Color</TD>
+					<td class="terminal"><IMG SRC="assets/imgcu32.png" ALT="cu32"></TD>
+					<TD>The <B>Color</B> indicates the color of the text.</TD>
+				</TR>
+				<TR>
+					<TD></TD>
+					<TD class="name">Alignment</TD>
+					<td class="terminal"><IMG SRC="assets/imgcu32.png" ALT="cu32"></TD>
+					<TD>The <B>Alignment</B> indicates the text alignment.</TD>
+				</TR>
+				<TR>
+					<TD><BR></TD>
+				</TR>
+			</Table>
+		</TD>
+	</TR>
+
+	</tr>
+	<tr>
+		<TD>
+			<p>error in (no error)</p>
+			<p><IMG SRC="assets/imgcerrcodeclst.png" ALT="cerrcodeclst"></P>
+		</TD>
+		<TD>
+			<P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+			<P></P>
+			<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+			<table class="subtable">
+				<TR>
+					<TD class="name">status</TD>
+					<TD class="terminal"><IMG SRC="assets/imgcbool.png" ALT="cbool"></TD>
+					<TD>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</TD>
+				</TR>
+				<TR>
+					<TD class="name">code</TD>
+					<TD class="terminal"><IMG SRC="assets/imgci32.png" ALT="ci32"></TD>
+					<TD>The <B>code</B> input identifies the error or warning.</TD>
+				</TR>
+				<TR>
+					<TD class="name">source</TD>
+					<TD class="terminal"><IMG SRC="assets/imgcstr.png" ALT="cstr"></TD>
+					<TD>The <B>source</B> string describes the origin of the error or warning.</TD>
+				</TR>
+			</table>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<p>Document out</p>
+			<P><IMG SRC="assets/imgiLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="iLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+		</TD>
+		<TD>
+			<P>The <B>Document out</B> is a reference to the Document whose appearance, data, and printing you want to control.</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<p>error out</P>
+			<P><IMG SRC="assets/imgierrcodeclst.png" ALT="ierrcodeclst"></P>
+		</TD>
+		<TD>
+			<P>The <B>error out</B> t cluster passes error or warning information out of a VI to be used by other VIs. </P>
+			<P></P>
+			<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+			<table class="subtable">
+				<TR>
+					<TD class="name">status</TD>
+					<TD class="terminal"><IMG SRC="assets/imgcbool.png" ALT="cbool"></TD>
+					<TD>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</TD>
+				</TR>
+				<TR>
+					<TD class="name">code</TD>
+					<TD class="terminal"><IMG SRC="assets/imgci32.png" ALT="ci32"></TD>
+					<TD>The <B>code</B> input identifies the error or warning.</TD>
+				</TR>
+				<TR>
+					<TD class="name">source</TD>
+					<TD class="terminal"><IMG SRC="assets/imgcstr.png" ALT="cstr"></TD>
+					<TD>The <B>source</B> string describes the origin of the error or warning.</TD>
+				</TR>
+			</table>
+		</TD>
+	</TR>
+</Table>
 
 + Append Image
 
-<section class="body"><iframe src="/LabVIEW NPOI API/Append Image.html" style="border: none" width="960px" height="900px" scrolling="no"></iframe></section>
+<DL>
+<DT>
+	<A NAME="LabVIEW NPOI.lvlib:Document.lvclass:Append Image.vi"></A>
+	<H2>Append Image.vi</H2>
+	<P><IMG SRC="assets/imgAppend Imagec.png" ALT="LabVIEW NPOI.lvlib:Document.lvclass:Append Image.vi"></P>
+	<P></P>
+	<P>Appends the image located at <strong>Image File Path</strong> to the <strong>Document</strong>. Only PNG and JPG format are supported.</P>
+</DT>
+<DT>
+	<P><i>Notes</i> :</P>
+</DT>
+	<DD>
+		<p>- The qualified name of this VI is: NPOI.lvlib:Document.lvclass:Append Image.vi</p>
+	</DD>
+</DL>
+<Table style="width:960px">
+	<TR style="height:50px">
+		<TH style="width:20%"><H3>Terminal</H3></TH>
+		<TH><H3>Description</H3></TH>
+	</TR>
+	<TR>
+		<TD>
+			<p><B>Document in</B></p>
+			<p><IMG SRC="assets/imgcLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="cLabVIEW_NPOI_lvlib_Documentlvclass"></p>
+		</TD>
+		<TD>
+			<P><B>Document in</B> is a reference to the Document whose appearance, data, and printing you want to control. Use the &quot;New Document&quot; VI or the &quot;Create Document&quot; VI to generate this LabVIEW class object.</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<p><B>Image File Path</B></p>
+			<p><IMG SRC="assets/imgcpath.png" ALT="cpath"></p>
+		</TD>
+		<TD>
+			<P><B>Image File Path</B> designates the path to the linked image. If you move the image, you must update the path.</P>
+		</TD>
+	</TR>
+	<tr>
+		<TD>
+			<p>error in (no error)</p>
+			<p><IMG SRC="assets/imgcerrcodeclst.png" ALT="cerrcodeclst"></P>
+		</TD>
+		<TD>
+			<P>The <B>error in</B> cluster can accept error information wired from VIs previously called.  Use this information to decide if any functionality should be bypassed in the event of errors from other VIs.</P>
+			<P></P>
+			<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+			<table class="subtable">
+				<TR>
+					<TD class="name">status</TD>
+					<TD class="terminal"><IMG SRC="assets/imgcbool.png" ALT="cbool"></TD>
+					<TD>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</TD>
+				</TR>
+				<TR>
+					<TD class="name">code</TD>
+					<TD class="terminal"><IMG SRC="assets/imgci32.png" ALT="ci32"></TD>
+					<TD>The <B>code</B> input identifies the error or warning.</TD>
+				</TR>
+				<TR>
+					<TD class="name">source</TD>
+					<TD class="terminal"><IMG SRC="assets/imgcstr.png" ALT="cstr"></TD>
+					<TD>The <B>source</B> string describes the origin of the error or warning.</TD>
+				</TR>
+			</table>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<p>Document out</p>
+			<P><IMG SRC="assets/imgiLabVIEW_NPOI_lvlib_Documentlvclass.png" ALT="iLabVIEW_NPOI_lvlib_Documentlvclass"></P>
+		</TD>
+		<TD>
+			<P>The <B>Document out</B> is a reference to the Document whose appearance, data, and printing you want to control.</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<p>error out</P>
+			<P><IMG SRC="assets/imgierrcodeclst.png" ALT="ierrcodeclst"></P>
+		</TD>
+		<TD>
+			<P>The <B>error out</B> t cluster passes error or warning information out of a VI to be used by other VIs. </P>
+			<P></P>
+			<P>The pop-up option <B>Explain Error</B> (or Explain Warning) gives more information about the error displayed. </P>
+			<table class="subtable">
+				<TR>
+					<TD class="name">status</TD>
+					<TD class="terminal"><IMG SRC="assets/imgcbool.png" ALT="cbool"></TD>
+					<TD>The <B>status</B> boolean is either TRUE (X) for an error, or FALSE (checkmark) for no error or a warning.</TD>
+				</TR>
+				<TR>
+					<TD class="name">code</TD>
+					<TD class="terminal"><IMG SRC="assets/imgci32.png" ALT="ci32"></TD>
+					<TD>The <B>code</B> input identifies the error or warning.</TD>
+				</TR>
+				<TR>
+					<TD class="name">source</TD>
+					<TD class="terminal"><IMG SRC="assets/imgcstr.png" ALT="cstr"></TD>
+					<TD>The <B>source</B> string describes the origin of the error or warning.</TD>
+				</TR>
+			</table>
+		</TD>
+	</TR>
+</Table>
 
 ## Retrieve Elements
 
