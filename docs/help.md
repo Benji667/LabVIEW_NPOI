@@ -46,9 +46,8 @@ It attempts to provide an high-level API for an easy and fast intagration by han
 			<A NAME="Append String Table To Document.vi"></A>
 			<H2>Append String Table To Document.vi</H2>
 			<P>Demonstrates how to add string table to an MS Office document.</P>
-			<P><IMG SRC="img/Append_String_Table_To_Documentp.png" ALT="Append String Table To Document.vi"></P>
-			<P><IMG SRC="img/Append_String_Table_To_Documentd.png" ALT="Append String Table To Document.vi"></P>
-			<P><a href="javascript:openVI('LVVersion', 'examples%5C%5CBenjaminR%5C%5CLabVIEW%20NPOI%5C%5CAppend%20String%20Table%20To%20Document.vi');">Open This Example</a></P>
+			<P><IMG SRC="LabVIEW NPOI APO/img/Append_String_Table_To_Documentp.png" ALT="Append String Table To Document.vi"></P>
+			<P><IMG SRC="LabVIEW NPOI APO/img/Append_String_Table_To_Documentd.png" ALT="Append String Table To Document.vi"></P>
 		</DT>
 		<hr class="new1">
 		<DT>
