@@ -5,40 +5,13 @@ layout: default
 
 # {{ page.title }}
 
-<nav id="sidebar">
-
-<div class="header">![logo](img/LabVIEW_NPOI_Logo_Small.png)
-
 # LabVIEW NPOI API
-
-</div>
-
-*   [Overview](#/overview)
-*   [Prerequisites](#/prerequisites)
-*   [Installation](#/installation)
-*   [Examples](#/examples)
-*   [Componemt APIs](#/componant-api)
-
-*   [Open or Create and Close](#/open-or-creates)
-*   [Append Elements](#/append-elements)
-*   [Retrieve Elements](#/retrieve-elements)
-*   [Properties](#/properties)
-*   [Excel Specific](#/excel-specific)
-*   [Save and Print](#/save-and-print)
-
-*   [Legal](#/legal)
-
-</nav>
-
-<section id="content">
-
-<article class="">[
 
 ## Overview
 
 ](#/overview)
 
-<section class="body"><iframe src="Overview.html" style="border: none" width="960px" height="250px" scrolling="no"></iframe></section>
+<section class="body"><iframe src="/LabVIEW NPOI API/Overview.html" style="border: none" width="960px" height="250px" scrolling="no"></iframe></section>
 
 </article>
 
