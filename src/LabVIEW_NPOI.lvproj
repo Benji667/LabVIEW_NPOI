@@ -363,6 +363,11 @@
 			</Item>
 			<Item Name="NPOI.OOXML.dll" Type="Document" URL="../lib/NPOI 2.1.1/NPOI.OOXML.dll"/>
 			<Item Name="NPOI.dll" Type="Document" URL="../lib/NPOI 2.1.1/NPOI.dll"/>
+			<Item Name="ICSharpCode.SharpZipLib" Type="Document" URL="ICSharpCode.SharpZipLib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="NPOI.OpenXml4Net.dll" Type="Document" URL="../lib/NPOI 2.1.1/NPOI.OpenXml4Net.dll"/>
+			<Item Name="NPOI.OpenXmlFormats.dll" Type="Document" URL="../lib/NPOI 2.1.1/NPOI.OpenXmlFormats.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
