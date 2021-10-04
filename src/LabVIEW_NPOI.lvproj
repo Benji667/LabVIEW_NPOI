@@ -30,7 +30,6 @@
 				<Item Name="Wait for Printing To Complete.vi" Type="VI" URL="../Support/Print/Wait for Printing To Complete.vi"/>
 			</Item>
 			<Item Name="Build Support" Type="Folder">
-				<Item Name="Post-Build Custom Action.vi" Type="VI" URL="../Support/Build Support/Post-Build Custom Action.vi"/>
 				<Item Name="Post-Install Custom Action.vi" Type="VI" URL="../Support/Build Support/Post-Install Custom Action.vi"/>
 			</Item>
 			<Item Name="File Stream.lvlib" Type="Library" URL="../Support/File Stream/File Stream.lvlib"/>
