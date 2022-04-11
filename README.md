@@ -1,3 +1,11 @@
+<div id="top"></div>
+
+[![GitHub all releases][release-shield]][release-url]
+[![Wiki][wiki-shield]][wiki-url]
+[![Issues][issues-shield]][issues-url]
+[![Zero-Clause BSD][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
 # [LabVIEW NPOI](https://benji667.github.io/LabVIEW_NPOI/) 
 
 This project intends to implement a wrapper of the NPOI assembly that allows MS Office files manipulation in LabVIEW (no MS Office installation required).
@@ -32,3 +40,16 @@ Do not hesitate to go on the [Discussions page](https://github.com/Benji667/LabV
 # Author
 
 BenjaminR
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[release-shield]: https://img.shields.io/github/v/release/Benji667/LabVIEW_NPOI?color=orange&logo=labview&style=for-the-badge
+[release-url]: https://github.com/Benji667/LabVIEW_NPOI/releases/tag/1.1.2
+[wiki-shield]: https://img.shields.io/github/discussions/BenjaminRLabVIEWExtensions/Insert-LVClass-Property-Node?style=for-the-badge
+[wiki-url]: https://github.com/Benji667/LabVIEW_NPOI/wiki
+[issues-shield]: https://img.shields.io/github/issues/BenjaminRLabVIEWExtensions/Insert-LVClass-Property-Node?style=for-the-badge
+[issues-url]: https://github.com/Benji667/LabVIEW_NPOI/issues
+[license-shield]: https://img.shields.io/badge/LICENSE-Zero--Clause%20BSD-green?style=for-the-badge
+[license-url]: https://github.com/Benji667/LabVIEW_NPOI/master/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/benjaminrouffet/
